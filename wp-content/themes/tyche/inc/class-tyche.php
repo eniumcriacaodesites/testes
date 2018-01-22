@@ -287,8 +287,8 @@ class Tyche {
 		add_theme_support(
 			'custom-logo',
 			array(
-				'height'     => 70,
-				'width'      => 165,
+				'height'     => 90,
+				'width'      => 300,
 				'flex-width' => true,
 			)
 		);
