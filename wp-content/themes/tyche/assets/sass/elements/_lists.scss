@@ -1,0 +1,42 @@
+ul, ol {
+  font-family: 'Karla';
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.entry-content ul, .widget ul {
+  > li {
+    &:before {
+      content: "\f105";
+      font-family: 'FontAwesome';
+      display: inline-block;
+      margin-left: 0;
+      width: 15px;
+      color: $color__brand-primary;
+    }
+  }
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+

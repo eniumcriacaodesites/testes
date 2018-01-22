@@ -1,0 +1,180 @@
+/*
+Name: Solarized Dark
+Description: Clean, crisp and colorful. 
+Version: 1.1
+Author: Ethan Schoonover
+URL: http://ethanschoonover.com/
+Maintainer: Eduan Lavaque
+Maintainer URL: http://eduantech.com/
+Notes: I don't provide striped lines because it would break the original purpose of this colorscheme.
+*/
+.crayon-theme-solarized-dark {
+	text-shadow: none !important;
+	background: #002b36 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #999 !important;
+}
+.crayon-theme-solarized-dark .crayon-code {
+	background: #002b36 !important;
+}
+.crayon-theme-solarized-dark-inline {
+	background: #002b36 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #ddd !important;
+}
+.crayon-theme-solarized-dark .crayon-table .crayon-nums {
+	background: #073642 !important;
+	color: #586e75 !important;
+}
+.crayon-theme-solarized-dark .crayon-striped-line {
+	background: #002b36 !important;
+	border-width: 1px !important;
+	border-color: #CCC !important;
+}
+.crayon-theme-solarized-dark .crayon-striped-num {
+	color: #586e75 !important;
+	background: #073642 !important;
+	border-width: 1px !important;
+	border-color: #CCC !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-line {
+	background: #073642 !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-num {
+	color: #586e75 !important;
+	background: #002b36 !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-line.crayon-striped-line {
+	background: #073642 !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-num.crayon-striped-num {
+	background: #002b36 !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+	border-color: #657b83 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+	border-color: #657b83 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+	border-color: #657b83 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-dark .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+	border-color: #657b83 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-dark .crayon-info {
+	background: #faf9d7 !important;
+	color: #7e7d34 !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+}
+.crayon-theme-solarized-dark .crayon-toolbar {
+	background: #DDD !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #BBB !important;
+}
+.crayon-theme-solarized-dark .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-solarized-dark .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-solarized-dark .crayon-title {
+	color: #333 !important;
+}
+.crayon-theme-solarized-dark .crayon-language {
+	color: #999 !important;
+}
+.crayon-theme-solarized-dark .crayon-button {
+	background-color: transparent !important;
+}
+.crayon-theme-solarized-dark .crayon-button:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-solarized-dark .crayon-button.crayon-pressed:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-solarized-dark .crayon-button.crayon-pressed {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-dark .crayon-button.crayon-pressed:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-dark .crayon-button:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-c {
+	color: #586e75 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-s {
+	color: #2aa198 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-k {
+	color: #cb4b16 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-st {
+	color: #859900 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-r {
+	color: #cb4b16 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-t {
+	color: #b58900 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-m {
+	color: #b58900 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-i {
+	color: #839496 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-e {
+	color: #839496 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-v {
+	color: #268bd2 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-cn {
+	color: #2aa198 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-o {
+	color: #859900 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-sy {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-n {
+	color: #666 !important;
+	font-style: italic !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-f {
+	color: #999 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-h {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-p {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-dark .crayon-pre .crayon-ta {
+	color: #268bd2 !important;
+}
+.crayon-theme-solarized-dark .crayon-pre {
+	color: #2aa198 !important;
+}

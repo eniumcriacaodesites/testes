@@ -1,0 +1,460 @@
+/* ----------------------------------------------------------------------------
+ * Welcome Page CSS
+ * ------------------------------------------------------------------------- */
+
+/* New Logo */
+.wp-badge.epsilon-welcome-logo {
+    color: #fff;
+    background-image: url(../img/colorlib-logo.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+/* proper positioning of the icons */
+.epsilon-wrap i.dashicons {
+    margin-right: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.feature-section.action-required {
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+.action-required span.hooray {
+    padding: 10px;
+    display: inline-block;
+}
+
+.action-required span.red {
+    color: #a00;
+}
+
+.action-required-box:last-of-type {
+    border-bottom: none;
+}
+
+.action-required-box {
+    display: block;
+    border-left: 3px solid #f8800c;
+    padding: 10px 25px 5px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.about-wrap .action-required-box h4 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-wrap .action-required-box p {
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.about-wrap .dismiss-required-action {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #d54e21;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.about-wrap .required-action-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #d54e21;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.about-wrap .feature-section .col{
+    margin-right: 15px;
+}
+
+.badge-action-count {
+    padding: 0 6px;
+    display: inline-block;
+    background-color: #d54e21;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 1px 0 0 2px;
+    vertical-align: top;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 26;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.wp-submenu .badge-action-count {
+    margin-top: 0;
+}
+
+.plugin_box {
+    height: 330px;
+    margin-top: 15px;
+    text-align: center;
+    background: #FFF;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    float:left;
+}
+
+.plugin_box .recommended {
+    background: #d25637;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 28px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 28px;
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.plugin_box img {
+    width: 155px;
+    height: 155px;
+    padding-top: 50px;
+    margin: 0 auto;
+    margin-bottom:15px;
+    display: block;
+    border: none;
+}
+
+.plugin_box .action_bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    font-weight: 600;
+    height: 18px;
+    margin: 0;
+    padding: 15px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+    background: rgba(255, 255, 255, .65);
+    text-align: left;
+    padding-right: 105px;
+}
+
+.plugin_box .action_bar.active {
+    background: #23282d;
+    color: #FFF;
+}
+
+.plugin_box .action_button {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    padding: 9px 10px 10px;
+    background: #f6f6f6;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.plugin_box .action_button.active {
+    background: #2c2e2f;
+    bottom: 0;
+    right: -1px;
+    padding: 9px 10px 9px;
+
+}
+
+.about-wrap .three-col .plugin_box.col {
+    width: 29.81%;
+}
+
+
+
+.slider-container input[type="text"] {
+    border: none;
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    width: 42px;
+    height: 22px;
+}
+.slider-container .ui-slider {
+    position: relative;
+    text-align: left;
+    height: 2px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 202px;
+    background: #d6d6d6;
+}
+.slider-container .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: solid 1px #d7d7d7;
+    transform: translateX(-50%);
+}
+.slider-container .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background: #E04D43;
+    top: 0;
+    bottom: 0;
+}
+
+.widget-content label.block {
+    display: block;
+    margin-bottom: 10px;
+}
+.widget-content input.rl-slider {
+    border: none;
+    text-align: center;
+    padding: 2px;
+    margin: 0 0 15px;
+    font-size: 12px;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    width: 42px;
+    height: 22px;
+    cursor: pointer;
+}
+.widget-content .ui-slider {
+    position: relative;
+    text-align: left;
+    height: 2px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    width: 175px;
+    float: right;
+    background: #d6d6d6;
+}
+.widget-content .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background: #E04D43;
+    top: 0;
+    bottom: 0;
+}
+.widget-content .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: solid 1px #d7d7d7;
+    transform: translateX(-50%);
+}
+
+.wp-admin .checkbox_switch {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.customize-control-title.onoffswitch_label {
+    width: 71%;
+}
+
+.onoffswitch_label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 21px;
+    margin-top: -1px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 52px;
+    display: inline-block;
+    float: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none !important;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 22px;
+    padding: 0;
+    line-height: 19px;
+    transition: background-color 0.2s ease-in;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 30px;
+    background-color: #c4c4c4;
+    -webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.11);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.11);
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    right: 32px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in 0s;
+}
+.onoffswitch-label:after {
+    content: "OFF";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 6px;
+    font-size: 11px;
+    font-family: 'Arial';
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #3caf0e;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #3caf0e;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 2px;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:after {
+    content: "ON";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 27px;
+    font-size: 11px;
+    font-family: 'Arial';
+}
+
+.widget-content .customize-control-title {
+    font-weight: 400;
+}
+
+.widget-content .customize-control-title.onoffswitch_label {
+    width: 65%;
+    margin-right: 26px;
+}
+
+.mte-tooltip {
+    width: 150px;
+    position: absolute;
+    background: #55AAD3;
+    color: #EEE;
+    font-size: 12px;
+    min-height: 50px;
+    border-radius: 5px;
+    left: -75px;
+    /* half of its width */
+    bottom: 25px;
+    z-index: 10;
+    display: none;
+    padding: 12px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+}
+
+.epsilon-framework-notice.epsilon-big {
+    background: #e9eff3;
+    border: 10px solid #fff;
+    color: #608299;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: none;
+}
+.epsilon-framework-notice.epsilon-big:after, .epsilon-framework-notice.epsilon-big:before {
+    content: "";
+    display: table;
+}
+.epsilon-framework-notice.epsilon-big:after {
+    clear: both;
+}
+.epsilon-framework-notice.epsilon-big .epsilon-author-logo {
+    max-width: 300px;
+}

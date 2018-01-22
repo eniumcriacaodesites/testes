@@ -1,0 +1,70 @@
+.tyche-multilang-menu {
+  background: $menu-bg;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  color: $menu-color;
+  font-size: $menu-font-size;
+  padding: $menu-grid * 2 0;
+  position: absolute;
+  top: $menu-grid * 6;
+  transform: scale(0);
+  transition: transform 0.2s;
+  z-index: $menu-z-index;
+  margin: 0;
+
+  &.show {
+    transform: scale(1);
+  }
+
+  &.menu--right {
+    transform-origin: top right;
+  }
+
+  &.menu--left {
+    transform-origin: top left;
+  }
+
+  li {
+    display: block;
+    min-height: $menu-grid * 4;
+    line-height: $menu-grid * 2;
+    margin: $menu-grid 0;
+    padding: 0 $menu-grid * 2;
+    width: 100%;
+
+    &.menu-separator {
+      background: $menu-separator;
+      height: 1px;
+      min-height: 0;
+      margin: $menu-grid * 1.5 0;
+      padding: 0;
+
+      &:hover {
+        background: $menu-separator;
+      }
+    }
+    &:first-child {
+      margin-top: 0
+    }
+    &:last-child {
+      margin-bottom: 0
+    }
+    &:hover {
+      background: $menu-item-hover;
+    }
+  }
+
+  a {
+    color: inherit;
+    display: block;
+    height: $menu-grid * 4;
+    line-height: $menu-grid * 4;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+    &:hover {
+      color: $menu-link-hover
+    }
+  }
+}

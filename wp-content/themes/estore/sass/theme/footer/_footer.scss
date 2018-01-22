@@ -1,0 +1,51 @@
+#colophon {
+    margin-top: 40px;
+}
+
+#top-footer {
+    background: #f6f7f7 none repeat scroll 0 0;
+    padding: 50px 0;
+}
+
+#bottom-footer {
+    background: #e9ebeb none repeat scroll 0 0;
+    padding: 10px 0;
+}
+
+.copy-right {
+    float: left;
+    font-size: 11px;
+}
+
+.payment-partner-wrapper {
+    float: right;
+    ul {
+        margin: 0;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 10px;
+        }
+    }
+}
+
+.scrollup {
+  background: #00a9e0 none repeat scroll 0 0;
+  border-radius: 3px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  height: 40px;
+  line-height: 36px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 40px;
+}
+
+.scrollup:hover,
+.scrollup:active,
+.scrollup:focus{
+	color: #ffffff;
+	background: #0791BE;
+}

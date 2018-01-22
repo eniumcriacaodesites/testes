@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
+
+.huge-plugins {
+    background-color: #eeeeee;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.huge-plugins a:focus {
+    box-shadow: none;
+}
+
+.huge-plugins .plaings-block {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.huge-plugins .plaings-block .plugin {
+    border-radius: 3px;
+    overflow: hidden;
+    width: 300px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block{
+    width: 300px;
+    height: 197px;
+    background-repeat: no-repeat;
+    background-image: url(../images/plugins-sprite.png);
+    position: relative;
+}
+
+.huge-plugins .plaings-block .plugin .image-block a:hover:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.12;
+}
+
+.huge-plugins .plaings-block .plugin .image-block a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.gallery {
+    background-color: #dab246;
+    background-position: 71px -349px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.portfolio-gallery {
+    background-color: #ff4444;
+    background-position: 87px -758px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.responsive-slider {
+    background-color: #64cf05;
+    background-position: 50px -4182px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.forms {
+    background-color: #328fe6;
+    background-position: 50px -4548px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.slider {
+    background-color: #00508a;
+    background-position: 70px -2444px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.google-map {
+    background-color: #1fb11c;
+    background-position: 70px -2003px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.video-gallery {
+    background-color: #35a9d0;
+    background-position: 75px 39px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.login {
+    background-color: #6d429a;
+    background-position: 84px -5019px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.catalog {
+    background-color: #3e4268;
+    background-position: 75px -2814px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.video-player {
+    background-color: #c30000;
+    background-position: 69px -3492px
+}
+
+.huge-plugins .plaings-block .plugin .image-block.lightbox {
+    background-color: #0b9394;
+    background-position: 74px -1140px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.princing-table {
+    background-color: #117389;
+    background-position: 36px -3904px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.colorbox {
+    background-color: #ff2f2f;
+    background-position: 46px -3200px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.share-buttons {
+    background-color: #fa4800;
+    background-position: 70px -1599px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.builder {
+    background-color: #3bc6b8;
+    background-position: -1663px -16px;
+}
+
+.huge-plugins .plaings-block .plugin .image-block.photo-gallery {
+    background-color: #fe7b46;
+    background-position: -1649px -475px;
+}
+
+.huge-plugins .plaings-block .plugin .info-block {
+    text-align: center;
+    padding: 15px 25px 33px 25px;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+    background-color: #fcfdff;
+}
+
+
+.huge-plugins .plaings-block .plugin .info-block h2 a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #262626;
+    outline:none;
+    font-weight: normal;
+}
+
+.huge-plugins .plaings-block .plugin .info-block h2 a:focus {
+    box-shadow: none;
+}
+
+.huge-plugins .plaings-block .plugin .info-block p{
+    color: #787878;
+    margin-top: 18px;
+    font-size: 14px;
+    min-height: 79px;
+    max-height: 76px;
+    overflow: hidden;
+    display: flex;
+    line-height: 20px;
+}
+
+.huge-plugins .plaings-block .plugin .info-block .view{
+    width: 154px;
+    height: 36px;
+    background-color: #1c90c0;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 22px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.huge-plugins .plaings-block .plugin .info-block .view:hover {
+    background-color: #1fa6de;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

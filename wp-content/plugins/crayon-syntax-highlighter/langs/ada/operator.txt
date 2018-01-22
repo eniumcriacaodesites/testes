@@ -1,0 +1,32 @@
+# Grouped operators
+=>
+..
+**
+:=
+/=
+>=
+<=
+<<
+>>
+<>
+
+# Single operators
+&
+'
+(
+)
+*
++
+,
+-
+.
+/
+:
+;
+<
+=
+>
+|
+
+# Others
+"

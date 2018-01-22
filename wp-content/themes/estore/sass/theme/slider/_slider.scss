@@ -1,0 +1,203 @@
+#top_slider_section {
+    margin: 0;
+    .widget {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.big-slider {
+    float: left;
+    max-width: 800px;
+    position: relative;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .bx-controls {
+        .bx-next,
+        .bx-prev {
+            border-bottom: 30px solid transparent;
+            border-left: 30px solid #333;
+            border-top: 30px solid transparent;
+            color: #ffffff;
+            display: block;
+            float: left;
+            height: 0;
+            line-height: 0;
+            width: 0;
+            font-size: 16px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            @include transform(translateY(-50%));
+            @include transition(all 0.5s ease);
+            i {
+                display: block;
+                margin-left: -22px;
+                margin-top: -10px;
+            }
+            &:hover {
+                border-left-color: #00a9e0;
+            }
+        }
+        .bx-next {
+            float: right;
+            border-right: 30px solid #333;
+            border-left: transparent;
+            left: auto;
+            right: 0;
+            i {
+                display: block;
+                margin-left: 17px;
+                margin-top: -10px;
+            }
+            &:hover {
+                border-right-color: #00a9e0;
+            }
+        }
+    }
+}
+
+.slider-caption-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+    width: 80%;
+    text-align: center;
+    .slider-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin: 10px 0;
+        text-shadow: 1px 1px 2px #333;
+        a {
+            color: #ffffff;
+            &:hover {
+                color: #00a9e0;
+            }
+        }
+    }
+    .slider-content {
+        color: #fff;
+        font-size: 16px;
+        text-shadow: 1px 1px 5px #333;
+        margin: 10px 0 20px;
+    }
+    .slider-btn {
+        background: #00a9e0 none repeat scroll 0 0;
+        border-radius: 25px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 0 8px 30px;
+        @include transition(all 0.5s ease);
+        i {
+            background: #0791be none repeat scroll 0 0;
+            border-radius: 0 25px 25px 0;
+            display: inline;
+            margin-left: 15px;
+            padding: 11px 15px 10px;
+            @include transition(all 0.5s ease);
+        }
+        &:hover {
+            background: #0791be;
+            i {
+                background: #00a9e0;
+            }
+        }
+    }
+}
+
+.small-slider-wrapper {
+    float: right;
+    max-width: 380px;
+}
+
+.widget_vertical_promo {
+    .collection-block {
+        position: relative;
+        .slider-collection-img {
+            margin: 0;
+            img {
+                display: block;
+            }
+        }
+        &:first-child {
+            margin-bottom: 20px;
+        }
+    }
+    .slider-title {
+        background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+        bottom: 0;
+        font-size: 18px;
+        left: 0;
+        margin: 0;
+        padding: 8px 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        a {
+            color: #ffffff;
+            &:hover {
+                color: #00a9e0;
+            }
+        }
+    }
+}
+
+.home-slider,
+.featured-slider {
+    visibility: hidden;
+}
+
+.category-slider {
+	position: relative;
+    .slider-caption-wrapper .slider-btn {
+        padding: 8px 20px;
+    }
+    .bx-controls {
+        .bx-next,
+        .bx-prev {
+            border-bottom: 30px solid transparent;
+            border-left: 30px solid #333;
+            border-top: 30px solid transparent;
+            color: #ffffff;
+            display: block;
+            float: left;
+            height: 0;
+            line-height: 0;
+            width: 0;
+            font-size: 16px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            @include transform(translateY(-50%));
+            @include transition(all 0.5s ease);
+            i {
+                display: block;
+                margin-left: -22px;
+                margin-top: -10px;
+            }
+            &:hover {
+                border-left-color: #00a9e0;
+            }
+        }
+        .bx-next {
+            float: right;
+            border-right: 30px solid #333;
+            border-left: transparent;
+            left: auto;
+            right: 0;
+            i {
+                display: block;
+                margin-left: 17px;
+                margin-top: -10px;
+            }
+            &:hover {
+                border-right-color: #00a9e0;
+            }
+        }
+    }
+}

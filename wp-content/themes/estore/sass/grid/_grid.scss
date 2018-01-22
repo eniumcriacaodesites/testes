@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Responsive grid for pages
+--------------------------------------------------------------*/
+
+.tg-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tg-column-wrapper {
+    clear: both;
+    margin-left: -2%;
+    .tg-column-1 {
+        width: 100%;
+        float: left;
+        margin-left: 2%;
+    }
+    .tg-column-2 {
+        width: 48%;
+        margin-left: 2%;
+        float: left;
+    }
+    .tg-column-3 {
+        float: left;
+        margin-left: 2%;
+        width: 31.32%;
+    }
+    .tg-column-4 {
+        width: 23%;
+        margin-left: 2%;
+        float: left;
+    }
+    .tg-column-5 {
+        width: 18%;
+        margin-left: 2%;
+        float: left;
+    }
+}
+
+
+.woocommerce-page ul.products.tg-column-wrapper {
+    clear: both;
+    margin-left: -2%;
+    li.product.tg-column-4 {
+        width: 23%;
+        margin-left: 2%;
+        float: left;
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
+.tg-column-bottom-margin {
+    margin-bottom: 2%;
+}
+
+.hide {
+    display: none;
+}

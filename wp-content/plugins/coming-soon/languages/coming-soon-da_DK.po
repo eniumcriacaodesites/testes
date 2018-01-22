@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coming Soon Pro by SeedProd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-22 00:09+0100\n"
+"PO-Revision-Date: 2015-06-22 00:33+0100\n"
+"Last-Translator: John Turner <john@seedprod.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: coming-soon.php:22 framework/framework.php:116 framework/framework.php:117
+#: inc/config-settings.php:22
+msgid "Coming Soon"
+msgstr "Kommer snart"
+
+#: framework/field-types/date.php:8 framework/field-types/daterange.php:8
+msgid "01-Jan"
+msgstr "01-Jan"
+
+#: framework/field-types/date.php:9 framework/field-types/daterange.php:9
+msgid "02-Feb"
+msgstr "02-Feb"
+
+#: framework/field-types/date.php:10 framework/field-types/daterange.php:10
+msgid "03-Mar"
+msgstr "03-Mar"
+
+#: framework/field-types/date.php:11 framework/field-types/daterange.php:11
+msgid "04-Apr"
+msgstr "04-Apr"
+
+#: framework/field-types/date.php:12 framework/field-types/daterange.php:12
+msgid "05-May"
+msgstr "05-Maj"
+
+#: framework/field-types/date.php:13 framework/field-types/daterange.php:13
+msgid "06-Jun"
+msgstr "06-Jun"
+
+#: framework/field-types/date.php:14 framework/field-types/daterange.php:14
+msgid "07-Jul"
+msgstr "07-Jul"
+
+#: framework/field-types/date.php:15 framework/field-types/daterange.php:15
+msgid "08-Aug"
+msgstr "08-Aug"
+
+#: framework/field-types/date.php:16 framework/field-types/daterange.php:16
+msgid "09-Sep"
+msgstr "09-Sep"
+
+#: framework/field-types/date.php:17 framework/field-types/daterange.php:17
+msgid "10-Oct"
+msgstr "10-Okt"
+
+#: framework/field-types/date.php:18 framework/field-types/daterange.php:18
+msgid "11-Nov"
+msgstr "11-Nov"
+
+#: framework/field-types/date.php:19 framework/field-types/daterange.php:19
+msgid "12-Dec"
+msgstr "12-Dec"
+
+#: framework/field-types/date.php:29 framework/field-types/daterange.php:29
+#: framework/field-types/daterange.php:42
+msgid "day"
+msgstr "dag"
+
+#: framework/field-types/date.php:32 framework/field-types/daterange.php:32
+#: framework/field-types/daterange.php:45
+msgid "year"
+msgstr "år"
+
+#: framework/field-types/upload.php:12
+msgid "Media Image Library"
+msgstr "Media Billedbibliotek"
+
+#: framework/framework.php:77
+msgid "Settings reset."
+msgstr "Indstillinger nulstilet."
+
+#: framework/framework.php:177
+msgid "&larr; Close Window"
+msgstr "&larr; Luk vindue"
+
+#: framework/framework.php:177
+msgid "Live Preview"
+msgstr "Vis eksempel"
+
+#: framework/framework.php:179
+msgid "Upgrade to the Pro Version"
+msgstr "Opgrader til Pro Versionen"
+
+#: framework/validations/color.php:13
+msgid "Please enter a valid color value."
+msgstr "Venligst indtast en gyldig farve."
+
+#: framework/validations/email.php:10 framework/validations/escurlraw.php:11
+msgid "Please enter a valid email."
+msgstr "Venligst indtast en gyldig email."
+
+#: framework/validations/number.php:11
+msgid "Please enter a valid number."
+msgstr "Venligst indtast et gyldigt telefonnummer"
+
+#: framework/validations/required.php:10
+msgid "is required."
+msgstr "er påkrævet."
+
+#: inc/class-seed-csp4.php:80
+msgid "Coming Soon Mode Active"
+msgstr "“Kommer snart” tilstand aktiveret"
+
+#: inc/class-seed-csp4.php:82
+msgid "Maintenance Mode Active"
+msgstr "Vedligeholdelsestilstand aktiveret."
+
+#: inc/class-seed-csp4.php:144
+msgid "Please enter your settings."
+msgstr "Venligst indtast dine indstillinger."
+
+#: inc/config-settings.php:33 inc/config-settings.php:249
+msgid "Content"
+msgstr "Indhold"
+
+#: inc/config-settings.php:44
+msgid "General"
+msgstr "Generelt"
+
+#: inc/config-settings.php:50
+msgid "Status"
+msgstr "Status"
+
+#: inc/config-settings.php:52
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: inc/config-settings.php:53
+msgid "Enable Coming Soon Mode"
+msgstr "Aktiver “Kommer snart” tilstand"
+
+#: inc/config-settings.php:54
+msgid "Enable Maintenance Mode"
+msgstr "Aktiver Vedligeholdelsestilstand"
+
+#: inc/config-settings.php:56
+msgid ""
+"When you are logged in you'll see your normal website. Logged out visitors "
+"will see the Coming Soon or Maintenance page. Coming Soon Mode will be "
+"available to search engines if your site is not private. Maintenance Mode "
+"will notify search engines that the site is unavailable."
+msgstr ""
+"Når du er logget ind vil du se din normale hjemmeside. Logget ud besøgende "
+"vil se “Kommer snart” eller Vedligeholdelse siden. “Kommer snart” tilstanden "
+"vil blive set af søgemaskiner, hvis din hjemmeside ikke er sat til privat. "
+"Vedligeholdelsestilstanden vil underrette søgemaskiner, at hjemmesiden ikke "
+"er tilgængelig."
+
+#: inc/config-settings.php:66
+msgid "Use maintenance.php"
+msgstr "Brug maintenance.php"
+
+#: inc/config-settings.php:67
+msgid ""
+"maintenance.php detected, would you like to use this for your maintenance "
+"page?"
+msgstr ""
+"maintenance.php opdaget, vil du gerne bruge dette til din vedligeholdelse "
+"side?"
+
+#: inc/config-settings.php:69 inc/config-settings.php:197
+#: inc/config-settings.php:265
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/config-settings.php:79
+msgid "Page Settings"
+msgstr "Side indstillinger"
+
+#: inc/config-settings.php:85
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/config-settings.php:86
+msgid "Upload a logo or teaser image (or) enter the url to your image."
+msgstr "Upload et logo eller thumbnail (eller) indtast urlen til dit billede."
+
+#: inc/config-settings.php:93
+msgid "Headline"
+msgstr "Overskrift"
+
+#: inc/config-settings.php:94
+msgid "Enter a headline for your page."
+msgstr "Indtast en overskrift til din side."
+
+#: inc/config-settings.php:100
+msgid "Message"
+msgstr "Besked"
+
+#: inc/config-settings.php:101
+msgid "Tell the visitor what to expect from your site."
+msgstr "Fortæl den besøgende, hvad de kan forvente fra dit websted."
+
+#: inc/config-settings.php:107
+msgid "Powered By SeedProd"
+msgstr "Powered By SeedProd"
+
+#: inc/config-settings.php:108
+msgid "Nope - Got No Love"
+msgstr "Niks - Jeg elsker dig ikke"
+
+#: inc/config-settings.php:108
+msgid "Yep - I Love You Man"
+msgstr "Yep - Jeg elsker dig man"
+
+#: inc/config-settings.php:109
+msgid ""
+"Can we show a <strong>cool stylish</strong> footer credit at the bottom the "
+"page."
+msgstr ""
+"Kan vi vise et <strong> køligt stilfuldt </ strong> footer kredit nederst på "
+"siden."
+
+#: inc/config-settings.php:118
+msgid "Header"
+msgstr "Sidehoved"
+
+#: inc/config-settings.php:124
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/config-settings.php:125
+msgid ""
+"Favicons are displayed in a browser tab. Need Help <a href=\"http://tools."
+"dynamicdrive.com/favicon/\" target=\"_blank\">creating a favicon</a>?"
+msgstr ""
+"Favicons vises i browserens fane. Brug for hjælp <a href=\"http://tools."
+"dynamicdrive.com/favicon/\" target=\"_blank\">skab et favicon </a>?"
+
+#: inc/config-settings.php:131
+msgid "SEO Title"
+msgstr "SEO Titel"
+
+#: inc/config-settings.php:137
+msgid "SEO Meta Description"
+msgstr "SEO Meta Beskrivelse"
+
+#: inc/config-settings.php:146
+msgid "Analytics Code"
+msgstr "Analytics Kode"
+
+#: inc/config-settings.php:147
+msgid ""
+"Paste in your Universal or Classic <a href=\"http://www.google.com/analytics/"
+"\" target=\"_blank\">Google Analytics</a> code."
+msgstr ""
+"Indsæt din Universalle eller Classic <a href=\"http://www.google.com/"
+"analytics/\" target=\"_blank\">Google Analytics</a> kode."
+
+#: inc/config-settings.php:157
+msgid "Design"
+msgstr "Design"
+
+#: inc/config-settings.php:170
+msgid "Background"
+msgstr "Baggrund"
+
+#: inc/config-settings.php:177
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+#: inc/config-settings.php:180
+msgid ""
+"Choose between having a solid color background or uploading an image. By "
+"default images will cover the entire background."
+msgstr ""
+"Vælg mellem at have en solid baggrundsfarve eller uploade et billede. Som "
+"standard vil billederne dække hele baggrunden."
+
+#: inc/config-settings.php:188
+msgid "Background Image"
+msgstr "Baggrundsbillede"
+
+#: inc/config-settings.php:194
+msgid "Responsive Background"
+msgstr "Responsivt baggrund"
+
+#: inc/config-settings.php:195
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area."
+msgstr ""
+"Skaler baggrundsbilledet til at være så stort som muligt, således at "
+"baggrunden er helt dækket af baggrundsbilledet. Nogle dele af "
+"baggrundsbilledet vil ikke være synligt i baggrundsområdet."
+
+#: inc/config-settings.php:205 inc/config-settings.php:219
+#: inc/config-settings.php:237
+msgid "This setting is not applied if Responsive Background is checked"
+msgstr ""
+"Denne indstilling anvendes ikke, hvis Responsivt Baggrund er aktiveret."
+
+#: inc/config-settings.php:206
+msgid "Background Repeat"
+msgstr "Gentag baggrund"
+
+#: inc/config-settings.php:208
+msgid "No-Repeat"
+msgstr "Skal ikke gentage"
+
+#: inc/config-settings.php:209
+msgid "Tile"
+msgstr "Hæld"
+
+#: inc/config-settings.php:210
+msgid "Tile Horizontally"
+msgstr "Hæld horisontalt"
+
+#: inc/config-settings.php:211
+msgid "Tile Vertically"
+msgstr "Hæld vertikalt"
+
+#: inc/config-settings.php:220
+msgid "Background Position"
+msgstr "Baggrundsposition"
+
+#: inc/config-settings.php:222
+msgid "Left Top"
+msgstr "Venstre Top"
+
+#: inc/config-settings.php:223
+msgid "Left Center"
+msgstr "Venstre midt"
+
+#: inc/config-settings.php:224
+msgid "Left Bottom"
+msgstr "Venstre Nederst"
+
+#: inc/config-settings.php:225
+msgid "Right Top"
+msgstr "Højre top"
+
+#: inc/config-settings.php:226
+msgid "Right Center"
+msgstr "Højre center"
+
+#: inc/config-settings.php:227
+msgid "Right Bottom"
+msgstr "Højre Nederst"
+
+#: inc/config-settings.php:228
+msgid "Center Top"
+msgstr "Midt Top"
+
+#: inc/config-settings.php:229
+msgid "Center Center"
+msgstr "Midt Midt"
+
+#: inc/config-settings.php:230
+msgid "Center Bottom"
+msgstr "Midt Nederst"
+
+#: inc/config-settings.php:238
+msgid "Background Attachment"
+msgstr "Baggrund er vedhæftet"
+
+#: inc/config-settings.php:240
+msgid "Fixed"
+msgstr "Fastlåst"
+
+#: inc/config-settings.php:241
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/config-settings.php:256
+msgid "Max Width"
+msgstr "Max vidde"
+
+#: inc/config-settings.php:257
+msgid ""
+"By default the max width of the content is set to 600px. Enter a number "
+"value if you need it bigger. Example: 900"
+msgstr ""
+"Som standard er max bredden af indholdet sat til 600px. Indtast en talværdi, "
+"hvis du har brug for en større bredde. Eksempel: 900"
+
+#: inc/config-settings.php:262
+msgid "Enable Well"
+msgstr "Aktiver Well"
+
+#: inc/config-settings.php:263
+msgid "This will wrap your content in a box."
+msgstr "Dette vil ombryde dit indhold i en kasse."
+
+#: inc/config-settings.php:275
+msgid "Text"
+msgstr "Tekst"
+
+#: inc/config-settings.php:281
+msgid "Text Color"
+msgstr "Tekst farve"
+
+#: inc/config-settings.php:289
+msgid "Link Color"
+msgstr "Link farve"
+
+#: inc/config-settings.php:297
+msgid "Headline Color"
+msgstr "Overskrift farve"
+
+#: inc/config-settings.php:300
+msgid "If no Headline Color is chosen then the Link Color will be used. "
+msgstr "Hvis ikke Overskrift Farve er valgt så vil Link Farven blive brugt."
+
+#: inc/config-settings.php:308
+msgid "Text Font"
+msgstr "Skrifttype"
+
+#: inc/config-settings.php:329
+msgid "Template"
+msgstr "Skabelon"
+
+#: inc/config-settings.php:337
+msgid "Custom CSS"
+msgstr "Tilpasset CSS"
+
+#: inc/config-settings.php:338
+msgid "Need to tweaks the styles? Add your custom CSS here."
+msgstr "Behov for at ændre dine styles? Tilføj dit tilpasset CSS her."
+
+#: inc/config-settings.php:347
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: inc/config-settings.php:360
+msgid "Scripts"
+msgstr "Scripts"
+
+#: inc/config-settings.php:366
+msgid "Header Scripts"
+msgstr "Overskrift scripts"
+
+#: inc/config-settings.php:367
+msgid ""
+"Enter any custom scripts. You can enter Javascript or CSS. This will be "
+"rendered before the closing head tag."
+msgstr ""
+"Indtast eventuelle tilpasset scripts. Du kan indtaste Javascript eller CSS."
+
+#: inc/config-settings.php:374
+msgid "Footer Scripts"
+msgstr "Footer Scripts"
+
+#: inc/config-settings.php:375
+msgid ""
+"Enter any custom scripts. This will be rendered before the closing body tag."
+msgstr "Indtast eventuelle tilpasset scripts."

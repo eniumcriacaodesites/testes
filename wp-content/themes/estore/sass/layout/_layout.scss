@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+    Inner page layout CSS
+--------------------------------------------------------------*/
+
+#primary {
+    float: left;
+    width: 72.5%;
+}
+
+#secondary {
+    float: right;
+    width: 25%;
+}
+
+.left_sidebar {
+    #secondary {
+        float: left;
+    }
+    #primary {
+        float: right;
+    }
+}
+
+.no_sidebar_full_width {
+    #primary {
+        width: 100%;
+        float: none;
+    }
+    #secondary {
+        display: none;
+    }
+}
+
+.no_sidebar_content_centered{
+	#primary{
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+	Search User  css
+--------------------------------------------------------------*/
+
+.search-user-wrapper {
+    float: right;
+}
+
+.search-user-block {
+    border-left: 1px solid #e5e5e5;
+    float: left;
+    font-size: 16px;
+    line-height: 43px;
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    .search-icon {
+        display: block;
+        padding: 0 15px;
+    }
+}
+
+.search-user-block a {
+    color: #333;
+    display: block;
+    padding: 0 15px;
+}
+
+.search-user-block:hover {
+    background: #00A9E0;
+    color: #fff;
+}
+
+.search-user-block:hover a {
+    color: #ffffff;
+}
+
+.user-wrapper.search-user-block {
+    border-right: 1px solid #e5e5e5;
+}
+
+.search-wrapper {
+    position: relative;
+    .header-search-box {
+        background: #ffffff none repeat scroll 0 0;
+        border-bottom: 3px solid #00a9e0;
+        border-top: 3px solid #00a9e0;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+        padding: 15px;
+        position: absolute;
+        right: 0;
+        top: 125%;
+        width: 300px;
+        z-index: 9999;
+        opacity: 0;
+        visibility: hidden;
+        &:before {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #00A9E0;
+            content: "";
+            position: absolute;
+            right: 15px;
+            top: -10px;
+        }
+        .search-field {
+            border-radius: 0;
+            padding: 4px 10px;
+            width: 85%;
+            float: left;
+        }
+        .searchsubmit {
+            border: medium none;
+            border-radius: 0;
+            box-shadow: none;
+            color: #fff;
+            float: left;
+            padding: 10px 0 10px;
+            width: 15%;
+            height: 36px;
+        }
+    }
+}
+
+.header-search-box.active{
+	opacity: 1;
+	visibility: visible;
+}

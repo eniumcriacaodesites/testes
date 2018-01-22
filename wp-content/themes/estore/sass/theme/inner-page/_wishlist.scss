@@ -1,0 +1,77 @@
+.wishlist-title {
+    display: none;
+}
+
+.woocommerce #content .wishlist_table {
+    thead {
+        th {
+            text-align: center;
+        }
+    }
+    tbody {
+        tr {
+            td {
+                border: medium none;
+                height: 120px;
+                padding: 0 20px;
+                text-align: center;
+                font-size: 14px;
+                color: #333;
+            }
+            td.product-remove {
+                text-align: center;
+                a.remove_from_wishlist {
+                    background: $color__link;
+                    color: #fff !important;
+                    display: inline-block;
+                    font-size: 16px;
+                    height: 20px;
+                    line-height: 19px;
+                    text-align: center;
+                    width: 20px;
+                    &:hover {
+                        background: $color__link-hover;
+                    }
+                }
+            }
+            td.product-thumbnail {
+                text-align: center;
+                img {
+                    border-radius: 100%;
+                    width: 80px;
+                }
+            }
+            td.product-name {
+                a {
+                    color: $color__text-dark;
+                    font-size: 14px;
+                    font-weight: 700;
+                    &:hover {
+                        color: $color__link-hover;
+                    }
+                }
+            }
+            td.product-add-to-cart {
+                a {
+                    background: #00a9e0 none repeat scroll 0 0;
+                    border-radius: 0;
+                    color: #fff;
+                    font-weight: 600;
+                    height: 36px;
+                    padding: 0 10px;
+                    line-height: 36px;
+                    @include transition(background 0.5s ease);
+                    &:hover {
+                        background: $color__link-hover;
+                    }
+                }
+            }
+        }
+    }
+    tfoot {
+        td {
+            border: none;
+            border-top: 1px solid #e1e1e1;
+        }
+    }
+}

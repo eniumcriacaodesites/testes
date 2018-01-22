@@ -1,0 +1,192 @@
+/*
+Name: Neon
+Description: Dark, elegant and electric.
+Version: 1.1
+Author: Di_Skyer
+URL: http://atlocal.net/
+*/
+.crayon-theme-neon {
+	text-shadow: none !important;
+	color: #fff;
+	background: #2d2d2d !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #333 !important;
+}
+.crayon-theme-neon .crayon-code {
+	background: #2d2d2d !important;
+}
+.crayon-theme-neon-inline {
+	background: #333 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #333 !important;
+}
+.crayon-theme-neon span {
+	color: #999 !important;
+}
+.crayon-theme-neon .crayon-table .crayon-nums {
+	color: #333 !important;
+	background: #777777 !important;
+	border-right-style: solid !important;
+	border-right-width: 1px !important;
+	border-right-color: #333 !important;
+}
+.crayon-theme-neon .crayon-line {
+	background: #050505 !important;
+}
+.crayon-theme-neon .crayon-striped-line {
+	background: #000 !important;
+	border-width: 1px !important;
+	border-color: #171717 !important;
+}
+.crayon-theme-neon .crayon-striped-num {
+	background: #aaa !important;
+	color: #555 !important;
+	border-width: 1px !important;
+	border-color: #CCC !important;
+}
+.crayon-theme-neon .crayon-marked-line {
+	background: #484844 !important;
+	border-width: 1px !important;
+	border-color: #222 !important;
+}
+.crayon-theme-neon .crayon-marked-num {
+	color: #555 !important;
+	background: #bbb !important;
+	border-width: 1px !important;
+	border-color: #777 !important;
+}
+.crayon-theme-neon .crayon-marked-line.crayon-striped-line {
+	background: #51514d !important;
+}
+.crayon-theme-neon .crayon-marked-num.crayon-striped-num {
+	background: #ccc !important;
+	color: #888 !important;
+}
+.crayon-theme-neon .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-neon .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-neon .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-neon .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-neon .crayon-info {
+	background: #faf9d7 !important;
+	color: #7e7d34 !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+}
+.crayon-theme-neon .crayon-toolbar {
+	background: #b2b2b2 !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #666 !important;
+}
+.crayon-theme-neon .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-neon .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-neon .crayon-title {
+	color: #333 !important;
+}
+.crayon-theme-neon .crayon-language {
+	color: #666 !important;
+}
+.crayon-theme-neon .crayon-toolbar .crayon-mixed-highlight {
+	background-position: -24px center;
+}
+.crayon-theme-neon .crayon-button {
+	background-color: transparent !important;
+}
+.crayon-theme-neon .crayon-button:hover {
+	background-color: #ccc !important;
+	color: #666;
+}
+.crayon-theme-neon .crayon-button.crayon-pressed:hover {
+	background-color: #ccc !important;
+	color: #666;
+}
+.crayon-theme-neon .crayon-button.crayon-pressed {
+	background-color: #999 !important;
+	color: #ccc;
+}
+.crayon-theme-neon .crayon-button.crayon-pressed:active {
+	background-color: #999 !important;
+	color: #ccc;
+}
+.crayon-theme-neon .crayon-button:active {
+	background-color: #999 !important;
+	color: #ccc;
+}
+.crayon-theme-neon .crayon-pre .crayon-c {
+	color: #888 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-s {
+	color: #99CC18 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-k {
+	color: #EEEE33 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-st {
+	color: #EEEE33 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-r {
+	color: #EEEE33 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-t {
+	color: #EEEE33 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-m {
+	color: #EEEE33 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-ta {
+	color: #AAA !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-i {
+	color: #fbefb1 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-v {
+	color: #879ab2 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-e {
+	color: #ED7218 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-cn {
+	color: #FF2020 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-o {
+	color: #ac99ab !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-h {
+	color: #ac99ab !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-sy {
+	color: #A069F8 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-n {
+	color: #726e73 !important;
+	font-style: italic !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-f {
+	color: #595959 !important;
+}
+.crayon-theme-neon .crayon-pre .crayon-p {
+	color: #a4a4a4 !important;
+}
+.crayon-theme-neon .crayon-pre {
+	color: #ffffff !important;
+}

@@ -1,0 +1,164 @@
+/*
+Name: VS2012
+Description: Visual Studio 2012 Light Theme
+Version: 0.1
+Author: Nikolay Zahariev
+Url: http://nikolayzahariev.com/
+*/
+.crayon-theme-vs2012 {
+	border-width: 1px !important;
+	border-color: #999 !important;
+	border-style: solid !important;
+	text-shadow: none !important;
+	background: #ffffff !important;
+}
+.crayon-theme-vs2012-inline {
+	border-width: 1px !important;
+	border-color: #ddd !important;
+	border-style: solid !important;
+	background: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-table .crayon-nums {
+	background: #ffffff !important;
+	color: #8ac1f8 !important;
+}
+.crayon-theme-vs2012 .crayon-striped-line {
+	background: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-striped-num {
+	background: #ffffff !important;
+	color: #8ac1f8 !important;
+}
+.crayon-theme-vs2012 .crayon-marked-line {
+	background: #d7dfe3 !important;
+	border-width: 1px !important;
+	border-color: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-marked-num {
+	color: #8ac1f8 !important;
+	background: #ffffff !important;
+	border-width: 1px !important;
+	border-color: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-marked-line.crayon-striped-line {
+	background: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-marked-num.crayon-striped-num {
+	background: #ffffff !important;
+	color: #8ac1f8 !important;
+}
+.crayon-theme-vs2012 .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-vs2012 .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-vs2012 .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-vs2012 .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-vs2012 .crayon-info {
+	background: #faf9d7 !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+	border-bottom-style: solid !important;
+	color: #7e7d34 !important;
+}
+.crayon-theme-vs2012 .crayon-toolbar {
+	background: #DDD !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #BBB !important;
+	border-bottom-style: solid !important;
+}
+.crayon-theme-vs2012 .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-vs2012 .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-vs2012 .crayon-title {
+	color: #333 !important;
+}
+.crayon-theme-vs2012 .crayon-language {
+	color: #999 !important;
+}
+.crayon-theme-vs2012 a.crayon-button {
+	background-color: transparent !important;
+}
+.crayon-theme-vs2012 a.crayon-button:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-vs2012 a.crayon-button.crayon-pressed:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-vs2012 a.crayon-button.crayon-pressed {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-vs2012 a.crayon-button.crayon-pressed:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-vs2012 a.crayon-button:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-c {
+	color: #008000 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-s {
+	color: #6e1717 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-p {
+	color: #b85c00 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-ta {
+	color: #FF0000 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-k {
+	color: #3215eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-st {
+	color: #3215eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-r {
+	color: #3215eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-t {
+	color: #3215eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-m {
+	color: #3215eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-i {
+	color: #15a6eb !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-e {
+	color: #000000 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-v {
+	color: #002D7A !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-cn {
+	color: #000000 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-o {
+	color: #006fe0 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-sy {
+	color: #333 !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-n {
+	color: #666 !important;
+	font-style: italic !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-f {
+	color: #ffffff !important;
+}
+.crayon-theme-vs2012 .crayon-pre .crayon-h {
+	color: #006fe0 !important;
+}

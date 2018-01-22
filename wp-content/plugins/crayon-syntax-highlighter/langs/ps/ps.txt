@@ -1,0 +1,23 @@
+### POWERSHELL LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+    NAME                PowerShell
+    VERSION             1.8.2
+
+    COMMENT             ((?<!`)#.*?$)|((?<!`)<#.*?(?<!`)#>)
+    HERESTRING:STRING   ((?<!`)(@\".*?^\s*\"@))|((?<!`)(@\'.*?^\s*\'@))
+    STRING              ((?<!`)".*?(?<!`)")|((?<!`)'.*?')
+        
+    FUNCTIONS:RESERVED  (\b(?alt:reserved.txt)\b)|((?-i)[A-Z]\w+-[A-Z]\w+(?i))
+    STATEMENT           \b(?alt:statement.txt)\b
+    TYPE                \b(?alt:type.txt)\b
+    
+    ENTITY              (?default)
+    VARIABLE            \$[A-Za-z_]\w*\b
+    IDENTIFIER          (?default)
+    CONSTANT            -\w+\b
+    OPERATOR            (?default)
+    SYMBOL              (?default)
+
+#// -\w+\b

@@ -1,0 +1,205 @@
+.sticky {
+  display: block;
+  border: 1px solid #e1e1e1;
+  padding: 0 15px 15px;
+}
+
+.hentry {
+  margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+  display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+.tyche-blog-post {
+  .tyche-blog-image {
+    img {
+      width: 100%;
+    }
+    margin-bottom: 30px;
+  }
+  .tyche-blog-meta {
+    display: inline-block;
+    width: 100%;
+    .date {
+      width: 55px;
+      height: 55px;
+      font-size: 23px;
+      font-weight: 700;
+      color: $color__title;
+      display: block;
+      text-align: center;
+      background-color: #f3f3f3;
+      overflow: hidden;
+      padding: 6px;
+      line-height: 21px;
+      float: left;
+      margin-right: 15px;
+      .month {
+        font-size: 17px;
+        display: block;
+        font-weight: 400;
+      }
+    }
+    .title {
+      float: left;
+      display: inline-block;
+      width: 88%;
+      .entry-title {
+        margin: 0 0 8px 0;
+        line-height: 29px;
+        color: $color__title;
+        a {
+          color: $color__title;
+          &:hover {
+            color: $color__brand-primary;
+          }
+        }
+      }
+      @media (max-width: 768px) {
+        width: 78%;
+      }
+    }
+    .meta {
+      float: left;
+      ul {
+        list-style-type: none;
+        li {
+          display: inline-block;
+          margin-right: 10px;
+          color: $color__title;
+          .sep {
+            margin-right: 10px;
+          }
+          a {
+            color: $color__title;
+            &:hover,
+            &:focus {
+              color: $color__brand-primary-hover;
+            }
+          }
+        }
+      }
+    }
+  }
+  .entry-content {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .more-link {
+    @extend .button;
+    background: $color__brand-primary;
+    color: #FFF;
+    display: inline-block;
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $color__brand-primary-hover;
+      background: $color__brand-primary-hover;
+      color: #FFF;
+    }
+  }
+
+  .entry-tags {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    color: $color__title;
+    a {
+      color: $color__title;
+      font-size: 15px;
+      font-weight: 700;
+      &:hover {
+        color: $color__brand-primary;
+      }
+    }
+  }
+}
+
+.author-description {
+  padding: 30px 15px;
+  border: 1px solid #e1e1e1;
+  display: inline-block;
+  width: 100%;
+  margin-top: 35px;
+  .author-avatar {
+    border-radius: 5px;
+  }
+  .post-author {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: $color__title;
+    font-size: 18px;
+    line-height: 20px;
+    a {
+      color: $color__title;
+      &:hover {
+        color: $color__brand-primary;
+      }
+    }
+  }
+}
+
+.tyche-icon-box {
+  .icon {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background: $color__title;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    span {
+      font-size: 18px;
+      color: #FFF;
+      line-height: 35px;
+    }
+  }
+  .text {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    color: $color__title;
+    span {
+      font-size: 14px;
+      display: block;
+      color: $color__text-main;
+      font-weight: 400;
+    }
+  }
+}
+
+.custom-page-title {
+  margin-top: 0;
+}
+
+.error404 {
+  .page-title {
+    margin-top: 30px;
+  }
+  .search-field {
+    padding: 8px;
+  }
+}

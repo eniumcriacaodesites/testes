@@ -1,0 +1,1678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coming Soon Pro by SeedProd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-26 17:37+0100\n"
+"PO-Revision-Date: 2015-04-26 17:38+0100\n"
+"Last-Translator: P. E.\n"
+"Language-Team: P. E.\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: coming-soon.php:22
+msgid "Coming Soon Page & Maintenance Mode by SeedProd"
+msgstr "Coming Soon Page & Maintenance Mode av SeedProd"
+
+#: framework/field-types/date.php:8 framework/field-types/daterange.php:8
+msgid "01-Jan"
+msgstr "01-Jan"
+
+#: framework/field-types/date.php:9 framework/field-types/daterange.php:9
+msgid "02-Feb"
+msgstr "02-Feb"
+
+#: framework/field-types/date.php:10 framework/field-types/daterange.php:10
+msgid "03-Mar"
+msgstr "03-Mar"
+
+#: framework/field-types/date.php:11 framework/field-types/daterange.php:11
+msgid "04-Apr"
+msgstr "04-Apr"
+
+#: framework/field-types/date.php:12 framework/field-types/daterange.php:12
+msgid "05-May"
+msgstr "05-Maj"
+
+#: framework/field-types/date.php:13 framework/field-types/daterange.php:13
+msgid "06-Jun"
+msgstr "06-Jun"
+
+#: framework/field-types/date.php:14 framework/field-types/daterange.php:14
+msgid "07-Jul"
+msgstr "07-Jul"
+
+#: framework/field-types/date.php:15 framework/field-types/daterange.php:15
+msgid "08-Aug"
+msgstr "08-Aug"
+
+#: framework/field-types/date.php:16 framework/field-types/daterange.php:16
+msgid "09-Sep"
+msgstr "09-Sep"
+
+#: framework/field-types/date.php:17 framework/field-types/daterange.php:17
+msgid "10-Oct"
+msgstr "10-Okt"
+
+#: framework/field-types/date.php:18 framework/field-types/daterange.php:18
+msgid "11-Nov"
+msgstr "11-Nov"
+
+#: framework/field-types/date.php:19 framework/field-types/daterange.php:19
+msgid "12-Dec"
+msgstr "12-Dec"
+
+#: framework/field-types/date.php:29 framework/field-types/daterange.php:29
+#: framework/field-types/daterange.php:42
+msgid "day"
+msgstr "dag"
+
+#: framework/field-types/date.php:32 framework/field-types/daterange.php:32
+#: framework/field-types/daterange.php:45
+msgid "year"
+msgstr "år"
+
+#: framework/field-types/upload.php:12
+msgid "Media Image Library"
+msgstr "Mediabiblioteket"
+
+#: framework/framework.php:77
+msgid "Settings reset."
+msgstr "Inställningar återställda."
+
+#: framework/framework.php:116 framework/framework.php:117
+#: inc/config-settings.php:22
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: framework/framework.php:177
+msgid "&larr; Close Window"
+msgstr "&larr; Stäng Fönster"
+
+#: framework/framework.php:177
+msgid "Live Preview"
+msgstr "Förhandsgranskning Live"
+
+#: framework/framework.php:179
+msgid "Upgrade to Pro for more Professional Features"
+msgstr "Uppgradera till Pro för fler Profesionella Funktioner"
+
+#: framework/validations/color.php:13
+msgid "Please enter a valid color value."
+msgstr "Var god ange ett giltigt färgvärde."
+
+#: framework/validations/email.php:10 framework/validations/escurlraw.php:11
+msgid "Please enter a valid email."
+msgstr "Var god ange en giltig e-postadress."
+
+#: framework/validations/number.php:11
+msgid "Please enter a valid number."
+msgstr "Var god ange en giltig siffra."
+
+#: framework/validations/required.php:10
+msgid "is required."
+msgstr "krävs."
+
+#: inc/class-seed-csp4.php:80
+msgid "Coming Soon Mode Active"
+msgstr "Kommer Snart-läge Aktivt"
+
+#: inc/class-seed-csp4.php:82
+msgid "Maintenance Mode Active"
+msgstr "Underhållsläge Aktivt"
+
+#: inc/class-seed-csp4.php:144
+msgid "Please enter your settings."
+msgstr "Var god ange dina inställningar."
+
+#: inc/config-settings.php:33 inc/config-settings.php:249
+msgid "Content"
+msgstr "Innehåll"
+
+#: inc/config-settings.php:44
+msgid "General"
+msgstr "Generellt"
+
+#: inc/config-settings.php:50
+msgid "Status"
+msgstr "Status"
+
+#: inc/config-settings.php:52
+msgid "Disabled"
+msgstr "Deaktiverad"
+
+#: inc/config-settings.php:53
+msgid "Enable Coming Soon Mode"
+msgstr "Aktivera Kommer Snart-läge"
+
+#: inc/config-settings.php:54
+msgid "Enable Maintenance Mode"
+msgstr "Aktivera Underhållsläge"
+
+#: inc/config-settings.php:56
+msgid ""
+"When you are logged in you'll see your normal website. Logged out visitors "
+"will see the Coming Soon or Maintenance page. Coming Soon Mode will be "
+"available to search engines if your site is not private. Maintenance Mode "
+"will notify search engines that the site is unavailable."
+msgstr ""
+"När du är inloggad så kommer du att se din vanliga webbplats. Ej inloggade "
+"besökare kommer att se Kommer Snart- eller Underhållssidan. Kommer Snart-"
+"läge är tillgängligt för sökmotorer om inte din webbplats är privat. "
+"Underhållsläge notifierar sökmotorer att webbplatsen inte är tillgänglig."
+
+#: inc/config-settings.php:66
+msgid "Use maintenance.php"
+msgstr "Använd maintenance.php"
+
+#: inc/config-settings.php:67
+msgid ""
+"maintenance.php detected, would you like to use this for your maintenance "
+"page?"
+msgstr ""
+"maintenance.php hittades, vill du använda denna som din sida för "
+"underhållsläge?"
+
+#: inc/config-settings.php:69 inc/config-settings.php:197
+#: inc/config-settings.php:265
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/config-settings.php:79
+msgid "Page Settings"
+msgstr "Sidinställningar"
+
+#: inc/config-settings.php:85
+msgid "Logo"
+msgstr "Logotyp"
+
+#: inc/config-settings.php:86
+msgid "Upload a logo or teaser image (or) enter the url to your image."
+msgstr ""
+"Ladda upp en logotyp eller en lockande bild (eller) ange URL:en till din "
+"bild."
+
+#: inc/config-settings.php:93
+msgid "Headline"
+msgstr "Rubrik"
+
+#: inc/config-settings.php:94
+msgid "Enter a headline for your page."
+msgstr "Ange en rubrik för din sida."
+
+#: inc/config-settings.php:100
+msgid "Message"
+msgstr "Meddelande"
+
+#: inc/config-settings.php:101
+msgid "Tell the visitor what to expect from your site."
+msgstr "Berätta för besökaren vad som kan förväntas av din webbplats."
+
+#: inc/config-settings.php:107
+msgid "Powered By SeedProd"
+msgstr "Drivs av SeedProd"
+
+#: inc/config-settings.php:108
+msgid "Nope - Got No Love"
+msgstr "Nix - Ingen Kärlek"
+
+#: inc/config-settings.php:108
+msgid "Yep - I Love You Man"
+msgstr "Jepp - Jag Älskar Dig Mannen"
+
+#: inc/config-settings.php:109
+msgid ""
+"Can we show a <strong>cool stylish</strong> footer credit at the bottom the "
+"page."
+msgstr ""
+"Får vi visa ett <strong>coolt och stilrent</strong> erkännande i sidfoten."
+
+#: inc/config-settings.php:118
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: inc/config-settings.php:124
+msgid "Favicon"
+msgstr "Webbplatsikon (Favicon)"
+
+#: inc/config-settings.php:125
+msgid ""
+"Favicons are displayed in a browser tab. Need Help <a href=\"http://tools."
+"dynamicdrive.com/favicon/\" target=\"_blank\">creating a favicon</a>?"
+msgstr ""
+"Webbplatsikoner (favicons) visas i webbläsarens/tabbens titelrad. Behöver du "
+"hjälp med att <a href=\"http://tools.dynamicdrive.com/favicon/\" target="
+"\"_blank\">skapa en webbplatsikon</a>?"
+
+#: inc/config-settings.php:131
+msgid "SEO Title"
+msgstr "SEO-titel"
+
+#: inc/config-settings.php:137
+msgid "SEO Meta Description"
+msgstr "SEO-metabeskrivning"
+
+#: inc/config-settings.php:146
+msgid "Analytics Code"
+msgstr "Analytics-kod"
+
+#: inc/config-settings.php:147
+msgid ""
+"Paste in your Universal or Classic <a href=\"http://www.google.com/analytics/"
+"\" target=\"_blank\">Google Analytics</a> code."
+msgstr ""
+"Klistra in din Universella eller Klassiska <a href=\"http://www.google.com/"
+"analytics/\" target=\"_blank\">Google Analytics</a>-kod."
+
+#: inc/config-settings.php:157
+msgid "Design"
+msgstr "Design"
+
+#: inc/config-settings.php:170
+msgid "Background"
+msgstr "Bakgrund"
+
+#: inc/config-settings.php:177
+msgid "Background Color"
+msgstr "Bakgrundsfärg (background-color)"
+
+#: inc/config-settings.php:180
+msgid ""
+"Choose between having a solid color background or uploading an image. By "
+"default images will cover the entire background."
+msgstr ""
+"Välj mellan att ha en solid bakgrundsfärg elleratt ladda upp en bild. Bilder "
+"täcker som standard hela bakgrunden."
+
+#: inc/config-settings.php:188
+msgid "Background Image"
+msgstr "Bakgrundsbild"
+
+#: inc/config-settings.php:194
+msgid "Responsive Background"
+msgstr "Responsiv Bakgrund"
+
+#: inc/config-settings.php:195
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area."
+msgstr ""
+"Skala bakgrundsbilden så att den blir så stor som möjligt och så att hela "
+"bakgrunden täcks av bilden. Vissa delar av bakgrundsbilden kanske kommer att "
+"befinna sig utanför bakgrundens positioneringsområde och inte synas. "
+
+#: inc/config-settings.php:205 inc/config-settings.php:219
+#: inc/config-settings.php:237
+msgid "This setting is not applied if Responsive Background is checked"
+msgstr "Denna inställning används ej om Responsiv Bakgrund är ikryssad"
+
+#: inc/config-settings.php:206
+msgid "Background Repeat"
+msgstr "Bakgrundsupprepning (background-repeat)"
+
+#: inc/config-settings.php:208
+msgid "No-Repeat"
+msgstr "Ingen Upprepning"
+
+#: inc/config-settings.php:209
+msgid "Tile"
+msgstr "Sida-vid-sida"
+
+#: inc/config-settings.php:210
+msgid "Tile Horizontally"
+msgstr "Sida-vid-sida Horisontellt"
+
+#: inc/config-settings.php:211
+msgid "Tile Vertically"
+msgstr "Kant-mot-kant Vertikalt"
+
+#: inc/config-settings.php:220
+msgid "Background Position"
+msgstr "Bakgrundsposition"
+
+#: inc/config-settings.php:222
+msgid "Left Top"
+msgstr "Toppvänsterställd"
+
+#: inc/config-settings.php:223
+msgid "Left Center"
+msgstr "Mittvänsterställd"
+
+#: inc/config-settings.php:224
+msgid "Left Bottom"
+msgstr "Bottenvänsterställd"
+
+#: inc/config-settings.php:225
+msgid "Right Top"
+msgstr "Topphögerställd"
+
+#: inc/config-settings.php:226
+msgid "Right Center"
+msgstr "Mitthögerställd"
+
+#: inc/config-settings.php:227
+msgid "Right Bottom"
+msgstr "Bottenhögerställd"
+
+#: inc/config-settings.php:228
+msgid "Center Top"
+msgstr "Toppcentrerad"
+
+#: inc/config-settings.php:229
+msgid "Center Center"
+msgstr "Mittcentrerad"
+
+#: inc/config-settings.php:230
+msgid "Center Bottom"
+msgstr "Bottencentrerad"
+
+#: inc/config-settings.php:238
+msgid "Background Attachment"
+msgstr "Bakgrundsfästning"
+
+#: inc/config-settings.php:240
+msgid "Fixed"
+msgstr "Fast"
+
+#: inc/config-settings.php:241
+msgid "Scroll"
+msgstr "Skrollande"
+
+#: inc/config-settings.php:256
+msgid "Max Width"
+msgstr "Max Bredd"
+
+#: inc/config-settings.php:257
+msgid ""
+"By default the max width of the content is set to 600px. Enter a number "
+"value if you need it bigger. Example: 900"
+msgstr ""
+"Som standard så är max bredd på innehållet satt till 600px. Ange ett "
+"numeriskt värde om du behöver en större maxbredd. Exempel: 900"
+
+#: inc/config-settings.php:262
+msgid "Enable Well"
+msgstr "Aktivera Behållare"
+
+#: inc/config-settings.php:263
+msgid "This will wrap your content in a box."
+msgstr "Detta kommer att innesluta ditt innehåll i en box."
+
+#: inc/config-settings.php:275
+msgid "Text"
+msgstr "Text"
+
+#: inc/config-settings.php:281
+msgid "Text Color"
+msgstr "Textfärg"
+
+#: inc/config-settings.php:289
+msgid "Link Color"
+msgstr "Länkfärg"
+
+#: inc/config-settings.php:297
+msgid "Headline Color"
+msgstr "Rubrikfärg"
+
+#: inc/config-settings.php:300
+msgid "If no Headline Color is chosen then the Link Color will be used. "
+msgstr "Om ingen Rubrikfärg väljs så kommer Länkfärgen att användas."
+
+#: inc/config-settings.php:308
+msgid "Text Font"
+msgstr "Texttypsnitt"
+
+#: inc/config-settings.php:329
+msgid "Template"
+msgstr "Mall"
+
+#: inc/config-settings.php:337
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#: inc/config-settings.php:338
+msgid "Need to tweaks the styles? Add your custom CSS here."
+msgstr "Behöver du modifiera stilarna? Ange din anpassade CSS här."
+
+#: inc/config-settings.php:347
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: inc/config-settings.php:360
+msgid "Scripts"
+msgstr "Skript"
+
+#: inc/config-settings.php:366
+msgid "Disable Default Excluded URLs"
+msgstr "Deaktivera Standardexluderade URL:er"
+
+#: inc/config-settings.php:367
+msgid ""
+"By default we exclude urls with the terms: login, admin, dashboard and "
+"account to prevent lockouts. Check to disable."
+msgstr ""
+"Som standard så utesluter vi url:er med termerna: login, admin, dashboard "
+"och account för att undvika utestängningar. Kryssa i för att avaktivera."
+
+#: inc/config-settings.php:369
+msgid "Disable"
+msgstr "Deaktivera"
+
+#: inc/config-settings.php:377
+msgid "Header Scripts"
+msgstr "Sidhuvudsskript"
+
+#: inc/config-settings.php:378
+msgid ""
+"Enter any custom scripts. You can enter Javascript or CSS. This will be "
+"rendered before the closing head tag."
+msgstr ""
+"Ange anpassade skript om sådana finns. Du kan ange JavaScript eller CSS. "
+"Detta renderas innan stängningstaggen för body."
+
+#: inc/config-settings.php:385
+msgid "Footer Scripts"
+msgstr "Sidfotsskript"
+
+#: inc/config-settings.php:386
+msgid ""
+"Enter any custom scripts. This will be rendered before the closing body tag."
+msgstr ""
+"Ange anpassade skript om sådana finns. Dessa kommer renderas före body-"
+"stängningstaggen."
+
+#~ msgid "Coming Soon Pro"
+#~ msgstr "Coming Soon Pro"
+
+#~ msgid ""
+#~ "WordPress %s and higher required. The plugin has now disabled itself. On "
+#~ "a side note why are you running an old version :( Upgrade!"
+#~ msgstr ""
+#~ "WordPress %s eller högre krävs. Tillägget har nu deaktiverat sig själv. "
+#~ "För övrigt, varför kör du en gammal version :( Uppgradera!"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Save"
+#~ msgstr "Spara"
+
+#~ msgid "Refresh List"
+#~ msgstr "Ladda om Lista"
+
+#~ msgid "Width"
+#~ msgstr "Bredd"
+
+#~ msgid "Color"
+#~ msgstr "Färg"
+
+#~ msgid "Radius"
+#~ msgstr "Radie"
+
+#~ msgid "hh"
+#~ msgstr "tt"
+
+#~ msgid "mm"
+#~ msgstr "mm"
+
+#~ msgid "Check License"
+#~ msgstr "Kontrollera Licens"
+
+#~ msgid "Optional Tweet Text"
+#~ msgstr "Valfri Tweet-text"
+
+#~ msgid "Image for Facebook Like. Optimal Size: 200px x 200px"
+#~ msgstr "Bild för Facebook-gillaknapp. Optimal Storlek: 200px x 200px"
+
+#~ msgid "Image for Pinterest"
+#~ msgstr "Bild för Pinterest"
+
+#~ msgid "Super Admin"
+#~ msgstr "Superadmin"
+
+#~ msgid "Are you sure you want to DELETE all subscribers?"
+#~ msgstr "Är du säker på att du vill TA BORT alla prenumeranter?"
+
+#~ msgid ""
+#~ "Are you sure you want to IMPORT these settings? Current settings will be "
+#~ "erased!"
+#~ msgstr ""
+#~ "Är du säker på att du vill IMPORTERA dessa inställningar? Nuvarande "
+#~ "inställningar kommer att raderas!"
+
+#~ msgid "No lists Found"
+#~ msgstr "Inga listor Funna"
+
+#~ msgid "Unable to load MailChimp lists, check your API Key."
+#~ msgstr "Kunde inte ladda MailChimp-listor, kontrollera din API-nyckel."
+
+#~ msgid "Unable to authenticate"
+#~ msgstr "Kunde inte autentisera"
+
+#~ msgid "Unable to load Constant Contact lists"
+#~ msgstr "Kunde inte ladda Constant Contact-listor"
+
+#~ msgid "Unable to load Campaign Monitor lists"
+#~ msgstr "Kunde inte ladda Campaign Monitor-listor"
+
+#~ msgid "Unable to load Campaign Monitor clients"
+#~ msgstr "Kunde inte ladda Campaign Monitor-klienter"
+
+#~ msgid "Unable to load Aweber lists"
+#~ msgstr "Kunde inte ladda Aweber-listor"
+
+#~ msgid "New Email Subscriber"
+#~ msgstr "Ny E-postprenumerant"
+
+#~ msgid "Do not display an Email SignUp"
+#~ msgstr "Visa inte formulär för E-postprenumeration"
+
+#~ msgid "Database"
+#~ msgstr "Databas"
+
+#~ msgid "FeedBurner"
+#~ msgstr "FeedBurner"
+
+#~ msgid "All subscribers deleted."
+#~ msgstr "Alla prenumeranter borttagna."
+
+#~ msgid "Selected subscribers deleted."
+#~ msgstr "Valda prenumeranter borttagna."
+
+#~ msgid "Subscribed on: "
+#~ msgstr "Prenumeration startades:"
+
+#~ msgid "Subscribers"
+#~ msgstr "Prenumeranter"
+
+#~ msgid "Clicks"
+#~ msgstr "Klick"
+
+#~ msgid "# People Signed Up"
+#~ msgstr "# Prenumeranter"
+
+#~ msgid "Conversion Rate"
+#~ msgstr "Konverteringsgrad"
+
+#~ msgid "Created"
+#~ msgstr "Skapad"
+
+#~ msgid "Export All"
+#~ msgstr "Exportera Alla"
+
+#~ msgid "Delete All"
+#~ msgstr "Ta Bort Alla"
+
+#~ msgid "Delete Selected"
+#~ msgstr "Ta Bort Valda"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid "License Key"
+#~ msgstr "Licensnyckel"
+
+#~ msgid ""
+#~ "Enter your <a href='http://www.seedprod.com/members' "
+#~ "target='_blank'>License Key</a> to receive automatic plugin updates."
+#~ msgstr ""
+#~ "Ange din <a href='http://www.seedprod.com/members' "
+#~ "target='_blank'>Licensnyckel</a> för att automatiskt få "
+#~ "tilläggsuppdateringar."
+
+#~ msgid ""
+#~ "Enter a headline for your page. Replace the default headline if it exists."
+#~ msgstr "Ange en rubrik på din sida. Ersätter standardrubrik om sådan finns."
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid ""
+#~ "Tell the visitor what to expect from your site. Also supports WordPress "
+#~ "shortcodes and <a href='http://codex.wordpress.org/Embeds' "
+#~ "target='_target'>video embeds</a>."
+#~ msgstr ""
+#~ "Tala om för besökaren vad som kan förväntas på din sida. Stöder även "
+#~ "WordPress kortkoder och <a href='http://codex.wordpress.org/Embeds' "
+#~ "target='_target'>inbäddad video</a>."
+
+#~ msgid "Form Settings"
+#~ msgstr "Formulärinställningar"
+
+#~ msgid "Save subscribers to:"
+#~ msgstr "Spara prenumeranter till:"
+
+#~ msgid "Name Field"
+#~ msgstr "Namnfält"
+
+#~ msgid "Ask for the visitors name."
+#~ msgstr "Fråga efter besökarens namn."
+
+#~ msgid "Display Name Field"
+#~ msgstr "Visa namnfält"
+
+#~ msgid "Database Settings"
+#~ msgstr "Databasinställningar"
+
+#~ msgid "Enable New Subscriber Notifications"
+#~ msgstr "Aktivera Notifiering för Nya Prenumeranter"
+
+#~ msgid "Get an email notification when some subscribes."
+#~ msgstr "Motta en e-postnotifiering när någon startar prenumeration."
+
+#~ msgid "Send Notifications to this Email"
+#~ msgstr "Skicka Notifieringar till denna E-post"
+
+#~ msgid ""
+#~ "Separate multiple emails with a comma. If no email is defined, "
+#~ "notifications while be sent to the admin email."
+#~ msgstr ""
+#~ "Separera flera e-postadresser med ett komma. Om inga e-postadresser "
+#~ "definierats, så skickas notifieringar till e-postadressen för admin."
+
+#~ msgid "FeedBurner Settings"
+#~ msgstr "FeedBurner-inställningar"
+
+#~ msgid "Address"
+#~ msgstr "Adress"
+
+#~ msgid "Enter your FeedBurner address."
+#~ msgstr "Ange din FeedBurner-adress."
+
+#~ msgid "Local"
+#~ msgstr "Lokal"
+
+#~ msgid ""
+#~ "The language the FeedBurner form is displayed in. The default is English. "
+#~ "<a href=\"http://support.google.com/feedburner/bin/answer.py?"
+#~ "hl=en&answer=81423\">Learn more</a>."
+#~ msgstr ""
+#~ "Det språk som FeedBurner-formuläret visas på. Engelska är standard. <a "
+#~ "href=\"http://support.google.com/feedburner/bin/answer.py?"
+#~ "hl=en&answer=81423\">Mer information</a>."
+
+#~ msgid "Aweber Settings"
+#~ msgstr "Aweber-inställningar"
+
+#~ msgid ""
+#~ "<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" "
+#~ "target=\"_blank\">Authorize App</a> &larr; Click the link to get you "
+#~ "Authorization Code."
+#~ msgstr ""
+#~ "<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" "
+#~ "target=\"_blank\">Auktorisera App</a> &larr; Klicka på länken för att få "
+#~ "din Auktoriseringskod."
+
+#~ msgid "Authorization Code"
+#~ msgstr "Auktoriseringskod"
+
+#~ msgid ""
+#~ "Paste in the Authorization Code you received when authorizing the app and "
+#~ "click <strong>Save</strong>."
+#~ msgstr ""
+#~ "Klistra in Auktoriseringskoden som du fick när du aktoriserade Appen och "
+#~ "klicka <strong>Spara</strong>."
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "Campaign Monitor Settings"
+#~ msgstr "Campaign Monitor-inställningar"
+
+#~ msgid "API Key"
+#~ msgstr "API-nyckel"
+
+#~ msgid ""
+#~ "Get your <a target=\"_blank\" href=\"http://help.campaignmonitor.com/"
+#~ "topic.aspx?t=206\">API key</a>"
+#~ msgstr ""
+#~ "Skaffa din <a target=\"_blank\" href=\"http://help.campaignmonitor.com/"
+#~ "topic.aspx?t=206\">API-nyckel</a>"
+
+#~ msgid "Client"
+#~ msgstr "Klient"
+
+#~ msgid "Constant Contact Settings"
+#~ msgstr "Constant Contact-inställningar"
+
+#~ msgid "Username"
+#~ msgstr "Användarnamn"
+
+#~ msgid "Enter your Constant Contact username."
+#~ msgstr "Ange ditt Constant Contact-användarnamn."
+
+#~ msgid "Password"
+#~ msgstr "Lösenord"
+
+#~ msgid "Enter your Constant Contact password."
+#~ msgstr "Ange ditt Constant Contact-lösenord."
+
+#~ msgid "GetResponse Settings"
+#~ msgstr "GetResponse-inställningar"
+
+#~ msgid ""
+#~ "Enter your API Key. <a target=\"_blank\" href=\"https://app.getresponse."
+#~ "com/my_account.html\" target=\"_blank\">Get your API key</a>"
+#~ msgstr ""
+#~ "Ange din API-nyckel. <a target=\"_blank\" href=\"https://app.getresponse."
+#~ "com/my_account.html\" target=\"_blank\">Skaffa API-nyckel</a>"
+
+#~ msgid "Campaign"
+#~ msgstr "Campaign"
+
+#~ msgid "Mad Mimi Settings"
+#~ msgstr "Mad Mimi-inställningar"
+
+#~ msgid "Username or Email"
+#~ msgstr "Användarnamn eller E-post"
+
+#~ msgid "Enter your username or email."
+#~ msgstr "Ange ditt användarnamn eller e-post."
+
+#~ msgid ""
+#~ "Enter your API Key. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+#~ "edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank"
+#~ "\">Get your API key</a>"
+#~ msgstr ""
+#~ "Ange din API-nyckel. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+#~ "edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank"
+#~ "\">Skaffa din API-nyckel</a>"
+
+#~ msgid "Infusionsoft Settings"
+#~ msgstr "Infusionsoft-inställningar"
+
+#~ msgid "App Name"
+#~ msgstr "App-namn"
+
+#~ msgid "Enter your app name."
+#~ msgstr "Ange ditt App-namn"
+
+#~ msgid ""
+#~ "Enter your api key. Learn how to <a href=\"http://ug.infusionsoft.com/"
+#~ "article/AA-00442/0/How-do-I-enable-the-Infusionsoft-API-and-generate-an-"
+#~ "API-Key.html\" target=\"_blank\">generate your Infusionsoft api key</a>."
+#~ msgstr ""
+#~ "Ange din API-nyckel. Lär dig mer om hur du <a href=\"http://ug."
+#~ "infusionsoft.com/article/AA-00442/0/How-do-I-enable-the-Infusionsoft-API-"
+#~ "and-generate-an-API-Key.html\" target=\"_blank\">genererar din "
+#~ "Infusionsoft API-nyckel</a>."
+
+#~ msgid "HTML Web Form Settings"
+#~ msgstr "HTML Web Form-inställningar"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Enter the html provided from the 3rd party service."
+#~ msgstr "Ange den HTML-kod du fått av din tredjepartstjänst."
+
+#~ msgid "iContact Settings"
+#~ msgstr "iContakt-inställningar"
+
+#~ msgid "Authorize App"
+#~ msgstr "Auktorisera App"
+
+#~ msgid ""
+#~ "<a href=\"https://app.icontact.com/icp/core/externallogin?"
+#~ "sAppId=puD4TZWs2kKlKZLZZgD7IAUiqPSYPIvd\" target=\"_blank\">Authorize the "
+#~ "App</a> and define the app password, then enter that information below."
+#~ msgstr ""
+#~ "<a href=\"https://app.icontact.com/icp/core/externallogin?"
+#~ "sAppId=puD4TZWs2kKlKZLZZgD7IAUiqPSYPIvd\" target=\"_blank\">Auktorisera "
+#~ "Appen</a> och definiera App-lösenordet, och ange sedan den informationen "
+#~ "nedan."
+
+#~ msgid "Enter your username."
+#~ msgstr "Ange ditt användarnamn."
+
+#~ msgid "App Password"
+#~ msgstr "App-lösenord"
+
+#~ msgid "Enter the password you defined for this app."
+#~ msgstr "Ange lösenordet som du definierat för denna App."
+
+#~ msgid "Gravity Forms Settings"
+#~ msgstr "Gravity Forms-inställningar"
+
+#~ msgid "Form"
+#~ msgstr "Formulär"
+
+#~ msgid "Select a form to display on your page."
+#~ msgstr "Välj ett formulär att visa på din sida."
+
+#~ msgid "Override Gravity Form's confirmation page"
+#~ msgstr "Åsidosätt Gravity Forms bekräftelsesida"
+
+#~ msgid ""
+#~ "Redirect to this plugin's Thank You page instead of the default Gravity "
+#~ "Forms Confirmation page."
+#~ msgstr ""
+#~ "Omdirigera till detta tilläggs Tacksida istället för Gravity Forms "
+#~ "standard bekräftelsesida."
+
+#~ msgid "WYSIJA Settings"
+#~ msgstr "WYSIJA/MailPoet-Inställningar"
+
+#~ msgid "Select a list to save your contacts to."
+#~ msgstr "Välj en lista att spara dina kontakter till."
+
+#~ msgid "Sendy Settings"
+#~ msgstr "Sendy-inställningar"
+
+#~ msgid "Sendy Url"
+#~ msgstr "Sendy-URL"
+
+#~ msgid ""
+#~ "The  url to where your Sendy is installed. Example: http://"
+#~ "your_sendy_installation"
+#~ msgstr ""
+#~ "URL:en till din Sendy-installation. Exempel: http://"
+#~ "your_sendy_installation"
+
+#~ msgid "List ID"
+#~ msgstr "List-ID"
+
+#~ msgid ""
+#~ "The list id you want to subscribe a user to. This encrypted & hashed id "
+#~ "can be found under View all lists section named ID in Sendy"
+#~ msgstr ""
+#~ "ID för listan som du vill sätta en användare som prenumerant på. Detta "
+#~ "krypterade och hashade ID återfinns i sektionen Visa alla listor i Sendy"
+
+#~ msgid "MailChimp Settings"
+#~ msgstr "MailChimp-inställningar"
+
+#~ msgid ""
+#~ "Enter your API Key. <a target=\"_blank\" href=\"http://admin.mailchimp."
+#~ "com/account/api-key-popup\" target=\"_blank\">Get your API key</a>"
+#~ msgstr ""
+#~ "Ange din API-nyckel. <a target=\"_blank\" href=\"http://admin.mailchimp."
+#~ "com/account/api-key-popup\" target=\"_blank\">Skaffa din API-nyckel</a>"
+
+#~ msgid "Enable Double Opt-In"
+#~ msgstr "Aktivera dubbel Opt-In"
+
+#~ msgid ""
+#~ "Learn more about <a href=\"http://kb.mailchimp.com/article/how-does-"
+#~ "confirmed-optin-or-double-optin-work\">Double Opt-In</a>"
+#~ msgstr ""
+#~ "Mer information om <a href=\"http://kb.mailchimp.com/article/how-does-"
+#~ "confirmed-optin-or-double-optin-work\">Dubbel Opt-In</a>"
+
+#~ msgid "Send Welcome Email"
+#~ msgstr "Skicka Välkomste-post"
+
+#~ msgid ""
+#~ "If your Double Opt-in is false and this is true, MailChimp will send your "
+#~ "lists Welcome Email if this subscribe succeeds - this will not fire if "
+#~ "MailChimp ends up updating an existing subscriber. If Double Opt-in is "
+#~ "true, this has no effect. Learn more about <a href='http://blog.mailchimp."
+#~ "com/sending-welcome-emails-with-mailchimp/' target='_blank'>Welcome "
+#~ "Emails</a>."
+#~ msgstr ""
+#~ "Om Dubbel Opt-in är falsk, och detta är sant, så kommer MailChimp att "
+#~ "skicka Välkomstmeddelanden om prenumerationen går igenom - detta kommer "
+#~ "dock inte att ske om MailChimp istället börjar uppdatera en redan "
+#~ "existerande prenumerant. Om Dubbel Opt-in är sann, så har detta ingen "
+#~ "effekt. Läs mer om <a href='http://blog.mailchimp.com/sending-welcome-"
+#~ "emails-with-mailchimp/' target='_blank'>Välkomstmeddelanden</a>."
+
+#~ msgid "Group Name"
+#~ msgstr "Gruppnamn"
+
+#~ msgid ""
+#~ "Optional: Enter the name of the group. Learn more about <a href=\"http://"
+#~ "mailchimp.com/features/groups/\" target=\"_blank\">Groups</a>"
+#~ msgstr ""
+#~ "Valfritt: Ange gruppnamnet. Mer information om <a href=\"http://mailchimp."
+#~ "com/features/groups/\" target=\"_blank\">Grupper</a>"
+
+#~ msgid "Groups"
+#~ msgstr "Grupper"
+
+#~ msgid ""
+#~ "Optional: Comma delimited list of interest groups to add the email to."
+#~ msgstr ""
+#~ "Valfritt: Kommaseparerad lista över intressegrupper att tilldela e-posten "
+#~ "till."
+
+#~ msgid "Replace Interests"
+#~ msgstr "Ersätt Intressen"
+
+#~ msgid ""
+#~ "Whether MailChimp will replace the interest groups with the groups "
+#~ "provided or add the provided groups to the member's interest groups"
+#~ msgstr ""
+#~ "Om MailChimp skall ersätta intressegrupperna med de grupper som bifogas, "
+#~ "eller lägga de bifogade grupperna till medlemmens intressegrupper"
+
+#~ msgid "After Subscribe Settings"
+#~ msgstr "Efter Prenumerations-inställningar"
+
+#~ msgid "Thank You or Incentive Message"
+#~ msgstr "Tack- eller Motivationsmeddelande"
+
+#~ msgid ""
+#~ "Leave a thank you or incentive information after the user has subscribed. "
+#~ "This will override the default success message."
+#~ msgstr ""
+#~ "Visa ett tack- eller incitamentmeddelande efter att en användare har "
+#~ "påbörjat prenumeration. Detta åsidosätter standardmeddelandet."
+
+#~ msgid "Share Buttons"
+#~ msgstr "Dela-knappar"
+
+#~ msgid ""
+#~ "Select the checkboxes above to display Social Share Buttons after you "
+#~ "capture an email."
+#~ msgstr ""
+#~ "Kryssa i kryssrutorna ovan för att visa Sociala Dela-knappar efter att du "
+#~ "fångat in ett e-postmeddelande."
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "PinIt"
+#~ msgstr "PinIt"
+
+#~ msgid "Tumblr"
+#~ msgstr "Tumblr"
+
+#~ msgid "Display Referrer Link"
+#~ msgstr "Visa Hänvisningslänk"
+
+#~ msgid ""
+#~ "The referrer link is a special link that you can encourage your "
+#~ "subscribers to share so you track who referred who."
+#~ msgstr ""
+#~ "Hänvisningslänken är en speciell länk som du kan uppmuntra dina "
+#~ "prenumeranter att dela, så att du kan hålla koll på vem som hänvisade vem."
+
+#~ msgid "Progress Bar Settings"
+#~ msgstr "Förloppsindikatorinställningar"
+
+#~ msgid "Enable Progress Bar"
+#~ msgstr "Aktivera Förloppsindikator"
+
+#~ msgid "Displays a progress bar on your site."
+#~ msgstr "Visa en förloppsindikator på din webbplats"
+
+#~ msgid "Start and End Date"
+#~ msgstr "Start- och Slutdatum"
+
+#~ msgid ""
+#~ "The percent complete will be automatically calculated if you enter a "
+#~ "start and end date."
+#~ msgstr ""
+#~ "Antal procent gånget beräknas automatiskt om du anger start- och "
+#~ "slutdatum. "
+
+#~ msgid "Percent Complete Override"
+#~ msgstr "Åsidosätt Procent Gånget."
+
+#~ msgid ""
+#~ "Enter the percentage complete without the percentage sign. This will "
+#~ "override the date calculation above."
+#~ msgstr ""
+#~ "Ange procent gånget utan procenttecken. Detta åsidosätter "
+#~ "datumberäkningen ovan."
+
+#~ msgid "Progress Bar Effect"
+#~ msgstr "Förloppsindikatoreffekt"
+
+#~ msgid "Basic"
+#~ msgstr "Standard"
+
+#~ msgid "Striped"
+#~ msgstr "Randig"
+
+#~ msgid "Animated"
+#~ msgstr "Animerad"
+
+#~ msgid "Striped and Animated are not supported in Internet Explorer"
+#~ msgstr "Randig och Animerad stöds ej i Internet Explorer"
+
+#~ msgid "Countdown Settings"
+#~ msgstr "Nedräkningsinställningar"
+
+#~ msgid "Enable Countdown"
+#~ msgstr "Aktivera Nedräkning"
+
+#~ msgid "Displays a countdown on your site."
+#~ msgstr "Visare en nedräkningsindikator på din webbplats."
+
+#~ msgid "End DateTime"
+#~ msgstr "Slut-DatumTid"
+
+#~ msgid "Enter the datetime to countdown to."
+#~ msgstr "Ange datumtid att räkna ned till."
+
+#~ msgid "Auto Launch"
+#~ msgstr "Autopublicera"
+
+#~ msgid ""
+#~ "This will automatically launch your site when countdown reaches the end."
+#~ msgstr ""
+#~ "Detta kommer automatiskt att publicera din webbplats när nedräkningen "
+#~ "nått sitt slut."
+
+#~ msgid "Language Strings"
+#~ msgstr "Språksträngar"
+
+#~ msgid "Translate the text strings below into your language if not English."
+#~ msgstr "Översätt textsträngarna nedan till ditt språk, om ej Engelska."
+
+#~ msgid "Days"
+#~ msgstr "Dagar"
+
+#~ msgid "Translate into your language."
+#~ msgstr "Översätt till ditt språk."
+
+#~ msgid "Hours"
+#~ msgstr "Timmar"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuter"
+
+#~ msgid "Seconds"
+#~ msgstr "Sekunder"
+
+#~ msgid ""
+#~ "If left empty the <a href=\"http://www.seomoz.org/learn-seo/title-tag\" "
+#~ "target=\"_blank\">title tag</a> of your page will be: "
+#~ msgstr ""
+#~ "Om detta lämnas tomt så kommer <a href=\"http://www.seomoz.org/learn-seo/"
+#~ "title-tag\" target=\"_blank\">titeltaggen</a> på din sida att bli: "
+
+#~ msgid ""
+#~ "If left empty the <a href=\"http://www.seomoz.org/learn-seo/meta-"
+#~ "description\" target=\"_blank\">meta description</a> of your page will "
+#~ "be: "
+#~ msgstr ""
+#~ "Om detta lämnas tomt så kommer <a href=\"http://www.seomoz.org/learn-seo/"
+#~ "meta-description\" target=\"_blank\">metabeskrivningen</a> av din sida "
+#~ "att bli: "
+
+#~ msgid ""
+#~ "Paste in your <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+#~ "\">Google Analytics</a> code. Example: UA-xxxxxxxxx"
+#~ msgstr ""
+#~ "Klistra in i din <a href=\"http://www.google.com/analytics/\" target="
+#~ "\"_blank\">Google Analytics</a>-kod. Exempel: UA-xxxxxxxxx"
+
+#~ msgid "Footer Credit"
+#~ msgstr "Sidfotserkännanden"
+
+#~ msgid "Credit Image"
+#~ msgstr "Bild för Erkännanden"
+
+#~ msgid "Use an image to add a footer credit."
+#~ msgstr "Använd en bild för att lägga till sidfotserkännanden."
+
+#~ msgid "Link to be used for your footer credit."
+#~ msgstr "Länk att använda för dina sidfotserkännanden."
+
+#~ msgid "Credit Link"
+#~ msgstr "Länk till Erkännanden"
+
+#~ msgid "Social Media Profiles"
+#~ msgstr " Sociala Medie-profiler"
+
+#~ msgid "Social Media Icons Size"
+#~ msgstr "Sociala Medie-ikoner"
+
+#~ msgid "Small 16px"
+#~ msgstr "Liten 16px"
+
+#~ msgid "Medium 24px"
+#~ msgstr "Mellan 24px"
+
+#~ msgid "Large 32px"
+#~ msgstr "Stor 32px"
+
+#~ msgid "Social Profiles"
+#~ msgstr "Sociala Profiler"
+
+#~ msgid "Subscribe Button"
+#~ msgstr "Prenumerera-knapp"
+
+#~ msgid "Notify Me"
+#~ msgstr "Notifiera Mig"
+
+#~ msgid "Subscribe Field"
+#~ msgstr "Prenumerera-fält"
+
+#~ msgid "Enter Your Email"
+#~ msgstr "Ange din e-post"
+
+#~ msgid "First Name Field"
+#~ msgstr "Förnamnsfält"
+
+#~ msgid "First Name"
+#~ msgstr "Förnamn"
+
+#~ msgid "Last Name Field"
+#~ msgstr "Efternamnsfält"
+
+#~ msgid "Last Name"
+#~ msgstr "Efternamn"
+
+#~ msgid "Success"
+#~ msgstr "Lyckades"
+
+#~ msgid "You'll be notified soon!"
+#~ msgstr "Du blir snart notifierad!"
+
+#~ msgid "Already Subscribed"
+#~ msgstr "Redan Prenumerant"
+
+#~ msgid "You're already subscribed."
+#~ msgstr "Du prenumererar redan."
+
+#~ msgid "Invalid Email"
+#~ msgstr "Ogiltig E-post"
+
+#~ msgid "API Error"
+#~ msgstr "API-fel"
+
+#~ msgid "Error, please try again."
+#~ msgstr "Fel, var god försök igen."
+
+#~ msgid "Display WPML Language Switcher"
+#~ msgstr "Visa WPML Språkväxlare"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid ""
+#~ "This will display the WPML Language Switcher on the Coming Soon page."
+#~ msgstr "Detta visar WPML-språkväxlaren på Kommer Snart-sidan."
+
+#~ msgid "Cover or Stretch"
+#~ msgstr "Täckande eller Utsträckt"
+
+#~ msgid ""
+#~ "Cover will scale the image to the smallest size such that both its width "
+#~ "and its height can fit inside the content area. The image will be "
+#~ "stretched for older browsers."
+#~ msgstr ""
+#~ "Alternativet Täckande kommer att skala blden till minsta möjliga storlek "
+#~ "där både bredd och höjd ryms i innehållsområdet. I äldre webbläsare "
+#~ "kommer bilden istället att sträckas ut."
+
+#~ msgid "Background Effects"
+#~ msgstr "Bakgrundseffekter"
+
+#~ msgid "None"
+#~ msgstr "Inget"
+
+#~ msgid "Noise"
+#~ msgstr "Brus"
+
+#~ msgid ""
+#~ "Background effects can be applied to Background Colors or Background "
+#~ "Images."
+#~ msgstr ""
+#~ "Bakgrundseffekter är tillämpliga på Bakgrundsfärger samt Bakgrundsbilder."
+
+#~ msgid "Background Slideshow"
+#~ msgstr "Bakgrundsbildspel"
+
+#~ msgid ""
+#~ "This will override the setting above and create a background slideshow."
+#~ msgstr ""
+#~ "Detta åsidosätter inställningen ovan och skapar ett bakgrundsbildspel."
+
+#~ msgid "Slideshow Randomize"
+#~ msgstr "Slumpa Bildspel"
+
+#~ msgid ""
+#~ "This will display a random slideshow each time as opposed to the order "
+#~ "listed below."
+#~ msgstr ""
+#~ "Detta visar ett slumpmässigt bildspel varje gång, i motsats till den "
+#~ "ordning som listas nedan."
+
+#~ msgid "Slide Speed"
+#~ msgstr "Glidningshastighet"
+
+#~ msgid "This will determine how fast slides change in milliseconds."
+#~ msgstr ""
+#~ "Detta bestämmer hur snabbt bilder skall bytas i bildspelet, i "
+#~ "millisekunder."
+
+#~ msgid "Slide Transition"
+#~ msgstr "Glidningsövergång"
+
+#~ msgid "This will determine the transition between slides."
+#~ msgstr "Detta anger övergång mellan bilder i bildspelet."
+
+#~ msgid "Fade"
+#~ msgstr "Tona"
+
+#~ msgid "Slide Top"
+#~ msgstr "Glidning Upp"
+
+#~ msgid "Slide Right"
+#~ msgstr "Glidning Höger"
+
+#~ msgid "Slide Bottom"
+#~ msgstr "Glidning Ned"
+
+#~ msgid "Slide Left"
+#~ msgstr "Glidning Vänster"
+
+#~ msgid "Carousel Right"
+#~ msgstr "Karusell Höger"
+
+#~ msgid "Carousel Left"
+#~ msgstr "Karusell Vänster"
+
+#~ msgid "Slideshow Images"
+#~ msgstr "Bildspelsbilder"
+
+#~ msgid ""
+#~ "Paste in the urls to the images you like to use for your slideshow one "
+#~ "per line. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-"
+#~ "create-a-background-slideshow\" target=\"_blank\">Learn How</a>"
+#~ msgstr ""
+#~ "Klistra in URL:er till de bilder du vill använda i ditt bildspel, en per "
+#~ "rad. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-"
+#~ "create-a-background-slideshow\" target=\"_blank\">Visa Hur</a>"
+
+#~ msgid "Background Video (Beta)"
+#~ msgstr "Bakgrundsvideo (Beta)"
+
+#~ msgid "This will override the setting above and create a background video."
+#~ msgstr ""
+#~ "Detta kommer att åsidosätta inställningarna ovan och skapa en "
+#~ "bakgrundsvideo."
+
+#~ msgid "Background Video URL"
+#~ msgstr "Bakgrundsvideo-URL"
+
+#~ msgid "Enter the YouTube or Vimeo url."
+#~ msgstr "Ange YouTube- eller Vimeo-URL:en."
+
+#~ msgid "Link &amp; Button Color"
+#~ msgstr "Länk- &amp; knappfärg"
+
+#~ msgid ""
+#~ "If no Headline Color is choosen then the Link &amp; Button Color will be "
+#~ "used. "
+#~ msgstr ""
+#~ "Om ingen Rubrikfärg väljs så kommer Länk- &amp; Knappfärgen att användas."
+
+#~ msgid "Headline Font"
+#~ msgstr "Rubriktypsnitt"
+
+#~ msgid ""
+#~ "If you choose 'Inherit' as a headline font then the text font will be "
+#~ "used."
+#~ msgstr ""
+#~ "Om du väljer 'Inherit' som rubriktypsnitt så kommer texttypsnittet att "
+#~ "användas."
+
+#~ msgid "Button Font"
+#~ msgstr "Knapptypsnitt"
+
+#~ msgid ""
+#~ "If you choose 'Inherit' as a button font then the headline font will be "
+#~ "used."
+#~ msgstr ""
+#~ "Om du väljer 'Inherit' som knapptypsnitt så kommer rubriktypsnittet att "
+#~ "användas."
+
+#~ msgid "Typekit Kit ID"
+#~ msgstr "Typekit Kit-ID"
+
+#~ msgid ""
+#~ "Enter your <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> "
+#~ "Kit ID. This will override the fonts above."
+#~ msgstr ""
+#~ "Ange ditt <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> "
+#~ "Kit-ID. Detta kommer att åsidosätta typsnitten ovan."
+
+#~ msgid "Text Effects"
+#~ msgstr "Texteffekter"
+
+#~ msgid ""
+#~ "Inset <small class=\"description\">: Adds a subtle inset shadow</small>"
+#~ msgstr ""
+#~ "Infällning <small class=\"description\">: Lägger till en subtil skugga "
+#~ "för infällning</small>"
+
+#~ msgid "Container"
+#~ msgstr "Behållare"
+
+#~ msgid "Enable Container"
+#~ msgstr "Aktivera Behållare"
+
+#~ msgid ""
+#~ "A container is a wrapper that will encapsulate your coming soon content."
+#~ msgstr ""
+#~ "En behållare är ett omslutande element för ditt Kommer Snart-innehåll."
+
+#~ msgid "Container Color"
+#~ msgstr "Behållarfärg"
+
+#~ msgid "Container Position"
+#~ msgstr "Behållarposition"
+
+#~ msgid "Left"
+#~ msgstr "Vänster"
+
+#~ msgid "Center"
+#~ msgstr "Centrera"
+
+#~ msgid "Right"
+#~ msgstr "Höger"
+
+#~ msgid "Container Effects"
+#~ msgstr "Behållareffekter"
+
+#~ msgid "Fade In"
+#~ msgstr "Tona In"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Skugga"
+
+#~ msgid "Glow"
+#~ msgstr "Glödande Kontur"
+
+#~ msgid "Border"
+#~ msgstr "Kant"
+
+#~ msgid "Rounded Corners"
+#~ msgstr "Rundade Hörn"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacitet"
+
+#~ msgid ""
+#~ "These effects only work in modern browsers. Not sure what a <a target="
+#~ "\"_blank\" href=\"http://browsehappy.com/\">modern browser</a> is?"
+#~ msgstr ""
+#~ "Dessa effekter fungerar bara i moderna webbläsare. Osäker på vad en <a "
+#~ "target=\"_blank\" href=\"http://browsehappy.com/\">modern webbläsare</a> "
+#~ "är?"
+
+#~ msgid "Code"
+#~ msgstr "Kod"
+
+#~ msgid ""
+#~ "If you need to make some advanced changes to the template you can edit "
+#~ "the code above directly."
+#~ msgstr ""
+#~ "Om du behöver göra några avancerade ändringar i mallen så kan du redigera "
+#~ "kodeon ovan direkt."
+
+#~ msgid "Template Tags"
+#~ msgstr "Malltaggar"
+
+#~ msgid ""
+#~ "\n"
+#~ "            <code>{Title}</code> - Display your title. Settings > Coming "
+#~ "Soon Pro Settings > Header > SEO Title <br>\n"
+#~ "            <code>{MetaDescription}</code> - Displays your description "
+#~ "along with the proper meta tags. Settings > Coming Soon Pro > Settings > "
+#~ "Header > SEO Meta Description <br>\n"
+#~ "            <code>{Privacy}</code> - Displays noindex tag if set to "
+#~ "private. Settings > Privacy <br>\n"
+#~ "            <code>{Favicon}</code> - Displays favicon tag. Settings > "
+#~ "Coming Soon Pro > Settings > Header > Favicon <br>\n"
+#~ "            <code>{Head}</code> - Required in the <head> Displays custom "
+#~ "scripts for the page. Settings > Coming Soon Pro > Advanced > "
+#~ "Scripts<br>\n"
+#~ "            <code>{Custom CSS}</code> - Displays custom css page. "
+#~ "Settings > Coming Soon Pro > Design > Template > Custom CSS<br>\n"
+#~ "            <code>{Logo}</code> - Displays your logo if set. Settings > "
+#~ "Coming Soon Pro > Settings > Page Settings > Logo<br>\n"
+#~ "            <code>{Headline}</code> - Displays your headline if set. "
+#~ "Settings > Coming Soon Pro > Settings > Page Settings > Headline<br>\n"
+#~ "            <code>{Description}</code> - Displays your description if "
+#~ "set. Settings > Coming Soon Pro > Settings > Page Settings > "
+#~ "Description<br>\n"
+#~ "            <code>{ProgressBar}</code> - Displays a progress bar if "
+#~ "enabled. Settings > Coming Soon Pro > Settings > Progress Bar "
+#~ "Settings<br>\n"
+#~ "            <code>{Countdown}</code> - Displays a countdown if enabled. "
+#~ "Settings > Coming Soon Pro > Settings > Countdown Settings<br>\n"
+#~ "            <code>{Form}</code> - Displays signup form and thank you "
+#~ "page. Settings > Coming Soon Pro > Settings<br>\n"
+#~ "            <code>{SocialProfiles}</code> - Displays your social profiles "
+#~ "if set. Settings > Coming Soon Pro > Settings > Social Media "
+#~ "Profiles<br>\n"
+#~ "            <code>{Credit}</code> - Displays your footer credit if set. "
+#~ "Settings > Coming Soon Pro > Settings > Footer Credit<br>\n"
+#~ "            <code>{Footer}</code> - Displays required scripts for the "
+#~ "page.<br>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "            <code>{Title}</code> - Visa din titel. Inställningar > Coming "
+#~ "Soon Pro-inställningar > Sidhuvud > SEO-titel <br>\n"
+#~ "            <code>{MetaDescription}</code> - Visar din beskrivning "
+#~ "tillsammans med de giltiga metataggarna. Inställningar > Coming Soon Pro "
+#~ "> Inställningar > Sidhuvud > SEO-metabeskrivning <br>\n"
+#~ "            <code>{Privacy}</code> - Visar noindex-taggen, om satt som "
+#~ "privat. Inställningar > Personlig Integritet <br>\n"
+#~ "            <code>{Favicon}</code> - Displays taggen för webbplatsikon. "
+#~ "Settings > Coming Soon Pro > Settings > Header > Webbplatsikon <br>\n"
+#~ "            <code>{Head}</code> - Krävs i <head>. Visar anpassade skript "
+#~ "på sidan. Inställningar > Coming Soon Pro > Avancerat > Skript<br>\n"
+#~ "            <code>{Custom CSS}</code> - Visar sidan för anpassad CSS. "
+#~ "Inställningar > Coming Soon Pro > Design > Mall > Anpassad CSS<br>\n"
+#~ "            <code>{Logo}</code> - Visar din logotyp, om angiven. "
+#~ "Inställningar > Coming Soon Pro > Inställningar > Sidinställningar > "
+#~ "Logotyp<br>\n"
+#~ "            <code>{Headline}</code> - Visar din rubrik, om angiven. "
+#~ "Inställningar > Coming Soon Pro > Inställningar > Sidinställningar > "
+#~ "Rubrik<br>\n"
+#~ "            <code>{Description}</code> - Visar din beskrivning, om "
+#~ "angiven. Inställningar > Coming Soon Pro > Inställningar > "
+#~ "Sidinställningar > Beskrivning<br>\n"
+#~ "            <code>{ProgressBar}</code> - Visar en förloppsindikator, om "
+#~ "aktiverad. Inställningar > Coming Soon Pro > Inställningar > "
+#~ "Förloppsindikatorinställningar<br>\n"
+#~ "            <code>{Countdown}</code> - Visar en nedräkningsindikator, om "
+#~ "aktiverad. Inställningar > Coming Soon Pro > Inställningar > "
+#~ "Nedräkningsinställningar<br>\n"
+#~ "            <code>{Form}</code> - Visar registreringsformulär och "
+#~ "tacksida. Inställningar > Coming Soon Pro > Inställningar<br>\n"
+#~ "            <code>{SocialProfiles}</code> - Visar dina sociala profiler, "
+#~ "om angivna. Inställningar > Coming Soon Pro > Inställningar > Sociala "
+#~ "Media-profiler<br>\n"
+#~ "            <code>{Credit}</code> - Visar din sidfot, om angiven. "
+#~ "Inställningar > Coming Soon Pro > Inställningar > Sidfotserkännanden<br>\n"
+#~ "            <code>{Footer}</code> - Visar skript som krävs på sidan.<br>\n"
+#~ "            "
+
+#~ msgid "Access"
+#~ msgstr "Tillträde"
+
+#~ msgid "Client View URL"
+#~ msgstr "Klientvisnings-URL"
+
+#~ msgid ""
+#~ "Enter a phrase above and give your client a secret url that will allow "
+#~ "them to bypass the Coming Soon page. The cookie life is 6 hours. After "
+#~ "the cookie expires they will need to revisit the client view url to "
+#~ "regain access."
+#~ msgstr ""
+#~ "Ange en fras ovan och ge din(a) klient(er) en hemlig URL som tillåter "
+#~ "passage förbi Kommer Snart-sidan. Kakans livstid är 6 timmar. Efter att "
+#~ "kakans livstid gått ut så måste Klientvy-URL:en åter besökas för förnyat "
+#~ "tillträde."
+
+#~ msgid "Access by IP"
+#~ msgstr "IP-tillträde"
+
+#~ msgid ""
+#~ "All visitors from certain IP's to bypass the Coming Soon page. Put each "
+#~ "IP on it's own line."
+#~ msgstr ""
+#~ "Alla besökare från dessa IP-adresser åsidosätter Kommer Snart-sidan. "
+#~ "Placera varje IP-adress på en egen rad."
+
+#~ msgid "Access by Role"
+#~ msgstr "Rolltillträde"
+
+#~ msgid ""
+#~ "By default anyone logged in will see the regular site and not the coming "
+#~ "soon page. To override this select Roles that will be given access to see "
+#~ "the regular site."
+#~ msgstr ""
+#~ "Som standard kommer alla som är inloggade att se den vanliga webbplatsen "
+#~ "och inte Kommer Snart-sidan. För att åsidosätta detta, välj Roller som "
+#~ "skall ges tillträde till den vanliga webbplatsen."
+
+#~ msgid "Landing Page Mode"
+#~ msgstr "Landningssidläge"
+
+#~ msgid ""
+#~ "Only display the coming soon page on one page of your site and use it as "
+#~ "a landing page. Leave unselected if you want the coming soon page to be "
+#~ "display on your entire site."
+#~ msgstr ""
+#~ "Visa endast Kommer Snart-sidan på en sida på din webbplats och använd den "
+#~ "som landningssida. Låt detta vara ej valt om du vill att Kommer Snart-"
+#~ "sidan skall visas över hela webbplatsen."
+
+#~ msgid "Include URL Pattern"
+#~ msgstr "Inkludera URL-mönster"
+
+#~ msgid ""
+#~ "Include certain urls to only diplay the coming soon page on a section of "
+#~ "your site using <a href=\"http://en.wikipedia.org/wiki/Regex\" target="
+#~ "\"_blank\">regular expressions</a>. For example enter \"blog\" will "
+#~ "include pages with the url: http://example.org/blog/*. <a href=\"https://"
+#~ "seedprod.zendesk.com/entries/23050096-exclude-and-include-urls-pattern-"
+#~ "examples\" target=\"_blank\">See more examples</a> and learn how to "
+#~ "include multiple pages. This is useful if you are working on a new "
+#~ "section of your site."
+#~ msgstr ""
+#~ "Inkludera angivna URL:er för att endast visa Kommer Snart-sidan på en del "
+#~ "av din webbplats med hjälp av <a href=\"http://en.wikipedia.org/wiki/Regex"
+#~ "\" target=\"_blank\">reguljära uttryck (RegEx)</a>. Att exempelvis ange "
+#~ "\"blogg\" kommer att inkludera sidor med URL:en: http://example.org/blogg/"
+#~ "*. <a href=\"https://seedprod.zendesk.com/entries/23050096-exclude-and-"
+#~ "include-urls-pattern-examples\" target=\"_blank\">Studera fler exempel</"
+#~ "a> och lär dig hur man inkluderar flera sidor samtidigt. Detta är "
+#~ "användbart om du arbetar på en ny sektion av din webbplats."
+
+#~ msgid "Exclude URL Pattern"
+#~ msgstr "Exkludera URL-mönster"
+
+#~ msgid ""
+#~ "Exclude certain urls from displaying the Coming Soon page using <a href="
+#~ "\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">regular "
+#~ "expressions</a>. For example enter \"blog\" will exclude the url: http://"
+#~ "example.org/blog/. <a href=\"https://seedprod.zendesk.com/"
+#~ "entries/23050096-exclude-and-include-urls-pattern-examples\" target="
+#~ "\"_blank\">See more examples</a> and learn how to exclue multiple pages. "
+#~ "This is useful if a section of you site is ready to be viewed or you have "
+#~ "a login page on the frontend."
+#~ msgstr ""
+#~ "Exkludera angivna URL:er från att visa Kommer Snart-sidan med hjälp av <a "
+#~ "href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">reguljära "
+#~ "uttryck (RegEx)</a>. Att exempelvis ange \"blogg\" kommer att exkludera "
+#~ "URL:en: http://example.org/blogg/*. <a href=\"https://seedprod.zendesk."
+#~ "com/entries/23050096-exclude-and-include-urls-pattern-examples\" target="
+#~ "\"_blank\">Studera fler exempel</a> och lär dig hur man exkluderar flera "
+#~ "sidor samtidigt. Detta är användbart om en viss del av din webbplats är "
+#~ "redo för besökare, eller om du har en publik inloggningssida."
+
+#~ msgid "Enable Responsiveness"
+#~ msgstr "Aktivera Responsivitet"
+
+#~ msgid "Makes the page responsive."
+#~ msgstr "Gör sidan responsiv."
+
+#~ msgid "Enable FitVid"
+#~ msgstr "Aktivera FitVid"
+
+#~ msgid "Makes your videos responsive."
+#~ msgstr "Gör dina videor responsiva."
+
+#~ msgid "Enable wp_head &amp; wp_footer"
+#~ msgstr "Aktivera wp_head &amp; wp_footer"
+
+#~ msgid ""
+#~ "The <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/"
+#~ "wp_head\" target=\"_blank\">wp_head</a> and <a href=\"http://codex."
+#~ "wordpress.org/Plugin_API/Action_Reference/wp_footer\" target=\"_blank"
+#~ "\">wp_footer</a> functions are required by some plugins. If you are "
+#~ "unsure do not enable it. These functions can cause styling issues with "
+#~ "the page."
+#~ msgstr ""
+#~ "Funktionerna <a href=\"http://codex.wordpress.org/Plugin_API/"
+#~ "Action_Reference/wp_head\" target=\"_blank\">wp_head</a> och <a href="
+#~ "\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer\" "
+#~ "target=\"_blank\">wp_footer</a> krävs av vissa tillägg. Om du är osäker "
+#~ "så aktivera inte detta. Dessa funktioner kan orsaka problem med sidans "
+#~ "stil."
+
+#~ msgid "Conversion Scripts"
+#~ msgstr "Konverteringsskript"
+
+#~ msgid ""
+#~ "This will render only after the form has been submitted. This will be "
+#~ "rendered before the closing body tag."
+#~ msgstr ""
+#~ "Detta renderas endast efter att formuläret har skickats. Det renderas "
+#~ "innan stängningstaggen för body."
+
+#~ msgid "Disable Custom Code Template"
+#~ msgstr "Deaktivera Mall för Anpassad Kod"
+
+#~ msgid ""
+#~ "Mod_security will cause false positive 400 error on some host. Disable "
+#~ "the custom template to avoid this error and notify your host of the false "
+#~ "positive."
+#~ msgstr ""
+#~ "Mod_security orsakar falskt positiva 400-fel på vissa webbhotell. "
+#~ "Deaktivera den anpassade mallen för att undvika detta fel och meddela "
+#~ "ditt webbhotell om de falskt positiva felen."
+
+#~ msgid "Import / Export"
+#~ msgstr "Importera / Exportera"
+
+#~ msgid "Import"
+#~ msgstr "Importera"
+
+#~ msgid "Paste settings from another Coming Soon Pro instance to import."
+#~ msgstr ""
+#~ "Klistra in inställningar från en annan installation av Coming Soon Pro."
+
+#~ msgid "Export"
+#~ msgstr "Exportera"
+
+#~ msgid ""
+#~ "Copy these settings and use the import them to another Coming Soon Pro "
+#~ "instance."
+#~ msgstr ""
+#~ "Kopiera dessa inställningar för import i en annan Coming Soon Pro-"
+#~ "installation."
+
+#~ msgid "Your Referral URL is:"
+#~ msgstr "Din Hänvisnings-URL är:"
+
+#~ msgid "Your Referral Stats"
+#~ msgstr "Din Hänvisningsstatistik"

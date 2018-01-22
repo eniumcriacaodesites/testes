@@ -1,0 +1,24 @@
+.huge_it_google_map_container:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.huge_it_google_map_container a,
+.huge_it_google_map_container div {
+    outline: 0;
+}
+
+.huge_it_google_map_container > div {
+    perspective: 1px;
+}
+
+
+.huge_it_google_map div:not(.gm-svpc) img {
+    max-width: none !important;
+    /*visibility: visible !important;*/
+}
+
+.huge_it_google_map.hide {
+    display: none;
+}

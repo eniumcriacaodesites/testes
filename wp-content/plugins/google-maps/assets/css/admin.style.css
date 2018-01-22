@@ -1,0 +1,1192 @@
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.table {
+    display: table;
+}
+
+.clear {
+    clear: both
+}
+
+.pro_desc {
+    display: block;
+    color: #a00;
+    line-height: 1.5;
+}
+
+.hg_gmaps_pro_icon {
+    background: url(../images/pro01.png) 0% center no-repeat;
+    width: 22px;
+    height: 9px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.hg_gmaps_white {
+    background-color: #fff !important;
+}
+
+.editing_heading .heading_icon {
+    display:inline-block;
+    width:35px;
+}
+
+.editing_heading .heading_icon img {
+    width:20px;
+    vertical-align: middle;
+}
+
+.editing_heading .help {
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 7px 30px 0 20px;
+    line-height: 20px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    text-indent: 7px;
+}
+
+.editing_heading .help .help-block {
+    position: absolute;
+    min-width: 250px;
+    padding: 5px;
+    top: 30px;
+    right: -50px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    display: none;
+    font-size: 12px;
+    text-align: justify;
+    z-index: 10000;
+}
+
+.editing_heading .help .help-block .pnt {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    top: -10px;
+    right: 55px;
+    margin-left: -5px;
+    background: url(../images/triangle.gif) left top no-repeat;
+}
+
+.help-block p {
+    margin: 0;
+    padding: 0;
+    text-indent: 0
+}
+
+.help .active {
+    display: block !important;
+}
+
+.slider-options-head {
+    display: block;
+    height: 55px;
+}
+
+.table_heading {
+    margin-top: 82px;
+}
+
+#g_maps .g_map {
+    width: 50%;
+    height: 500px;
+    background-color: #CCC;
+    margin-top: 10px;
+    perspective: 1px;
+
+}
+
+.pac-container { z-index: 10000 !important; }
+
+#g_map_canvas{
+    float: left;
+}
+#panel {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+#adminform {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#adminform .map_heading {
+    display: block;
+}
+
+#adminform .map_heading ul {
+    display: table;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#adminform .map_heading ul li {
+    display: block;
+    float: left;
+    height: 27px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+    padding: 0 0 0 0 !important;
+    border: 1px solid #ccc;
+}
+
+#adminform .map_heading ul li:not(.active) {
+    margin-bottom: -1px;
+}
+
+#adminform .map_heading ul li a, #adminform .map_heading ul li a:link, #adminform .map_heading ul li a:visited {
+    display: block;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    padding: 5px 10px 5px 10px;
+    color: #777;
+    background: #f1f1f1;
+    outline: none;
+}
+
+#adminform .map_heading ul .active {
+    padding-right: 16px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.edit_list_delete a {
+    background:  url(../images/edit-icon.png) center center no-repeat !important;
+}
+
+#adminform .map_heading ul .active input {
+    width: 152px;
+    margin: 2px 0 0 0;
+    padding-right: 20px;
+    font-size: 14px;
+    box-shadow: none;
+    border: 0;
+    background: url(../images/edit-icon.png) right center no-repeat #fff !important;
+}
+
+#markers_edit_exist_section {
+    text-align: left;
+}
+
+.edit_list_delete_submit {
+    float: right;
+}
+
+.admin_edit_section_container {
+    float: left;
+    display: block;
+    width: calc(100% - 2pc);
+    width: -webkit-calc(100% - 2px);
+    width: -moz-calc(100% - 2px);
+    border-left: 1px solid #ccc;
+    background: #fff;
+}
+
+.admin_edit_section {
+    width: 42%;
+    float: left;
+    margin-bottom: 60px;
+    background: #fff;
+}
+
+.map_body {
+    display: inline-block;
+    width: 100%;
+    background: -webkit-linear-gradient(#fff, #f9f9f9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #f9f9f9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #f9f9f9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #f9f9f9);
+}
+
+#marker_submit {
+    margin: 30px 10px 10px 0;
+    width: 30% !important;
+}
+
+#upload_marker_pic, #upload_edit_marker_pic {
+    width: 24%;
+    margin-top: 5px;
+}
+
+.radio {
+    width: 16px !important;
+    margin-top: 10px !important;
+}
+
+.radio_label {
+    margin-left: 10px !important;
+    width: 29px !important;
+}
+
+.insert_success {
+    height: 38px;
+    margin: 5px 0 15px 0;
+    padding: 1px 12px;
+    line-height: 38px;
+    background: #fff;
+    border-left: 4px solid #7ad03a;
+}
+
+#submit_admin_edit {
+    margin-top: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px 2px 12px;
+    background: #2ea2cc;
+    border-color: #0074a2;
+    color: #fff;
+    box-shadow: inset 0 1px 0 rgba(120, 200, 230, .5), 0 1px 0 rgba(0, 0, 0, .15);
+    border-radius: 3px;
+}
+
+.editing_heading {
+    position: relative;
+    width: 93%;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px 5px 0 5px;
+    background: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    cursor: pointer;
+    text-indent: 5px;
+    font-weight: 600
+}
+
+.editing_heading:hover {
+    border: 1px solid #999
+}
+
+#map_submit, #marker_edit_submmit, #marker_submit {
+    width: 77px !important;
+    float: right;
+    margin: 26px 10px 10px 10px;
+}
+
+#polygone_edit_submit,
+#polygone_submit,
+#polyline_submit,
+#polyline_edit_submit,
+#circle_edit_submit,
+#circle_submit,
+#submit_layers,
+#styling_submit,
+#styling_set_default,
+#direction_submit,
+#direction_edit_submit {
+    margin: 26px 10px 10px 10px;
+    float: right;
+    width: 77px;
+}
+
+.editing_section {
+    width: 100%;
+    float: left;
+}
+
+.edit_content {
+    position: relative;
+    float: left;
+    margin: 0 0 0 5px;
+    width: 93%;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    text-indent: 5px;
+
+}
+
+.heading_arrow {
+    display: block;
+    color: #aaa;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    top: 0;
+    bottom: 0;
+    text-decoration: none !important;
+}
+
+.heading_arrow:before {
+    content:'';
+    position: absolute;
+    display:block;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #aaa;
+    transform: translateY(-50%);
+
+}
+
+.active_option_tab .heading_arrow:before {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #aaa;
+    border-top: 0;
+}
+
+.map_options form > ul, .edit_content form .hidden_edit_content > ul, .update_list_item > ul {
+    width: 100%;
+    float: left;
+}
+
+.map_options form > ul > li,
+.edit_content form .hidden_edit_content > ul > li,
+.update_list_item > ul > li {
+    display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+    line-height: 35px;
+}
+
+.map_options form > ul > li:nth-child(odd),
+.edit_content form .hidden_edit_content > ul > li:nth-child(odd),
+.update_list_item > ul > li:nth-child(odd),
+.admin_edit_section_container .edit_list:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.map_options form > ul > li > label, .edit_content form .hidden_edit_content > ul > li > label, .update_list_item > ul > li > label {
+    position: relative;
+    float: left;
+    line-height: 35px;
+    margin-left: 3px;
+    width: 43%;
+    font-size: 12px;
+}
+
+.map_options form > ul > li > input, .edit_content form .hidden_edit_content > ul > li input, .update_list_item > ul > li > input {
+    float: left;
+    width: 55%;
+    margin: 5px 5px 5px 0;
+}
+
+.map_options form > ul > li > select, .edit_content form .hidden_edit_content > ul > li select, .update_list_item > ul > li > select {
+    float: left;
+    width: 55%;
+    padding: 0;
+    margin: 5px 5px 5px 0;
+}
+
+.map_options form > ul > li > input[type=checkbox], .edit_content form .hidden_edit_content > ul > li input[type=checkbox], .update_list_item > ul > li > input[type=checkbox] {
+    width: 18px;
+}
+
+.description {
+    float: left;
+    width: 55%;
+    height: 110px;
+    resize: none;
+    max-width: 60%;
+}
+
+.marker_image_choose {
+    position: relative;
+    float: left;
+    display: block;
+    margin: 5px 0 5px 0;
+    width: 87%;
+    height: 183px;
+
+}
+
+.slider-container {
+    display: block;
+    padding-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.description_container {
+    display: block;
+    position: relative;
+    width: 100% !important;
+}
+
+.marker_image_choose {
+    position: relative;
+    width: 100% !important;
+    height: 183px !important;
+}
+
+.marker_image_choose ul {
+    position: relative;
+    width: 100%;
+    height: 183px;
+    overflow-y: scroll;
+}
+
+.marker_image_choose ul .active {
+    border: 2px solid #5b9dd9;
+}
+
+.marker_image_choose ul li {
+    position: relative;
+    display: block;
+    float: left;
+    border: 2px solid transparent;
+    margin: 0 5px 5px 5px;
+    height: 48px;
+}
+
+.marker_image_choose input[type="radio"] {
+    position: absolute;
+    width: 48px !important;
+    height: 48px !important;
+    top: 0;
+    border-radius: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.image_block,
+.image_block img {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.marker_image_choose input[type="radio"]:checked {
+}
+
+.polycoords {
+    width: 55%;
+    resize: none;
+    height: 90px;
+
+}
+
+.g_maps {
+    display: none;
+}
+
+.edit_list_heading {
+    height: 35px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0 5px 0 5px;
+    margin: 8px 0 0 0;
+    line-height: 35px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.admin_edit_section_container .list_exist {
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+
+.admin_edit_section_container .add_button {
+    margin-top: 8px;
+    display: block;
+    font-weight: bold;
+}
+
+.admin_edit_section_container .edit_list {
+    display: block;
+    padding: 5px;
+    width: calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    line-height: 35px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.list_number {
+    display: inline-block;
+    width: 20%;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+.edit_list_item {
+    display: inline-block;
+    float: left;
+    width: 38%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit_list_delete {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    width: 28%;
+
+}
+
+.edit_list_delete a, .edit_list_delete a:link, .edit_list_delete a:visited {
+    width: 28px;
+    display: block;
+    float: right;
+}
+
+.edit_list_delete_form {
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
+}
+
+.map_database_actions_section {
+    position: relative;
+    float: none;
+    display: block;
+    width: calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    overflow: hidden;
+    padding: 5px;
+}
+
+.map_database_actions_section .copy_map {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.map_database_actions_section .copy_map .copy_map_button {
+
+}
+
+.shortcode_containers {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.shortcode_container {
+    float: left;
+    display: block;
+    width: 16%;
+    margin-right: 40px;
+}
+
+.shortcode_description {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.shortcode_heading {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.shortcode_view {
+    width: 90%;
+    margin-left: 5px;
+    height: 55px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+.shortcode_description,
+.shortcode_view {
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.left {
+    margin-top: 0 !important;
+    float: left !important;
+}
+
+.admin_edit_section_container .spinner {
+    margin:30px 6px 0;
+}
+
+.admin_edit_section_container .cancel {
+    float: right;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.extract_to_csv_button {
+    margin-left: 15px;
+}
+
+/** mui heading */
+
+.hg_mui_heading {
+    margin: 15px 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/** mui button */
+
+.hg_gmaps_apply_action .spinner {
+    float: initial;
+    margin-bottom: 13px;
+}
+
+.hg_gmaps_main_api_form .hg_gmaps_apply_action .spinner {
+    margin-bottom: -8px;
+}
+
+.hg_mui_btn {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0;
+    border-radius: 2px;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.hg_gmaps_main_api_form .hg_mui_btn {
+    margin-top: 24px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+.hg_mui_btn_raised_blue {
+    color: #fff !important;
+    background-color: #0994f0;
+}
+
+.hg_mui_btn.hg_mui_btn_raised_blue:hover {
+    background-color: #006bf0;
+}
+
+.hg_mui_btn_raised_green {
+    color: #fff !important;
+    background-color: rgb(26, 188, 156);
+}
+
+.hg_mui_btn.hg_mui_btn_raised_green:hover {
+    background-color: rgb(45, 153, 132);
+}
+
+/** mui text field */
+.hg_mui_text {
+    position: relative;
+    margin: 25px 0 15px 0;
+}
+
+.hg_mui_text {
+    position: relative;
+    line-height: 20px;
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    clear: both;
+    width: 500px;
+}
+
+.hg_gmaps_main_api_form .hg_mui_text {
+    display: inline-block;
+}
+
+.hg_gmaps_main_api_form .hg_gmaps_apply_action {
+    display: inline-block;
+}
+
+.hg_mui_label {
+    display: block;
+    float: left;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 54px;
+}
+
+.hg_mui_text .hg_mui_input_block {
+    width: 70%;
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+.hg_mui_text input {
+    outline: none;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.hg_mui_text input:focus {
+    box-shadow: none;
+}
+
+.hg_mui_text .control_title {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 42px;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.hg_mui_text .hg_mui_bar {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background: rgb(224, 224, 224);
+    width: 100%;
+    height: 1px;
+}
+
+.hg_mui_text .hg_mui_bar::before {
+    left: 50%;
+}
+
+.hg_mui_text .hg_mui_bar::before, .hg_mui_text .hg_mui_bar::after {
+    content: '';
+    position: absolute;
+    background: #00a0d2;
+    width: 0;
+    height: 2px;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.hg_mui_text .hg_mui_bar::after {
+    right: 50%;
+}
+
+.hg_mui_text input:focus ~ .control_title {
+    color: #9d9d9d;
+    transform: translate(25%, -85%) scale(0.75);
+}
+
+.hg_mui_text input:focus ~ .control_title {
+    color: #9d9d9d;
+    transform: translate(-12%, -85%) scale(0.75);
+}
+
+.hg_mui_text.hg_mui_help_icon input:focus ~ .control_title {
+    color: #9d9d9d;
+    transform: translate(25%, -85%) scale(0.75);
+}
+
+.hg_mui_text input:focus ~ .hg_mui_bar:before,
+.hg_mui_text input:focus ~ .hg_mui_bar:after {
+    width: 50%;
+}
+
+.hg_mui_text .hg_mui_bar:before {
+    left: 50%;
+}
+
+.hg_mui_text .hg_mui_bar:after {
+    right: 50%;
+}
+
+.hg_mui_text input:valid ~ .control_title {
+    color: #9d9d9d;
+    -webkit-transform: translate(-12%, -85%) scale(0.75);
+    transform: translate(-12%, -85%) scale(0.75);
+}
+
+.hg_mui_text.hg_mui_help_icon input:valid ~ .control_title {
+    color: #9d9d9d;
+    -webkit-transform: translate(25%, -85%) scale(0.75);
+    transform: translate(25%, -85%) scale(0.75);
+}
+
+.hg_gmaps_map_notice_wrapper {
+    margin: 10px;
+    z-index: 0;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.hg_gmaps_map_notice {
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    color: #bf1e2e;
+    font-family: Roboto, Arial, sans-serif;
+    -webkit-user-select: none;
+    font-size: 13px;
+    padding: 8px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -webkit-background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0 1px 4px -1px;
+    border-left-width: 0;
+    min-width: 40px;
+    max-width: 200px;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+}
+
+#g_maps {
+    position: relative;
+    transform: translateZ(0);
+    pointer-events: none;
+}
+
+#g_maps * {
+    pointer-events: initial;
+}
+
+.pro {
+    background: url(../images/pro.png) 39% center no-repeat;
+}
+.pro * {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1200px) {
+    .map_options form > ul > li > label, .edit_content form .hidden_edit_content > ul > li > label, .update_list_item > ul > li > label {
+        width: 100%;
+    }
+
+    .pro {
+        background-position: 50% 19% !important;
+    }
+
+    .slider-container {
+        width: 100% !important;
+    }
+
+    .map_options form > ul > li > input[type=checkbox], .edit_content form .hidden_edit_content > ul > li input[type=checkbox], .update_list_item > ul > li > input[type=checkbox] {
+        margin-left: 35px;
+    }
+}
+
+
+
+
+
+/*Free Banner*/
+.free_version_banner {
+    position:relative;
+    display:block;
+    background-image:url('../images/wp_banner_bg.jpg');
+    background-position:top left;
+    background-repeat:repeat;
+    overflow:hidden;
+}
+
+.free_version_banner .manual_icon {
+    position:absolute;
+    display:block;
+    top:15px;
+    left:15px;
+    width: 140px;
+}
+.free_version_banner .usermanual_text {
+    font-weight: bold !important;
+    display:block;
+    float:left;
+    width:300px;
+    margin-left:75px;
+    font-family:'Open Sans',sans-serif;
+    font-size:14px;
+    font-style:italic;
+    color:#ffffff;
+    line-height:10px;
+    margin-top: 0;
+    padding-top: 15px;
+    position: absolute;
+}
+
+.free_version_banner .usermanual_text a,
+.free_version_banner .usermanual_text a:link,
+.free_version_banner .usermanual_text a:visited {
+    display:inline-block;
+    font-family:'Open Sans',sans-serif;
+    font-size:17px;
+    font-weight:600;
+    font-style:italic;
+    color:#ffffff;
+    line-height:30.5px;
+    text-decoration:underline;
+}
+
+.free_version_banner .usermanual_text a:hover,
+.free_version_banner .usermanual_text a:focus,
+.free_version_banner .usermanual_text a:active {
+    text-decoration:underline;
+}
+
+.free_version_banner .get_full_version,
+.free_version_banner .get_full_version:link,
+.free_version_banner .get_full_version:visited {
+    padding-left: 60px;
+    padding-right: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: calc(50% - 167px);
+    height: 38px;
+    width: 290px;
+    border: 1px solid rgba(255,255,255,.6);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+    line-height: 43px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.free_version_banner .get_full_version:hover {
+    background:#ffffff;
+    color:#bf1e2e;
+    text-decoration:none;
+    outline:none;
+}
+
+.free_version_banner .get_full_version:focus,
+.free_version_banner .get_full_version:active {
+
+}
+
+.free_version_banner .get_full_version:before {
+    content:'';
+    display:block;
+    position:absolute;
+    width:33px;
+    height:23px;
+    left:25px;
+    top:9px;
+    background-image:url('../images/wp_shop.png');
+    background-position:0px 0px;
+    background-repeat: no-repeat;
+}
+
+.free_version_banner .get_full_version:hover:before {
+    background-position:0px -27px;
+}
+
+.free_version_banner .huge_it_logo {
+    float:right;
+    margin:15px 15px;
+}
+
+.free_version_banner .description_text {
+    padding:0 0 13px 0;
+    position:relative;
+    display:block;
+    text-align:center;
+    font-family:'Open Sans',sans-serif;
+    color:#fffefe;
+    line-height:inherit;
+    margin: 0 auto;
+    width: 52%;
+}
+.free_version_banner .description_text p{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+.free_version_banner .hg_free_banner_bottom a {
+    text-decoration: none;
+}
+.free_version_banner .hg_view_plugins_block {
+    float: left;
+    position: relative;
+}
+.free_version_banner .hg_social_link_buttons {
+    float: right;
+    width:170px;
+    height:36px;
+    background:#fff;
+    border-radius:30px;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.free_version_banner .hg_social_link_buttons a {
+    display: inline-block;
+    position:relative;
+    margin: 3px 3px;
+    width: 31px;
+    height: 30px;
+    background:url('../images/f.png') no-repeat;
+}
+
+.free_version_banner .hg_social_link_buttons a:after {
+    content: '';
+    display:block;
+    position:absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color .1s linear;
+}
+
+.free_version_banner .hg_social_link_buttons a:hover:after {
+    background-color: rgba( 255, 255, 255, .3 );
+}
+
+.free_version_banner .hg_social_link_buttons a.fb {
+    background-position: -80px 0;
+}
+
+.free_version_banner .hg_social_link_buttons a.twitter {
+    background-position: 0 0;
+}
+
+.free_version_banner .hg_social_link_buttons a.gplus {
+    background-position: -120px 0;
+}
+
+.free_version_banner .hg_social_link_buttons a.yt {
+    background-position: -40px 0;
+}
+
+@media screen and (max-width:1400px){
+    .hg_view_plugins_block {
+        white-space: pre-line;
+    }
+
+    .hg_view_plugins_block a {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+.hg_view_plugins_block a {
+    color: #fffefe;
+    display: inline-block;
+    margin-right: 27px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: none;
+}
+.hg_view_plugins_block a:nth-child(1) {
+    margin-left: 15px;
+}
+.hg_view_plugins_block a:hover {
+    text-decoration: underline;
+}
+.close_free_banner {
+    float: right;
+    color: #fff;
+    position: absolute;
+    right: 11px;
+    font-size: 30px;
+    top: 3px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    margin:-3px -3px 0;
+}
+.close_free_banner:hover {
+    color: #e7e3e3;
+}
+
+@media screen and (max-width: 1300px){
+    .free_version_banner .usermanual_text {
+        width: calc(100% - 210px);
+    }
+
+    .free_version_banner .get_full_version,
+    .free_version_banner .get_full_version:link,
+    .free_version_banner .get_full_version:visited {
+        top: 60px;
+    }
+
+    .free_version_banner .description_text {
+        margin-top: 40px;
+    }
+}
+
+/** free version styles */
+.marker_icon{
+    cursor: pointer;
+    opacity: 0.6;
+}
+/* Store locator Days */
+#g_map_locator_options .timepicker {
+    width: 80px!important;
+    font-size: 13px;
+    padding: 3px;
+    background: #fff;
+}
+#g_map_locator_options .ui-timepicker-list li {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+}
+
+#g_map_locator_options #store_days input {
+    float: none;
+}
+#g_map_locator_options #store_days {
+    font-family: "Open Sans",sans-serif;
+}
+#g_map_locator_options #store_days td {
+    padding:0px;
+}
+#g_map_locator_options .storeClosed {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+/* Store locator Days */

@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------
+    blog page layout CSS
+--------------------------------------------------------------*/
+
+.page-header {
+	background: #f6f6f6 none repeat scroll 0 0;
+	margin-bottom: 70px;
+	padding: 20px 0 10px;
+	text-align: center;
+	.entry-title {
+		color: #00a9e0;
+		font-size: 28px;
+		line-height: 30px;
+		font-weight: 700;
+		margin: 0;
+	}
+	.entry-sub-title {
+		font-weight: 600;
+		color: #3b3b3b;
+		font-size: 14px;
+		line-height: 30px;
+		margin: 5px 0;
+		span {
+			margin: 0 5px;
+			a {
+				color: #3b3b3b;
+				&:hover {
+					color: $color__link-hover;
+				}
+			}
+		}
+	}
+}
+
+.has-post-thumbnail .entry-thumbnail,
+.widget_featured_posts_block .entry-thumbnail {
+	position: relative;
+	margin: 0;
+	img {
+		width: 100%;
+	}
+	.posted-on {
+		background: #333 none repeat scroll 0 0;
+		left: 0;
+		padding: 10px 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 110px;
+		color: #ffffff;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		display: block;
+		@include transition(background 0.3s ease);
+		a {
+			color: #ffffff;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 24px;
+			text-transform: uppercase;
+			display: block;
+		}
+		&:hover {
+			background: #00a9e0 none repeat scroll 0 0;
+		}
+	}
+}
+
+.entry-title {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 10px 0 5px;
+	text-transform: uppercase;
+	a {
+		color: #454545;
+	}
+}
+
+.has-post-thumbnail .entry-title {
+	margin-top: 30px;
+}
+
+.entry-title a:hover,
+.entry-btn .btn:hover,
+.entry-meta a:hover {
+	color: #00a9e0;
+}
+
+.entry-meta {
+	span {
+		border-left: 2px solid #b5b5b5;
+		display: inline-block;
+		line-height: 15px;
+		margin: 10px 10px 10px 0;
+		padding-left: 10px;
+		a,
+		i {
+			color: #787878;
+			font-size: 11px;
+			font-weight: 600;
+		}
+		i {
+			margin-right: 5px;
+		}
+	}
+	span:first-child {
+		border-left: none;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+}
+
+article {
+	border-top: 1px solid #e4e4e4;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+article:first-child {
+	border-top: none;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.entry-btn .btn {
+	color: #7f7d7d;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+article .entry-content {
+	color: #7f7d7d;
+	margin-top: 22px;
+}
+
+.entry-thumbnail .posted-on {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	display: block;
+	position: static;
+	width: 100%;
+	text-align: left;
+	font-style: normal;
+	a {
+		color: #333;
+		font-weight: 600;
+		width: 100%;
+	}
+}
+
+.wp-pagenavi a:hover,
+.wp-pagenavi span.current {
+	background: #00a9e0 none repeat scroll 0 0;
+	border-color: #00a9e0;
+	color: #fff;
+	padding: 4px 10px;
+}
+
+.wp-pagenavi {
+	margin-left: 3%;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+	padding: 3px 10px;
+}
+
+.wp-pagenavi .pages {
+	color: #8c8c8c;
+}
+
+
+/*--------------------------------------------------------------
+    Archive Grid layout
+--------------------------------------------------------------*/
+
+.archive-grid .entry-thumbnail .posted-on {
+	padding: 0 20px;
+}
+
+.archive-grid #main {
+	margin-top: 30px;
+}
+
+.archive-grid #primary {
+	margin-left: -3%;
+	width: 74.5%;
+}
+
+.archive-grid .entry-thumbnail {
+	text-align: center;
+}
+
+.archive-grid article {
+	border: 1px solid #e1e1e1;
+	display: inline-block;
+	margin: 0 -4px 30px 3%;
+	vertical-align: top;
+	width: 47%;
+	margin-top: 0 !important;
+	padding: 0;
+}
+
+.archive-grid .entry-title {
+	margin: 30px 0 0;
+	padding: 0 20px;
+}
+
+.archive-grid .entry-title,
+.archive-grid .entry-content-text-wrapper {
+	padding: 0 20px 20px;
+}

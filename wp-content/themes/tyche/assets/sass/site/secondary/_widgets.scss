@@ -1,0 +1,636 @@
+.widget {
+  margin: 0 0 50px;
+
+  &.widget_tyche_products {
+    &.no-title {
+      margin-top: 75px;
+    }
+  }
+
+  &.widget_search {
+    form {
+      position: relative;
+    }
+    input {
+      height: 35px;
+      border-radius: 0;
+      padding-left: 10px;
+      padding-right: 50px;
+      width: 100%;
+      font-size: 15px;
+      font-family: $font__main;
+    }
+
+    .search-form::before {
+      position: absolute;
+      z-index: 0;
+      font-size: 18px;
+      right: 15px;
+      top: 2px;
+      content: '\f002';
+      color: $color__brand-primary;
+      display: block;
+      font-family: 'FontAwesome';
+    }
+
+    .search-submit {
+      width: 46px;
+      height: 35px;
+      background: transparent;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 5px;
+      border: none;
+      text-indent: -99999999999px;
+      text-align: center;
+    }
+  }
+
+  &.widget_categories, &.widget_recent_entries, &.widget_archive, &.widget_meta, &.widget_pages, &.widget_nav_menu {
+    ul {
+      li {
+        color: $color__brand-primary;
+        a {
+          color: $color__brand-primary;
+          &:hover {
+            color: $color__brand-primary-hover;
+          }
+        }
+      }
+    }
+  }
+
+  &.widget_tag_cloud {
+    a {
+      display: inline-block;
+      white-space: nowrap !important;
+      margin: 0 4px 9px 0;
+      padding: 8px;
+      border: 1px solid #e1e1e1;
+      border-radius: 0;
+      color: #777777;
+      transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+      font-size: 15px !important;
+      &:hover {
+        background-color: $color__brand-primary;
+        color: #ffffff;
+        border-color: $color__brand-primary;
+      }
+      &:visited {
+        color: #fff;
+      }
+    }
+  }
+
+  /* Review widgets */
+  ul {
+    &.product_list_widget {
+      li {
+        a {
+          &:hover,
+          &:active,
+          &:focus {
+            color: $color__brand-primary;
+          }
+        }
+        .star-rating {
+          display: block;
+          margin: 5px 0 5px 0;
+        }
+        .woocommerce-Price-amount.amount {
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: $color__title;
+        }
+      }
+    }
+  }
+
+  &.widget_product_search {
+    position: relative;
+    .search-field {
+      padding: 9px;
+      width: 100%;
+    }
+    input[type="submit"] {
+      display: inline-block;
+      margin-top: 15px;
+      background: $color__brand-primary;
+      color: #fff;
+      &:hover,
+      &:active,
+      &:focus {
+        background: $color__brand-primary-hover;
+      }
+    }
+  }
+
+  &.widget_calendar {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+    table {
+      border: 0;
+      border-collapse: separate;
+      border-spacing: 4px;
+    }
+    .widget-title {
+      display: none;
+    }
+    #wp-calendar {
+      font-size: 12px;
+      color: #717171;
+      margin-bottom: 0;
+      tfoot {
+        font-size: 0;
+      }
+      > caption {
+        background-color: $color__brand-primary;
+        color: #FFF;
+        min-height: 50px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 11px;
+        padding-top: 11px;
+        position: relative;
+        margin-bottom: 0;
+      }
+      thead {
+        color: $color__brand-primary;
+        > tr {
+          height: 50px;
+        }
+      }
+
+      th {
+        background: transparent;
+        border: none;
+        color: $color__text-main;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      td.pad {
+
+      }
+      td:not(.pad) {
+        background: #f1f1f1;
+        color: $color__text-main;
+        width: 44px;
+        height: 44px;
+      }
+      td, th {
+        text-align: center;
+        border: none;
+        padding: 0;
+        &#today {
+          background: $color__brand-primary;
+          color: #fff;
+          &:hover, &:focus {
+            text-decoration: none;
+            background: $color__brand-primary-hover;
+            a {
+              text-decoration: none;
+              background: $color__brand-primary-hover;
+            }
+          }
+        }
+        a {
+          color: #fff;
+          text-decoration: none;
+          background: $color__brand-primary;
+          display: block;
+          line-height: 44px;
+          &:hover, &:focus {
+            text-decoration: none;
+            background: $color__brand-primary-hover;
+          }
+        }
+      }
+      #prev {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 35px;
+        height: 50px;
+        background-color: $color__brand-primary;
+        border: none;
+        color: #FFF;
+        &:before {
+          content: '\f104';
+          display: block;
+          font-size: 24px;
+          line-height: 44px;
+          text-align: center;
+          position: relative;
+          color: #FFF;
+          font-family: 'FontAwesome';
+        }
+        > a {
+          font-size: 15px;
+          top: 6px;
+          position: absolute;
+          color: transparent;
+          background: transparent;
+          line-height: initial;
+        }
+      }
+      #next {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 35px;
+        height: 50px;
+        background-color: $color__brand-primary;
+        color: #FFF;
+        display: block;
+        &:before {
+          content: '\f105';
+          display: block;
+          font-size: 24px;
+          line-height: 44px;
+          text-align: center;
+          position: relative;
+          color: #FFF;
+          font-family: 'FontAwesome';
+        }
+        > a {
+          line-height: initial;
+          font-size: 15px;
+          top: 6px;
+          position: absolute;
+          color: transparent;
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  &.widget_tyche_recent {
+    @media(min-width: 990px) {
+      &.no-title {
+        margin-top: 92px;
+      }
+    }
+    .tyche-recent-post-alternate-widget {
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px solid #e3e3e3;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      &:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      .tyche-date {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        float: left;
+        text-align: center;
+        padding: 17px;
+        background: #FFF;
+        .day {
+          font-size: 29px;
+          font-weight: 700;
+          display: block;
+          line-height: 28px;
+        }
+        .month {
+          font-size: 20px;
+          display: block;
+        }
+      }
+      .tyche-image {
+        float: left;
+        display: inline-block;
+        height: 90px;
+        overflow: hidden;
+      }
+      .tyche-post-content {
+        float: left;
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 15px;
+        @media(min-width: 582px) {
+          width: 49%;
+          margin-top: 0;
+          max-height: 90px;
+          margin-left: 30px;
+        }
+        @media (min-width: 992px) and (max-width: 1200px) {
+          width: 38%;
+        }
+        p {
+          margin-bottom: 10px;
+          a {
+            font-size: 20px;
+            color: $color__title;
+            font-weight: bold;
+            &:hover {
+              color: $color__brand-primary-hover;
+            }
+          }
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          li {
+            display: inline-block;
+            float: left;
+            margin-right: 5px;
+            color: $color__title;
+            a {
+              color: $color__title;
+            }
+            &:before {
+              content: '';
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .tyche-recent-post-widget {
+      display: inline-block;
+      margin-bottom: 15px;
+      width: 100%;
+      .tyche-title {
+        p {
+          font-weight: bold;
+        }
+      }
+      .tyche-image {
+        display: inline-block;
+        margin-right: 15px;
+        float: left;
+      }
+      .tyche-post-content {
+        padding-left: 85px;
+        p {
+          a {
+            color: $color__text-main;
+            &:hover {
+              color: $color__brand-primary-hover;
+            }
+          }
+        }
+      }
+    }
+  }
+  /**
+  * Color schemes
+   */
+  &.beige, &.secondary {
+    .widget-title {
+      > span {
+        &:before {
+          background: #eaab76;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #eaab76;
+        border-color: #eaab76;
+        color: #fff;
+        &:hover {
+          background: darken(#eaab76, 5%);
+          border-color: darken(#eaab76, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.orange {
+    .widget-title {
+      > span {
+        &:before {
+          background: #ffab1a;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #ffab1a;
+        border-color: #ffab1a;
+        color: #fff;
+        &:hover {
+          background: darken(#ffab1a, 5%);
+          border-color: darken(#ffab1a, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.black {
+    .widget-title {
+      > span {
+        &:before {
+          background: #252525;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #252525;
+        border-color: #252525;
+        color: #fff;
+        &:hover {
+          background: darken(#252525, 5%);
+          border-color: darken(#252525, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.blue {
+    .widget-title {
+      > span {
+        &:before {
+          background: #263585;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #263585;
+        border-color: #263585;
+        color: #fff;
+        &:hover {
+          background: darken(#263585, 5%);
+          border-color: darken(#263585, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.light_blue {
+    .widget-title {
+      > span {
+        &:before {
+          background: #2279d3;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #2279d3;
+        border-color: #2279d3;
+        color: #fff;
+        &:hover {
+          background: darken(#2279d3, 5%);
+          border-color: darken(#2279d3, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.green {
+    .widget-title {
+      > span {
+        &:before {
+          background: #99ca45;
+        }
+      }
+    }
+    .tyche-banner-caption {
+      a {
+        background: #99ca45;
+        border-color: #99ca45;
+        color: #fff;
+        &:hover {
+          background: darken(#99ca45, 5%);
+          border-color: darken(#99ca45, 5%);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+#secondary, .page-template-frontpage-template {
+  .widget_categories, .widget_archive {
+    overflow: hidden;
+  }
+
+  widget {
+    .widget-title {
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  select {
+    max-width: initial;
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 5px;
+  }
+
+  .widget_tyche_products, .widget_tyche_recent {
+    .widget-title {
+      margin-bottom: 40px;
+      margin-top: 30px;
+      font-size: 30px;
+      > span {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.single-post {
+  #secondary {
+    margin-top: 0;
+  }
+}
+
+.content-area-1,
+.content-area-2,
+.content-area-3,
+.content-area-4,
+.content-area-5 {
+  .widget .widget-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    span {
+      font-size: 20px;
+      color: $color__title;
+      position: relative;
+      &:before {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 40px;
+        height: 4px;
+        content: '';
+        display: block;
+        background: $color__brand-primary;
+      }
+    }
+  }
+}
+
+.content-area-2 {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.content-area-4 {
+  margin-bottom: 30px;
+}
+
+.content-area-1, .content-area-4 {
+  background: #f7f7f9;
+  margin-bottom: 0;
+}
+
+.site-footer {
+  a {
+    color: #fff;
+    &:hover,
+    &:focus {
+      color: $color__brand-primary;
+    }
+  }
+
+  .widget {
+    &.widget_tag_cloud {
+      a {
+        color: #fff;
+        &:hover,
+        &:focus {
+          color: #fff;
+        }
+      }
+    }
+
+    &.widget_tyche_recent {
+      .tyche-recent-post-widget {
+        .tyche-post-content {
+          p {
+            a {
+              color: #fff;
+              &:hover,
+              &:focus {
+                color: $color__brand-primary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# http://php.net/manual/en/reserved.keywords.php
+unset
+print
+return
+require_once	
+require
+list
+isset
+include_once
+include
+eval
+exit
+empty
+echo
+die
+yield
+trait
+insteadof

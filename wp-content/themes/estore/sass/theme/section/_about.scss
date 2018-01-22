@@ -1,0 +1,76 @@
+.widget-about {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    .tg-container {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        height: 100%;
+        max-width: 1200px;
+        @include transform(translateX(-50%));
+        .about-content-wrapper {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: #f9f9f9;
+            .about-block {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                @include transform(translateY(-50%));
+                z-index: 999;
+                .about-title {
+                    font-size: 28px;
+                    margin: 0;
+                    text-transform: uppercase;
+                    a {
+                        color: $color__text-dark;
+                    }
+                }
+                .about-sub-title {
+                    color: #00a9e0;
+                    margin: 10px 0;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                }
+                .about-content {
+                    color: #737373;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                width: 1000%;
+                height: 100%;
+                background: #f9f9f9;
+                left: -1000%;
+                top: 0;
+            }
+            &:after {
+                background: #f9f9f9 none repeat scroll 0 0;
+                content: "";
+                height: 2000px;
+                position: absolute;
+                right: 650px;
+                top: 50%;
+                @include transform(rotate(70deg) translateY(-50%));
+                width: 2000px;
+                z-index: 9;
+            }
+        }
+    }
+}
+
+.about-img {
+    margin: 0;
+    img {
+        width: 100%;
+        display: block;
+    }
+}

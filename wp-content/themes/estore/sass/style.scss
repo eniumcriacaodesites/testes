@@ -1,0 +1,52 @@
+/*!
+Theme Name: eStore
+Theme URI: https://www.themegrill.com/themes/estore/
+Author: ThemeGrill
+Author URI: https://www.themegrill.com
+Description: eStore is a clean, beautiful and fully customizable responsive WooCommerce WordPress theme. This theme packs many premium features and several custom widgets which helps making your online store professional and well organized. Theme is fully compatible with WooCommerce and YITH WooCommerce Wishlist plugins. As an online store owner, attracting customers and selling products will be lot easier with this theme. Check the demo here: https://demo.themegrill.com/estore and get free support here: https://themegrill.com/support-forum/forum/estore-free/
+Version: 1.2.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: estore
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-menu, featured-images, theme-options, blog, e-commerce, custom-logo, footer-widgets, rtl-language-support, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+eStore is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "bourbon";
+
+/*--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# layouts
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid/grid";
+
+/*--------------------------------------------------------------
+# Theme
+--------------------------------------------------------------*/
+@import "theme/theme";
+

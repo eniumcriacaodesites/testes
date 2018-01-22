@@ -1,0 +1,177 @@
+/*
+Name: Solarized Light
+Description: Clean, crisp and colorful. 
+Version: 1.0.0 Beta 2
+Author: Ethan Schoonover
+URL: http://ethanschoonover.com/
+Maintainer: Eduan Lavaque
+Maintainer URL: http://eduantech.com/
+Notes: I don't provide striped lines because it would break the original purpose of this colorscheme.
+*/
+.crayon-theme-solarized-light {
+	text-shadow: none !important;
+	background: #fdf6e3 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #999 !important;
+}
+.crayon-theme-solarized-light .crayon-code {
+	background: #fdf6e3 !important;
+}
+.crayon-theme-solarized-light-inline {
+	background: #fdf6e3 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #ddd !important;
+}
+.crayon-theme-solarized-light .crayon-table .crayon-nums {
+	background: #eee8d5 !important;
+	color: #93a1a1 !important;
+}
+.crayon-theme-solarized-light .crayon-striped-line {
+	background: #fdf6e3 !important;
+	border-width: 1px !important;
+	border-color: #CCC !important;
+}
+.crayon-theme-solarized-light .crayon-striped-num {
+	color: #93a1a1 !important;
+	background: #eee8d5 !important;
+	border-width: 1px !important;
+	border-color: #CCC !important;
+}
+.crayon-theme-solarized-light .crayon-marked-line {
+	background: #eee8d5 !important;
+}
+.crayon-theme-solarized-light .crayon-marked-num {
+	color: #93a1a1 !important;
+	background: #fdf6e3 !important;
+}
+.crayon-theme-solarized-light .crayon-marked-line.crayon-striped-line {
+	background: #eee8d5 !important;
+}
+.crayon-theme-solarized-light .crayon-marked-num.crayon-striped-num {
+	background: #fdf6e3 !important;
+}
+.crayon-theme-solarized-light .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+	border-color: #839496 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-light .crayon-marked-num.crayon-top {
+	border-top-style: solid !important;
+	border-color: #839496 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-light .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+	border-color: #839496 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-light .crayon-marked-num.crayon-bottom {
+	border-bottom-style: solid !important;
+	border-color: #839496 !important;
+	border-width: 1px !important;
+}
+.crayon-theme-solarized-light .crayon-info {
+	background: #faf9d7 !important;
+	color: #7e7d34 !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+}
+.crayon-theme-solarized-light .crayon-toolbar {
+	background: #DDD !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #BBB !important;
+}
+.crayon-theme-solarized-light .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-solarized-light .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-solarized-light .crayon-title {
+	color: #333 !important;
+}
+.crayon-theme-solarized-light .crayon-language {
+	color: #999 !important;
+}
+.crayon-theme-solarized-light .crayon-button {
+	background-color: transparent !important;
+}
+.crayon-theme-solarized-light .crayon-button:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-solarized-light .crayon-button.crayon-pressed:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-solarized-light .crayon-button.crayon-pressed {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-light .crayon-button.crayon-pressed:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-light .crayon-button:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-c {
+	color: #93a1a1 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-s {
+	color: #2aa198 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-k {
+	color: #cb4b16 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-st {
+	color: #859900 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-r {
+	color: #cb4b16 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-t {
+	color: #b58900 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-m {
+	color: #b58900 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-i {
+	color: #839496 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-e {
+	color: #839496 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-v {
+	color: #268bd2 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-cn {
+	color: #2aa198 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-o {
+	color: #859900 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-sy {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-n {
+	color: #666 !important;
+	font-style: italic !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-f {
+	color: #999 !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-h {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-p {
+	color: #dc322f !important;
+}
+.crayon-theme-solarized-light .crayon-pre .crayon-ta {
+	color: #268bd2 !important;
+}

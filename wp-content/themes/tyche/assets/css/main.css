@@ -1,0 +1,13 @@
+.site-header .custom-logo-link img {
+    width: auto;
+    height: auto;
+}
+.content-area-1 .widget .widget-title, .content-area-2 .widget .widget-title, .content-area-3 .widget .widget-title, .content-area-4 .widget .widget-title, .content-area-5 .widget .widget-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+ul, ol {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}

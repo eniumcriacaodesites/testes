@@ -1,0 +1,171 @@
+.site-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #25262b;
+  color: #e3e3e3;
+  font-size: 15px;
+
+  .tyche-contact-p {
+    margin-bottom: 15px;
+    strong {
+      color: #FFF;
+    }
+    i {
+      margin-right: 8px;
+      color: #FFF;
+    }
+  }
+
+  .widget {
+    font-size: 15px;
+    margin-bottom: 30px;
+    ul {
+      li {
+        a {
+          color: #fff;
+          &:hover, &:focus {
+            color: $color__brand-primary;
+          }
+        }
+      }
+    }
+
+    .styled-select {
+      overflow: hidden;
+      select {
+        color: #fff;
+        padding: 5px;
+        width: 100%;
+        option {
+          color: $color__title;
+        }
+      }
+      &:after {
+        z-index: 1;
+      }
+    }
+
+    &.widget_search {
+      input {
+        background: transparent;
+        color: #fff;
+      }
+    }
+    &.widget_product_search {
+      input[type="submit"] {
+        position: relative;
+        display: inline-block;
+        margin-top: 5px;
+        background: $color__brand-primary;
+        color: #fff;
+      }
+    }
+    &.widget_shopping_cart {
+      ul {
+        li {
+          a {
+            color: #fff;
+            &:hover, &:focus {
+              color: $color__brand-primary;
+            }
+          }
+        }
+      }
+    }
+
+    &.widget_tyche_recent {
+      .tyche-recent-post-widget {
+        .tyche-post-content {
+          p {
+            a {
+              color: #fff;
+              &:hover, &:focus {
+                color: $color__brand-primary;
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+    .product_list_widget {
+      li {
+        a {
+          color: #fff;
+          &:hover, &:focus {
+            color: $color__brand-primary;
+          }
+        }
+        a > span {
+          color: #fff;
+          &:hover, &:focus {
+            color: $color__brand-primary;
+          }
+        }
+      }
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+    margin-top: 0;
+    margin-bottom: 45px;
+    span {
+      font-size: 20px;
+      color: #FFF;
+      position: relative;
+      &:before {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 40px;
+        height: 4px;
+        content: '';
+        display: block;
+        background: #FFF;
+      }
+    }
+  }
+
+  ul, ol, a, p, span, i {
+    color: #e3e3e3;
+    font-size: 15px;
+  }
+  ul {
+    > li {
+
+      &:before {
+        color: #e3e3e3 !important;
+      }
+    }
+  }
+
+  .widget_meta, .widget_categories, .widget_archive {
+    ul {
+      li {
+        a {
+          color: #e3e3e3;
+        }
+      }
+    }
+  }
+}
+
+.site-copyright {
+  background: #2b2e34;
+  line-height: 50px;
+  font-size: 15px;
+  color: #FFF;
+  a, p, span, i {
+    color: #FFF;
+  }
+  a {
+    &:hover {
+      color: $color__brand-primary;
+    }
+  }
+  .sep {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,119 @@
+.top-header-wrapper {
+    background: #f0f0f0;
+}
+
+.left-top-header {
+    float: left;
+}
+
+.right-top-header {
+    float: right;
+    .top-header-menu-wrapper {
+        float: left;
+        ul {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            li {
+                border-right: 1px solid #c0bfbf;
+                float: left;
+                a {
+                    color: #6d6c6c;
+                    font-weight: 600;
+                    line-height: 38px;
+                    padding: 0 10px;
+                    display: block;
+                    &:hover{
+                    	background: $color__link;
+                    	color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.left-header-block {
+    border-right: 1px solid #c0bfbf;
+    color: #6d6c6c;
+    float: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding-right: 10px;
+    i {
+        margin-right: 5px;
+    }
+}
+
+.contact-info {
+    border-right: none;
+}
+
+.right-header-block {
+    float: left;
+    a {
+        color: #6d6c6c;
+        line-height: 38px;
+        display: block;
+        float: left;
+        font-size: 12px;
+        padding: 0 10px;
+        font-weight: 600;
+        border-right: 1px solid #c0bfbf;
+        @include transition(all 0.5s ease);
+        &:hover {
+            background: #00a9e0;
+            color: #ffffff;
+        }
+        i{
+        	margin-left: 3px;
+        }
+    }
+
+}
+
+#lang_sel_click a.lang_sel_sel {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    line-height: 38px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6d6c6c;
+    padding: 0 10px;
+    border-right: 1px solid #c0bfbf;
+    &:hover {
+        background: #00a9e0;
+        color: #ffffff;
+    }
+}
+
+#lang_sel_click {
+    float: left;
+    font-family: "Open Sans", sans-serif;
+    li {
+        width: auto;
+    }
+}
+
+#lang_sel_click ul ul {
+    border-top: 2px solid #00A9E0;
+    top: 100%;
+    li {
+        background: #f0f0f0;
+        width: 100%;
+        a {
+            background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            display: block;
+            padding: 6px 10px;
+        }
+    }
+}
+

@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_estore">
+			<key name="estore_logo"/>
+			<key name="estore_bar_text"/>
+			<key name="estore_payment_logo1"/>
+			<key name="estore_payment_logo2"/>
+			<key name="estore_payment_logo3"/>
+			<key name="estore_payment_logo4"/>
+		</key>
+	</admin-texts>
+</wpml-config>

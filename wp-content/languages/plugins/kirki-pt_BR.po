@@ -1,0 +1,477 @@
+# Translation of Plugins - Kirki - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Kirki - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-11 02:40:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Kirki - Stable (latest release)\n"
+
+#: includes/class-kirki-l10n.php:212
+msgid "Switch Editor"
+msgstr "Mudar editor"
+
+#: includes/class-kirki-l10n.php:211
+msgid "Close Editor"
+msgstr "Fechar editor"
+
+#: includes/class-kirki-l10n.php:210
+msgid "Open Editor"
+msgstr "Abrir editor"
+
+#: includes/class-kirki-l10n.php:213
+msgid "Hex Value"
+msgstr "Valor Hex"
+
+#: includes/class-kirki-l10n.php:169
+msgid "No File Selected"
+msgstr "Nenhum arquivo selecionado"
+
+#: includes/class-kirki-l10n.php:168
+msgid "Change File"
+msgstr "Alterar arquivo"
+
+#: includes/class-kirki-l10n.php:167
+msgid "Add File"
+msgstr "Adicionar arquivo"
+
+#: includes/class-kirki-l10n.php:197
+msgid "row"
+msgstr "linha"
+
+#: includes/class-kirki-l10n.php:196
+msgid "Add new"
+msgstr "Adicionar novo(a)"
+
+#: includes/class-kirki-l10n.php:209
+msgid "Select a Page"
+msgstr "Selecione uma página"
+
+#: includes/class-kirki-l10n.php:208
+msgid "Initial"
+msgstr "Primeira letra"
+
+#: includes/class-kirki-l10n.php:207
+msgid "Lowercase"
+msgstr "Minúscula"
+
+#: includes/class-kirki-l10n.php:206
+msgid "Uppercase"
+msgstr "Maiúscula"
+
+#: includes/class-kirki-l10n.php:205
+msgid "Capitalize"
+msgstr "Capitalizar"
+
+#: includes/class-kirki-l10n.php:204
+msgid "None"
+msgstr "Nada"
+
+#: includes/class-kirki-l10n.php:203
+msgid "Text Transform"
+msgstr "Transformação de Texto"
+
+#: includes/class-kirki-l10n.php:202
+msgid "Text Align"
+msgstr "Alinhamento de Texto"
+
+#: includes/class-kirki-l10n.php:162
+msgid "Justify"
+msgstr "Justificado"
+
+#: includes/class-kirki-l10n.php:161
+msgid "Center"
+msgstr "Centralizar"
+
+#: includes/class-kirki-l10n.php:201
+msgid "%s Reset"
+msgstr "%s Redefinir"
+
+#: includes/class-kirki-l10n.php:200
+#: includes/sections/class-kirki-sections-hover-section.php:46
+msgid "Back"
+msgstr "Retornar"
+
+#: includes/class-kirki-l10n.php:199
+#: includes/sections/class-kirki-sections-hover-section.php:40
+msgid "Press return or enter to open this section"
+msgstr "Pressione return ou enter para abrir esta seção"
+
+#: includes/class-kirki-l10n.php:198
+msgid "Limit: %s rows"
+msgstr "Limite: %s linhas"
+
+#: includes/class-kirki-l10n.php:195
+msgid "Invalid Value"
+msgstr "Valor inválido"
+
+#: includes/class-kirki-l10n.php:194
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: includes/class-kirki-l10n.php:193
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: includes/class-kirki-l10n.php:192
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: includes/class-kirki-l10n.php:191
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: includes/class-kirki-l10n.php:190
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: includes/class-kirki-l10n.php:189
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: includes/class-kirki-l10n.php:188
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: includes/class-kirki-l10n.php:187
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: includes/class-kirki-l10n.php:186
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: includes/class-kirki-l10n.php:185
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: includes/class-kirki-l10n.php:184
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: includes/class-kirki-l10n.php:183
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: includes/class-kirki-l10n.php:182
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: includes/class-kirki-l10n.php:181
+msgid "Book 300"
+msgstr "Book 300"
+
+#: includes/class-kirki-l10n.php:180
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: includes/class-kirki-l10n.php:179
+msgid "Light 200"
+msgstr "Light 200"
+
+#: includes/class-kirki-l10n.php:178
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: includes/class-kirki-l10n.php:177
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: includes/class-kirki-l10n.php:176
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#: includes/class-kirki-l10n.php:175
+msgid "Height"
+msgstr "Altura"
+
+#: includes/class-kirki-l10n.php:174
+msgid "Size"
+msgstr "Tamanho"
+
+#: includes/class-kirki-l10n.php:173
+msgid "Subset"
+msgstr "Subconjunto"
+
+#: includes/class-kirki-l10n.php:172
+msgid "Variant"
+msgstr "Variação"
+
+#: includes/class-kirki-l10n.php:171
+msgid "Select a font-family"
+msgstr "Selecione uma família de fonte"
+
+#: includes/class-kirki-l10n.php:155
+msgid "Font Style"
+msgstr "Estilo da fonte"
+
+#: includes/class-kirki-l10n.php:166
+msgid "No Image Selected"
+msgstr "Nenhuma imagem selecionada"
+
+#: includes/class-kirki-l10n.php:170
+msgid "Remove"
+msgstr "Apagar"
+
+#: includes/class-kirki-l10n.php:165
+msgid "Change Image"
+msgstr "Trocar Imagem"
+
+#: includes/class-kirki-l10n.php:164
+msgid "Add Image"
+msgstr "Adicionar imagem"
+
+#: includes/class-kirki-l10n.php:163
+msgid "Color"
+msgstr "Cor"
+
+#: includes/class-kirki-l10n.php:160
+msgid "Right"
+msgstr "Direita"
+
+#: includes/class-kirki-l10n.php:159
+msgid "Left"
+msgstr "Esquerda"
+
+#: includes/class-kirki-l10n.php:158
+msgid "Bottom"
+msgstr "Base"
+
+#: includes/class-kirki-l10n.php:157
+msgid "Top"
+msgstr "Topo"
+
+#: includes/class-kirki-l10n.php:156
+msgid "Letter Spacing"
+msgstr "Entreletra"
+
+#: includes/class-kirki-l10n.php:154
+msgid "Line Height"
+msgstr "Altura da linha"
+
+#: includes/class-kirki-l10n.php:152
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: includes/class-kirki-l10n.php:147
+msgid "Thai"
+msgstr "Tailandês"
+
+#: includes/class-kirki-l10n.php:146
+msgid "Telugu"
+msgstr "Telugu"
+
+#: includes/class-kirki-l10n.php:145
+msgid "Tamil"
+msgstr "Tâmil"
+
+#: includes/class-kirki-l10n.php:144
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: includes/class-kirki-l10n.php:143
+msgid "Bengali"
+msgstr "Bengali"
+
+#: includes/class-kirki-l10n.php:142
+msgid "Arabic"
+msgstr "Árabe"
+
+#: includes/class-kirki-l10n.php:141
+msgid "Hebrew"
+msgstr "Hebraico"
+
+#. Author URI of the plugin/theme
+msgid "http://aristeides.com"
+msgstr "http://aristeides.com"
+
+#. Author of the plugin/theme
+msgid "Aristeides Stathopoulos"
+msgstr "Aristeides Stathopoulos"
+
+#. Description of the plugin/theme
+msgid "The ultimate WordPress Customizer Toolkit"
+msgstr "A ferramenta definitiva para o Customizer do WordPress"
+
+#. Plugin URI of the plugin/theme
+msgid "http://kirki.org"
+msgstr "http://kirki.org"
+
+#. Plugin Name of the plugin/theme
+msgid "Kirki Toolkit"
+msgstr "Kirki Toolkit"
+
+#: includes/class-kirki-l10n.php:153
+msgid "Font Weight"
+msgstr "Peso da fonte"
+
+#: includes/class-kirki-l10n.php:151
+msgid "Font Family"
+msgstr "Família Tipográfica"
+
+#: includes/class-kirki-l10n.php:150
+msgctxt "font style"
+msgid "Monospace"
+msgstr "Monoespaço"
+
+#: includes/class-kirki-l10n.php:149
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr "Sem serifa"
+
+#: includes/class-kirki-l10n.php:148
+msgctxt "font style"
+msgid "Serif"
+msgstr "Serifa"
+
+#: includes/class-kirki-l10n.php:140
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: includes/class-kirki-l10n.php:139
+msgid "Latin Extended"
+msgstr "Latin Extended"
+
+#: includes/class-kirki-l10n.php:138
+msgid "Latin"
+msgstr "Latin"
+
+#: includes/class-kirki-l10n.php:137
+msgid "Khmer"
+msgstr "Khmer"
+
+#: includes/class-kirki-l10n.php:136
+msgid "Greek Extended"
+msgstr "Greek Extended"
+
+#: includes/class-kirki-l10n.php:135
+msgid "Greek"
+msgstr "Grego"
+
+#: includes/class-kirki-l10n.php:134
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: includes/class-kirki-l10n.php:133
+msgid "Cyrillic Extended"
+msgstr "Cyrillic Extended"
+
+#: includes/class-kirki-l10n.php:132
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: includes/class-kirki-l10n.php:131
+msgid "All"
+msgstr "Todos"
+
+#: includes/class-kirki-l10n.php:130
+msgid "OFF"
+msgstr "OFF"
+
+#: includes/class-kirki-l10n.php:129
+msgid "ON"
+msgstr "ON"
+
+#: includes/class-kirki-l10n.php:128
+msgid "Background Opacity"
+msgstr "Opacidade de plano de fundo"
+
+#: includes/class-kirki-l10n.php:127
+msgid "Background Position"
+msgstr "Posição do background"
+
+#: includes/class-kirki-l10n.php:126
+msgid "Center Bottom"
+msgstr "Centro da Base"
+
+#: includes/class-kirki-l10n.php:125
+msgid "Center Center"
+msgstr "Centro central"
+
+#: includes/class-kirki-l10n.php:124
+msgid "Center Top"
+msgstr "Centro do Topo"
+
+#: includes/class-kirki-l10n.php:123
+msgid "Right Bottom"
+msgstr "Canto Inferior Direito"
+
+#: includes/class-kirki-l10n.php:122
+msgid "Right Center"
+msgstr "Canto Direito Central"
+
+#: includes/class-kirki-l10n.php:121
+msgid "Right Top"
+msgstr "Canto Superior Direito"
+
+#: includes/class-kirki-l10n.php:120
+msgid "Left Bottom"
+msgstr "Canto Inferior Esquerdo"
+
+#: includes/class-kirki-l10n.php:119
+msgid "Left Center"
+msgstr "Canto Esquerdo Central"
+
+#: includes/class-kirki-l10n.php:118
+msgid "Left Top"
+msgstr "Canto Superior Esquerdo"
+
+#: includes/class-kirki-l10n.php:117
+msgid "Background Attachment"
+msgstr "Anexo de plano de fundo"
+
+#: includes/class-kirki-l10n.php:116
+msgid "Scroll"
+msgstr "Travar"
+
+#: includes/class-kirki-l10n.php:115
+msgid "Fixed"
+msgstr "Fixo"
+
+#: includes/class-kirki-l10n.php:114
+msgid "Background Size"
+msgstr "Tamanho do background"
+
+#: includes/class-kirki-l10n.php:113
+msgid "Contain"
+msgstr "Conter"
+
+#: includes/class-kirki-l10n.php:112
+msgid "Cover"
+msgstr "Cover"
+
+#: includes/class-kirki-l10n.php:111
+msgid "Background Repeat"
+msgstr "Repetição do background"
+
+#: includes/class-kirki-l10n.php:110
+msgid "Inherit"
+msgstr "Herdado"
+
+#: includes/class-kirki-l10n.php:109
+msgid "Repeat Vertically"
+msgstr "Repetir verticalmente"
+
+#: includes/class-kirki-l10n.php:108
+msgid "Repeat Horizontally"
+msgstr "Repetir horizontalmente"
+
+#: includes/class-kirki-l10n.php:107
+msgid "Repeat All"
+msgstr "Repetir ambos"
+
+#: includes/class-kirki-l10n.php:106
+msgid "No Repeat"
+msgstr "Não repetir"
+
+#: includes/class-kirki-l10n.php:105
+msgid "Background Image"
+msgstr "Imagem de plano de fundo"
+
+#: includes/class-kirki-l10n.php:104
+msgid "Background Color"
+msgstr "Cor de plano de fundo"

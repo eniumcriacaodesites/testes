@@ -1,0 +1,101 @@
+#site-navigation {
+    float: left;
+    ul {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        li {
+            float: left;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 43px;
+            margin-left: 38px;
+            position: relative;
+            a {
+                color: $color__text-dark;
+                position: relative;
+                text-transform: uppercase;
+                display: block;
+                @include transition(all 0.5s ease);
+            }
+
+            &:first-child{
+            	margin-left: 0;
+            }
+        }
+        li.menu-item-has-children {
+            padding-right: 10px;
+        }
+    }
+    .sub-menu,
+    .children {
+        left: 0;
+        min-width: 200px;
+        position: absolute;
+        top: 120%;
+        border: 1px solid #e5e5e5;
+        border-bottom: 3px solid #00A9E0;
+        z-index: 999;
+        background: #ffffff;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.05);
+        opacity: 0;
+        visibility: hidden;
+        li {
+            display: block;
+            float: none;
+            margin-left: 0;
+            a {
+                border-bottom: 1px solid #e5e5e5;
+                padding: 0 15px;
+            }
+        }
+        li.menu-item-has-children{
+        	padding-right: 0;
+        }
+        ul {
+            top: 0;
+            left: 110%;
+        }
+    }
+}
+
+#site-navigation ul li.menu-item-has-children > a:after {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    content: "\f107";
+    font-family: FontAwesome;
+    color: #454545;
+    @include transform(translateY(-50%));
+    @include transition(all 0.5s ease);
+}
+
+#site-navigation ul.sub-menu li.menu-item-has-children > a:after {
+    content: "\f105";
+    right: 15px;
+}
+
+#site-navigation ul li:hover > a,
+#site-navigation ul li.current-menu-item > a,
+#site-navigation ul li:hover > a:after {
+    color: #00A9E0;
+}
+
+#site-navigation ul li:hover > .sub-menu,
+#site-navigation ul li:hover > .children {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+#site-navigation ul.sub-menu > li:hover > .sub-menu {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    left: 100%;
+}
+
+
+   .sub-toggle {
+   	display: none;
+   }

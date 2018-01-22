@@ -1,0 +1,133 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Social Component
+// -----------------------------------------------------------------------------
+
+/* Accessibility purpose */
+.screen-reader-text {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+/* The social links are actually a menu */
+#menu-social {
+  ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      position: relative;
+      a {
+        padding: 10px 10px;
+        color: #FFF;
+        &:before {
+          content: '\f408';
+          display: inline-block;
+          padding: 0 5px;
+          font-family: 'FontAwesome';
+          font-size: 16px;
+          vertical-align: top;
+          -webkit-font-smoothing: antialiased;
+        }
+        /* Add hover effects for the links, the brand colors */
+        &:hover {
+          &[href*="wordpress.org"]::before,
+          &[href*="wordpress.com"]::before {
+            color: #21759b;
+          }
+          &[href*="facebook.com"]::before {
+            color: #3b5998;
+          }
+          &[href*="twitter.com"]::before {
+            color: #33ccff;
+          }
+          &[href*="dribbble.com"]::before {
+            color: #ea4c89;
+          }
+          &[href*="plus.google.com"]::before {
+            color: #dd4b39;
+          }
+          &[href*="pinterest.com"]::before {
+            color: #c8232c;
+          }
+          &[href*="github.com"]::before {
+            color: #171515;
+          }
+          &[href*="tumblr.com"]::before {
+            color: #34526f;
+          }
+          &[href*="youtube.com"]::before {
+            color: #c4302b;
+          }
+          &[href*="flickr.com"]::before {
+            color: #ff0084;
+          }
+          &[href*="vimeo.com"]::before {
+            color: #1AB7EA;
+          }
+          &[href*="instagram.com"]::before {
+            color: #3f729b;
+          }
+          &[href*="codepen.io"]::before {
+            color: #000;
+          }
+          &[href*="linkedin.com"]::before {
+            color: #0e76a8;
+          }
+        }
+        /* Add the social links depending on the link href */
+        &[href*="wordpress.org"]::before,
+        &[href*="wordpress.com"]::before {
+          content: '\f19a';
+        }
+        &[href*="facebook.com"]::before {
+          content: '\f09a';
+        }
+        &[href*="twitter.com"]::before {
+          content: '\f099';
+        }
+        &[href*="dribbble.com"]::before {
+          content: '\f17d';
+        }
+        &[href*="plus.google.com"]::before {
+          content: '\f0d5';
+        }
+        &[href*="pinterest.com"]::before {
+          content: '\f231';
+        }
+        &[href*="github.com"]::before {
+          content: '\f09b';
+        }
+        &[href*="tumblr.com"]::before {
+          content: '\f173';
+        }
+        &[href*="youtube.com"]::before {
+          content: '\f167';
+        }
+        &[href*="flickr.com"]::before {
+          content: '\f16e';
+        }
+        &[href*="vimeo.com"]::before {
+          content: '\f27d';
+        }
+        &[href*="instagram.com"]::before {
+          content: '\f16d';
+        }
+        &[href*="codepen.io"]::before {
+          content: '\f1cb';
+        }
+        &[href*="linkedin.com"]::before {
+          content: '\f0e1';
+        }
+      }
+
+      &:first-of-type {
+        a {
+          padding-left: 0;
+        }
+      }
+
+    }
+  }
+}

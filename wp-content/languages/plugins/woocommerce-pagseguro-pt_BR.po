@@ -1,0 +1,703 @@
+# Translation of Plugins - WooCommerce PagSeguro - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - WooCommerce PagSeguro - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-10 04:10:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - WooCommerce PagSeguro - Stable (latest release)\n"
+
+#. Description of the plugin/theme
+msgid "Includes PagSeguro as a payment gateway to WooCommerce."
+msgstr "Inclui o PagSeguro com método de pagamento no WooCommerce."
+
+#: includes/class-wc-pagseguro-gateway.php:504
+msgid "Payment URL"
+msgstr "URL de pagamento."
+
+#: templates/transparent-checkout-form.php:104
+msgid "Brazilian flag"
+msgstr "Bandeira brasileira"
+
+#: templates/transparent-checkout-form.php:104
+msgid "This purchase is being made in Brazil"
+msgstr "Esta compra está sendo feita no Brasil"
+
+#: includes/class-wc-pagseguro-api.php:263
+msgid "The customer email can not be the same as the PagSeguro account owner."
+msgstr "O e-mail do cliente não pode ser o mesmo da conta do recebedor no PagSeguro."
+
+#. Author of the plugin/theme
+msgid "Claudio Sanches"
+msgstr "Claudio Sanches"
+
+#: includes/class-wc-pagseguro-gateway.php:246
+msgid "Please enter your PagSeguro sandbox token. You can get your sandbox token %s."
+msgstr "Por favor, digite um token de testes do PagSeguro. Você pode pegar o seu token de testes %s. "
+
+#: includes/class-wc-pagseguro-gateway.php:244
+msgid "PagSeguro Sandbox Token"
+msgstr "Token de testes do PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:240
+msgid "Please enter your PagSeguro sandbox email address. You can get your sandbox email %s."
+msgstr "Por favor, digite um endereço de e-mail de testes do PagSeguro. Você pode pegar o seu e-mail de testes %s."
+
+#: includes/class-wc-pagseguro-gateway.php:238
+msgid "PagSeguro Sandbox Email"
+msgstr "E-mail de teste do PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:222
+msgid "PagSeguro Sandbox can be used to test the payments."
+msgstr "O sandbox do PagSeguro pode ser utilizado para simular pagamentos."
+
+#: includes/class-wc-pagseguro-gateway.php:199
+msgid "Integration"
+msgstr "Integração"
+
+#: includes/class-wc-pagseguro-api.php:172
+msgid "Bank Transfer %s"
+msgstr "Transferência bancária %s"
+
+#: includes/class-wc-pagseguro-api.php:171
+msgid "Billet %s"
+msgstr "Boleto %s"
+
+#: includes/class-wc-pagseguro-api.php:170
+msgid "Credit Card %s"
+msgstr "Cartão de crédito %s"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:33
+msgid "Install WooCommerce"
+msgstr "Instale o WooCommerce"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:25
+msgid "Active WooCommerce"
+msgstr "Ativa o WooCommerce"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:22
+msgid "depends on the last version of WooCommerce to work!"
+msgstr "depende da última versão do WooCommerce para funcionar!"
+
+#: includes/admin/views/html-notice-missing-ecfb.php:33
+msgid "Install Extra Checkout Fields for Brazil"
+msgstr "Instalar o plugin Extra Checkout Fields for Brazil."
+
+#: includes/admin/views/html-notice-missing-ecfb.php:22
+msgid "depends on the last version of Extra Checkout Fields for Brazil to work!"
+msgstr "depende da última versão do Extra Checkout Fields for Brazil para funcionar!"
+
+#: includes/admin/views/html-admin-help-message.php:15
+msgid "Make a review"
+msgstr "Faça uma avaliação"
+
+#: includes/admin/views/html-admin-help-message.php:15
+msgid "Make a donation"
+msgstr "Faça uma doação"
+
+#: includes/admin/views/html-admin-help-message.php:14
+msgid "Help us keep the %s plugin free making a donation or rate %s on WordPress.org. Thank you in advance!"
+msgstr "Ajude-nos a manter o %s gratuito, para isso faça uma doação ou vote com %s no WordPress.org. Muito obrigado!"
+
+#. Author URI of the plugin/theme
+msgid "https://claudiosanches.com"
+msgstr "https://claudiosanches.com"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/claudiosanches/woocommerce-pagseguro"
+msgstr "https://github.com/claudiosanches/woocommerce-pagseguro"
+
+#: woocommerce-pagseguro.php:118
+msgid "Settings"
+msgstr "Configurações"
+
+#: templates/transparent-checkout-form.php:99
+msgid "* After clicking \"Proceed to payment\" you will have access to banking ticket which you can print and pay in your internet banking or in a lottery retailer."
+msgstr "* Após clicar em \"Realizar pagamento\" você receberá o seu boleto bancário, é possível imprimi-lo e pagar pelo site do seu banco ou por uma casa lotérica."
+
+#: templates/transparent-checkout-form.php:96
+msgid "R$ 1,00 (rate applied to cover management risk costs of the payment method)."
+msgstr "R$ 1,00 (taxa aplicada para cobrir custos de gestão de risco do meio de pagamento)."
+
+#: templates/transparent-checkout-form.php:96
+msgid "Tax"
+msgstr "Taxa"
+
+#: templates/transparent-checkout-form.php:93
+msgid "The order will be confirmed only after the payment approval."
+msgstr "O pedido será confirmado apenas após a confirmação do pagamento."
+
+#: templates/transparent-checkout-form.php:84
+msgid "* After clicking \"Proceed to payment\" you will have access to the link that will take you to your bank's website, so you can make the payment in total security."
+msgstr "* Após clicar em \"Realizar pagamento\" você receberá acesso ao link que o levará ao site do seu banco, assim é possível realizar o pagamento em total segurança."
+
+#: templates/transparent-checkout-form.php:82
+msgid "Banco HSBC"
+msgstr "Banco HSBC"
+
+#: templates/transparent-checkout-form.php:81
+msgid "Banco Banrisul"
+msgstr "Banco Banrisul"
+
+#: templates/transparent-checkout-form.php:80
+msgid "Banco do Brasil"
+msgstr "Banco do Brasil"
+
+#: templates/transparent-checkout-form.php:79
+msgid "Banco Ita&uacute;"
+msgstr "Banco Ita&uacute;"
+
+#: templates/transparent-checkout-form.php:77
+msgid "Select your bank:"
+msgstr "Selecione o seu banco:"
+
+#: templates/transparent-checkout-form.php:69
+msgid "(xx) xxxx-xxxx"
+msgstr "(xx) xxxx-xxxx"
+
+#: templates/transparent-checkout-form.php:68
+msgid "Card Holder Phone"
+msgstr "Telefone do portador"
+
+#: templates/transparent-checkout-form.php:65
+msgid "DD / MM / YYYY"
+msgstr "DD / MM / AAAA"
+
+#: templates/transparent-checkout-form.php:64
+msgid "Card Holder Birth Date"
+msgstr "Data de nascimento do portador"
+
+#: templates/transparent-checkout-form.php:59
+msgid "Card Holder CPF"
+msgstr "CPF do portador"
+
+#: templates/transparent-checkout-form.php:53
+msgid "the minimum value of the installment is R$ 5,00"
+msgstr "o valor mínimo da parcela é R$ 5,00"
+
+#: templates/transparent-checkout-form.php:49
+msgid "CVC"
+msgstr "CVV"
+
+#: templates/transparent-checkout-form.php:48
+msgid "Security Code"
+msgstr "Código de segurança"
+
+#: templates/transparent-checkout-form.php:45
+msgid "MM / YYYY"
+msgstr "MM / AAAA"
+
+#: templates/transparent-checkout-form.php:44
+msgid "Expiry (MM/YYYY)"
+msgstr "Validade (MM/AAAA)"
+
+#: templates/transparent-checkout-form.php:39
+msgid "Card Number"
+msgstr "Número do cartão"
+
+#: templates/transparent-checkout-form.php:35
+msgid "as recorded on the card"
+msgstr "como gravado no cartão"
+
+#: templates/transparent-checkout-form.php:35
+msgid "Card Holder Name"
+msgstr "Nome do portador"
+
+#: templates/payment-instructions.php:24
+msgid "Please use the following button to make the payment in your bankline."
+msgstr "Por favor, utilize o botão a seguinte para fazer o pagamento no seu banco."
+
+#: templates/payment-instructions.php:18
+msgid "You can print and pay in your internet banking or in a lottery retailer."
+msgstr "Você pode imprimi-lo e fazer o pagamento pelo site do seu banco ou por uma casa lotérica."
+
+#: templates/payment-instructions.php:18
+msgid "Please click in the following button to view your Banking Ticket."
+msgstr "Por favor, clique no botão para visualizar o seu boleto bancário."
+
+#: templates/lightbox-checkout.php:19
+msgid "Cancel order &amp; restore cart"
+msgstr "Cancelar pedido &amp; restaurar carrinho"
+
+#: templates/lightbox-checkout.php:17
+msgid "Thank you for your order, please click the button below to pay with PagSeguro."
+msgstr "Obrigado pelo seu pedido, por favor, clique no botão abaixo para pagar com o PagSeguro."
+
+#: templates/lightbox-checkout.php:15
+msgid "Thank you for your order, please wait a few seconds to make the payment with PagSeguro."
+msgstr "Obrigado pelo seu pedido, por favor, aguarde alguns segundos para fazer o pagamento com o PagSeguro."
+
+#: templates/emails/html-instructions.php:27
+#: templates/emails/plain-instructions.php:48
+#: templates/payment-instructions.php:30
+msgid "As soon as the credit card operator confirm the payment, your order will be processed."
+msgstr "O seu pedido será processado assim que a operadora do seu cartão de crédito confirmar o pagamento."
+
+#: templates/emails/html-instructions.php:27
+#: templates/emails/plain-instructions.php:44
+#: templates/payment-instructions.php:30
+msgid "You just made the payment in %s using the %s."
+msgstr "Você acabou de fazer o pagamento em %s usando %s."
+
+#: templates/emails/html-instructions.php:23
+#: templates/emails/plain-instructions.php:40
+#: templates/payment-instructions.php:24
+msgid "After we receive the confirmation from the bank, your order will be processed."
+msgstr "O seu pedido será processado assim que recebermos a confirmação do pagamento pelo seu banco."
+
+#: templates/emails/html-instructions.php:23
+#: templates/payment-instructions.php:24
+msgid "Pay at your bank"
+msgstr "Pagar no seu banco"
+
+#: templates/emails/html-instructions.php:23
+#: templates/emails/plain-instructions.php:32
+msgid "Please use the link below to make the payment in your bankline:"
+msgstr "Por favor, utilize o link abaixo para realizar o pagamento pelo do seu banco:"
+
+#: templates/emails/html-instructions.php:19
+#: templates/emails/plain-instructions.php:28
+#: templates/payment-instructions.php:18
+msgid "After we receive the ticket payment confirmation, your order will be processed."
+msgstr "O seu pedido será processado assim que recebermos a confirmação do pagamento do seu boleto."
+
+#: templates/emails/html-instructions.php:19
+#: templates/payment-instructions.php:18
+msgid "Pay the Banking Ticket"
+msgstr "Pagar boleto bancário"
+
+#: templates/emails/html-instructions.php:19
+#: templates/emails/plain-instructions.php:20
+msgid "Please use the link below to view your Banking Ticket, you can print and pay in your internet banking or in a lottery retailer:"
+msgstr "Por favor, utilize o link abaixo para ver o seu boleto bancário, você pode imprimi-lo e fazer o pagamento pelo site do seu banco ou por uma casa lotérica."
+
+#: templates/emails/html-instructions.php:15
+#: templates/emails/plain-instructions.php:14
+msgid "Payment"
+msgstr "Pagamento"
+
+#: includes/admin/views/html-notice-token-missing.php:15
+msgid "You should inform your token."
+msgstr "Você deve informar o seu token."
+
+#: includes/admin/views/html-notice-email-missing.php:15
+msgid "You should inform your email address."
+msgstr "Você deve informar o seu endereço de e-mail."
+
+#: includes/admin/views/html-notice-missing-ecfb.php:25
+msgid "Active Extra Checkout Fields for Brazil"
+msgstr "Ativar o Extra Checkout Fields for Brazil"
+
+#: includes/admin/views/html-notice-currency-not-supported.php:15
+msgid "Currency <code>%s</code> is not supported. Works only with Brazilian Real."
+msgstr "A moeda <code>%s</code> não é suportada. Funciona apenas com Real (BRL)."
+
+#: includes/admin/views/html-notice-currency-not-supported.php:15
+#: includes/admin/views/html-notice-email-missing.php:15
+#: includes/admin/views/html-notice-token-missing.php:15
+msgid "PagSeguro Disabled"
+msgstr "PagSeguro Desabilitado"
+
+#. #-#-#-#-#  woocommerce-pagseguro-code.pot (WooCommerce PagSeguro 2.12.5) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin/views/html-admin-help-message.php:14
+#: includes/admin/views/html-notice-missing-ecfb.php:22
+#: includes/admin/views/html-notice-missing-woocommerce.php:22
+msgid "WooCommerce PagSeguro"
+msgstr "WooCommerce PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:588
+msgid "PagSeguro: Payment canceled."
+msgstr "PagSeguro: Pagamento cancelado."
+
+#: includes/class-wc-pagseguro-gateway.php:583
+msgid "Order %s has been marked as refunded by PagSeguro."
+msgstr "O pedido %s mudou de status para reembolsado pelo PagSeguro."
+
+#: includes/class-wc-pagseguro-gateway.php:582
+msgid "Payment refunded"
+msgstr "Pagamento reembolsado"
+
+#: includes/class-wc-pagseguro-gateway.php:581
+msgid "Payment for order %s refunded"
+msgstr "O pagamento do pedido %s foi devolvido"
+
+#: includes/class-wc-pagseguro-gateway.php:579
+msgid "PagSeguro: Payment refunded."
+msgstr "PagSeguro: Pagamento devolvido."
+
+#: includes/class-wc-pagseguro-gateway.php:574
+msgid "Order %s has been marked as on-hold, because the payment came into dispute in PagSeguro."
+msgstr "O pedido %s mudou de status para aguardando, porque o pagamento entrou em disputa no PagSeguro."
+
+#: includes/class-wc-pagseguro-gateway.php:573
+msgid "Payment in dispute"
+msgstr "Pagamento em disputa"
+
+#: includes/class-wc-pagseguro-gateway.php:572
+msgid "Payment for order %s came into dispute"
+msgstr "Pagamento do pedido %s entrou em disputa"
+
+#: includes/class-wc-pagseguro-gateway.php:570
+msgid "PagSeguro: Payment came into dispute."
+msgstr "PagSeguro: O pagamento entrou em disputa."
+
+#: includes/class-wc-pagseguro-gateway.php:566
+msgid "PagSeguro: Payment completed and credited to your account."
+msgstr "PagSeguro: Pagamento concluído e creditado na sua conta."
+
+#: includes/class-wc-pagseguro-gateway.php:559
+msgid "PagSeguro: Payment approved."
+msgstr "PagSeguro: Pagamento aprovado."
+
+#: includes/class-wc-pagseguro-gateway.php:555
+msgid "PagSeguro: Payment under review."
+msgstr "PagSeguro: Pagamento em análise."
+
+#: includes/class-wc-pagseguro-gateway.php:551
+msgid "PagSeguro: The buyer initiated the transaction, but so far the PagSeguro not received any payment information."
+msgstr "PagSeguro: O comprador iniciou a transação, mas até o momento o PagSeguro não recebeu nenhuma informação sobre o pagamento."
+
+#: includes/class-wc-pagseguro-gateway.php:500
+#: templates/transparent-checkout-form.php:53
+msgid "Installments"
+msgstr "Parcelas"
+
+#: includes/class-wc-pagseguro-gateway.php:496
+msgid "Payment method"
+msgstr "Método de pagamento"
+
+#: includes/class-wc-pagseguro-gateway.php:492
+msgid "Payment type"
+msgstr "Tipo de pagamento"
+
+#: includes/class-wc-pagseguro-gateway.php:488
+msgid "Payer name"
+msgstr "Nome do comprador"
+
+#: includes/class-wc-pagseguro-gateway.php:485
+msgid "Payer email"
+msgstr "E-mail do comprador"
+
+#: includes/class-wc-pagseguro-gateway.php:465
+msgid "PagSeguro Request Unauthorized"
+msgstr "PagSeguro pedido não autorizado"
+
+#: includes/views/html-receipt-page-error.php:19
+msgid "Click to try again"
+msgstr "Clique para tentar novamente"
+
+#: includes/class-wc-pagseguro-gateway.php:306
+msgid "Log PagSeguro events, such as API requests, inside %s"
+msgstr "Grava eventos do PagSeguro, como solicitações de API, dentro do arquivo %s"
+
+#: includes/class-wc-pagseguro-gateway.php:304
+msgid "Enable logging"
+msgstr "Habilitar log"
+
+#: includes/class-wc-pagseguro-gateway.php:302
+msgid "Debug Log"
+msgstr "Log de depuração"
+
+#: includes/class-wc-pagseguro-gateway.php:219
+msgid "Enable PagSeguro Sandbox"
+msgstr "Ativar Sandbox do PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:217
+msgid "PagSeguro Sandbox"
+msgstr "PagSeguro Sandbox"
+
+#: includes/class-wc-pagseguro-gateway.php:297
+msgid "Gateway Testing"
+msgstr "Testes"
+
+#: includes/class-wc-pagseguro-gateway.php:292
+msgid "Please enter a prefix for your invoice numbers. If you use your PagSeguro account for multiple stores ensure this prefix is unqiue as PagSeguro will not allow orders with the same invoice number."
+msgstr "Por favor informe um prefixo para utilizar com os números de pedidos. Caso você utilize sua conta do PagSeguro em mais de uma loja, procure utilizar um prefixo único para cada loja."
+
+#: includes/class-wc-pagseguro-gateway.php:290
+msgid "Invoice Prefix"
+msgstr "Prefixo de pedido"
+
+#: includes/class-wc-pagseguro-gateway.php:286
+msgid "If this option is enabled will only send the order total, not the list of items."
+msgstr "Caso esta opção esteja ativada será enviado apenas o total do pedido e não a lista de itens."
+
+#: includes/class-wc-pagseguro-gateway.php:284
+msgid "Send only the order total"
+msgstr "Enviar apenas o total do pedido"
+
+#: includes/class-wc-pagseguro-gateway.php:279
+msgid "Integration Behavior"
+msgstr "Comportamento da integração"
+
+#: includes/class-wc-pagseguro-gateway.php:275
+msgid "Display a message alerting the customer that will be charged R$ 1,00 for payment by Banking Ticket"
+msgstr "Exibir uma mensagem alertando o cliente que será cobrado R$ 1,00 para pagamento por boleto bancário"
+
+#: includes/class-wc-pagseguro-gateway.php:273
+msgid "Banking Ticket Tax Message"
+msgstr "Mensagem sobre a taxa do boleto bancário"
+
+#: includes/class-wc-pagseguro-gateway.php:269
+msgid "Enable Banking Ticket for Transparente Checkout"
+msgstr "Ativar boleto bancário para o checkout transparente"
+
+#: includes/class-wc-pagseguro-gateway.php:267
+#: templates/transparent-checkout-form.php:27
+msgid "Banking Ticket"
+msgstr "Boleto Bancário"
+
+#: includes/class-wc-pagseguro-gateway.php:263
+msgid "Enable Bank Transfer for Transparente Checkout"
+msgstr "Ativar transferência bancária para o checkout transparente"
+
+#: includes/class-wc-pagseguro-gateway.php:257
+msgid "Enable Credit Card for Transparente Checkout"
+msgstr "Ativar cartão de crédito para o checkout transparente"
+
+#: includes/class-wc-pagseguro-gateway.php:250
+msgid "Transparent Checkout Options"
+msgstr "Opções do Checkout Transparente"
+
+#: includes/class-wc-pagseguro-gateway.php:213
+msgid "Transparent Checkout"
+msgstr "Checkout Transparente"
+
+#: includes/class-wc-pagseguro-gateway.php:212
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/class-wc-pagseguro-gateway.php:211
+msgid "Redirect (default)"
+msgstr "Redirecionamento (padrão)"
+
+#: includes/class-wc-pagseguro-gateway.php:206
+msgid "Choose how the customer will interact with the PagSeguro. Redirect (Client goes to PagSeguro page) or Lightbox (Inside your store)"
+msgstr "Escolha como o cliente irá interagir com o PagSeguro. Redirecionamento (O cliente vai para a página do PagSeguro) ou Lightbox (cliente paga dentro da loja)"
+
+#: includes/class-wc-pagseguro-gateway.php:204
+msgid "Integration method"
+msgstr "Método de integração"
+
+#: includes/class-wc-pagseguro-gateway.php:234
+#: includes/class-wc-pagseguro-gateway.php:240
+#: includes/class-wc-pagseguro-gateway.php:246
+msgid "here"
+msgstr "aqui"
+
+#: includes/class-wc-pagseguro-gateway.php:234
+msgid "Please enter your PagSeguro token. This is needed to process the payment and notifications. Is possible generate a new token %s."
+msgstr "Por favor digite seu token do PagSeguro. É necessário para processar o pagamento e as notificações de status da compra. É possível gerar um novo token %s."
+
+#: includes/class-wc-pagseguro-gateway.php:232
+msgid "PagSeguro Token"
+msgstr "Token do PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:227
+msgid "Please enter your PagSeguro email address. This is needed in order to take payment."
+msgstr "Por favor digite o seu endereço de email do PagSeguro. É necessário para receber o pagamento."
+
+#: includes/class-wc-pagseguro-gateway.php:225
+msgid "PagSeguro Email"
+msgstr "Email cadastrado no PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:196
+#: templates/lightbox-checkout.php:19
+msgid "Pay via PagSeguro"
+msgstr "Pagar com PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:195
+msgid "This controls the description which the user sees during checkout."
+msgstr "Isso controla a descrição que o usuário vê durante o checkout."
+
+#: includes/class-wc-pagseguro-gateway.php:193
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-wc-pagseguro-gateway.php:188
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isto controla o título que o usuário vê durante o checkout."
+
+#: includes/class-wc-pagseguro-gateway.php:186
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-pagseguro-gateway.php:182
+msgid "Enable PagSeguro"
+msgstr "Ativar o PagSeguro"
+
+#: includes/class-wc-pagseguro-gateway.php:180
+msgid "Enable/Disable"
+msgstr "Habilita/Desabilita"
+
+#: includes/class-wc-pagseguro-gateway.php:168
+msgid "System Status &gt; Logs"
+msgstr "Status do Sistema &gt; Logs"
+
+#: includes/class-wc-pagseguro-gateway.php:154
+msgid "Select a number of installments."
+msgstr "Selecione o número de parcelas."
+
+#: includes/class-wc-pagseguro-gateway.php:153
+msgid "Unable to process the data from your credit card on the PagSeguro, please try again or contact us for assistance."
+msgstr "Não foi possível processar os dados do seu cartão de crédito no PagSeguro, por favor, tente novamente ou entre em contato para receber ajuda."
+
+#: includes/class-wc-pagseguro-gateway.php:152
+msgid "Please check the expiry date and use a valid format as MM / YYYY."
+msgstr "Por favor, verifique a data de expiração e utilize o formato MM / AAAA."
+
+#: includes/class-wc-pagseguro-gateway.php:151
+msgid "Invalid expiry date, please use the MM / YYYY date format."
+msgstr "A data de expiração é inválida, por favor, utilize o formato MM / AAAA."
+
+#: includes/class-wc-pagseguro-gateway.php:150
+msgid "Invalid credit card number."
+msgstr "O número do cartão de crédito é inválido."
+
+#: includes/class-wc-pagseguro-gateway.php:149
+msgid "interest free"
+msgstr "sem juros"
+
+#: includes/class-wc-pagseguro-gateway.php:26
+msgid "Proceed to payment"
+msgstr "Realizar pagamento"
+
+#: includes/class-wc-pagseguro-gateway.php:25
+msgid "Accept payments by credit card, bank debit or banking ticket using the PagSeguro."
+msgstr "Aceite pagamentos por cartão de crédito, débito bancário ou boleto bancário utilizando o PagSeguro."
+
+#: includes/class-wc-pagseguro-api.php:716
+msgid "You are not allowed to use the PagSeguro Transparent Checkout. Looks like you neglected to installation guide of this plugin. This is not pretty, do you know?"
+msgstr "Você não tem permissão para usar o Checkout Transparente do PagSeguro. Parace que você negligenciou o guia de instalação deste plugin. Que feio isso hein?"
+
+#: includes/class-wc-pagseguro-api.php:690
+msgid "Please, select a payment method."
+msgstr "Por favor, selecione um método de pagamento."
+
+#: includes/class-wc-pagseguro-api.php:668
+#: includes/class-wc-pagseguro-api.php:770
+msgid "An error has occurred while processing your payment, please try again. Or contact us for assistance."
+msgstr "Um erro ocorreu ao processar o seu pagamento, por favor, tente novamente ou entre em contato para obter ajuda."
+
+#: includes/class-wc-pagseguro-api.php:648
+#: includes/class-wc-pagseguro-api.php:668
+#: includes/class-wc-pagseguro-api.php:690
+#: includes/class-wc-pagseguro-api.php:750
+#: includes/class-wc-pagseguro-api.php:770
+#: includes/class-wc-pagseguro-gateway.php:24
+#: includes/class-wc-pagseguro-gateway.php:190
+msgid "PagSeguro"
+msgstr "PagSeguro"
+
+#: includes/class-wc-pagseguro-api.php:611
+msgid "Too bad! The email or token from the PagSeguro are invalids my little friend!"
+msgstr "Que feio! O e-mail ou token do PagSeguro são inválidos amiguinho!"
+
+#: includes/class-wc-pagseguro-api.php:379
+msgid "Order %s"
+msgstr "Pedido %s"
+
+#: includes/class-wc-pagseguro-api.php:270
+msgid "An error has occurred while processing your payment, please review your data and try again. Or contact us for assistance."
+msgstr "Um erro ocorreu ao processar o seu pagamento, por favor, revise os seus dados e tente novamente. Ou entre em contato conosco para obter assistência."
+
+#: includes/class-wc-pagseguro-api.php:262
+msgid "Invalid email domain. You must use an email @sandbox.pagseguro.com.br while you are using the PagSeguro Sandbox."
+msgstr "Domínio do e-mail é inválido. Você deve utilizar um e-mail @sandbox.pagseguro.com.br enquanto você esta usando o Sandbox do PagSeguro."
+
+#: includes/class-wc-pagseguro-api.php:261
+msgid "Credit card holder CPF invalid."
+msgstr "CPF do dono do cartão de crédito é inválido."
+
+#: includes/class-wc-pagseguro-api.php:260
+msgid "<strong>Neighborhood</strong> is a required field."
+msgstr "<strong>Bairro</strong> é um campo obrigatório."
+
+#: includes/class-wc-pagseguro-api.php:258
+#: includes/class-wc-pagseguro-api.php:259
+msgid "The address complement is too long, it cannot be more than 40 characters."
+msgstr "O complemento do endereço é muito grande, não pode ter mais do que 40 caráteres."
+
+#: includes/class-wc-pagseguro-api.php:256
+#: includes/class-wc-pagseguro-api.php:257
+msgid "Credit card holder phone is required."
+msgstr "É obrigatório informar o número de telefone do portador do cartão de crédito."
+
+#: includes/class-wc-pagseguro-api.php:255
+msgid "Credit card holder name is required."
+msgstr "É obrigatório informar o nome do portador do cartão de crédito."
+
+#: includes/class-wc-pagseguro-api.php:254
+msgid "Credit card holder birthdate is required."
+msgstr "É obrigatório informar da data de nascimento do portador do cartão de crédito."
+
+#: includes/class-wc-pagseguro-api.php:253
+msgid "Credit card holder CPF is required."
+msgstr "É obrigatório informar o CPF do portador do cartão de crédito."
+
+#: includes/class-wc-pagseguro-api.php:252
+msgid "Please select a bank to make payment by bank transfer."
+msgstr "Por favor, selecione o banco que você irá utilizar para fazer a transferência bancária."
+
+#: includes/class-wc-pagseguro-api.php:250
+msgid "Please enter with a valid CPF number."
+msgstr "Por favor, digite um número de CPF válido."
+
+#: includes/class-wc-pagseguro-api.php:245
+#: includes/class-wc-pagseguro-api.php:246
+#: includes/class-wc-pagseguro-api.php:247
+#: includes/class-wc-pagseguro-api.php:248
+#: includes/class-wc-pagseguro-api.php:249
+msgid "Please enter with a valid zip code number."
+msgstr "Por favor, digite um número de CEP válido."
+
+#: includes/class-wc-pagseguro-api.php:239
+#: includes/class-wc-pagseguro-api.php:240
+#: includes/class-wc-pagseguro-api.php:241
+#: includes/class-wc-pagseguro-api.php:242
+#: includes/class-wc-pagseguro-api.php:243
+#: includes/class-wc-pagseguro-api.php:244
+msgid "Please enter with a valid phone number with DDD. Example: (11) 5555-5555."
+msgstr "Por favor, digite um número de telefone válido com DDD. Exemplo: (11) 5555-5555."
+
+#: includes/class-wc-pagseguro-api.php:159
+#: includes/class-wc-pagseguro-api.php:208
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: includes/class-wc-pagseguro-api.php:156
+#: includes/class-wc-pagseguro-api.php:205
+msgid "Account deposit"
+msgstr "Depósito em conta"
+
+#: includes/class-wc-pagseguro-api.php:155
+#: includes/class-wc-pagseguro-api.php:204
+msgid "Oi Paggo"
+msgstr "Oi Paggo"
+
+#: includes/class-wc-pagseguro-api.php:154
+#: includes/class-wc-pagseguro-api.php:203
+msgid "PagSeguro credit"
+msgstr "Saldo PagSeguro"
+
+#: includes/class-wc-pagseguro-api.php:153
+#: includes/class-wc-pagseguro-gateway.php:261
+#: templates/transparent-checkout-form.php:23
+msgid "Bank Transfer"
+msgstr "Débito Online"
+
+#: includes/class-wc-pagseguro-api.php:152
+msgid "Billet"
+msgstr "Boleto"
+
+#: includes/class-wc-pagseguro-api.php:151
+#: includes/class-wc-pagseguro-gateway.php:255
+#: templates/transparent-checkout-form.php:19
+msgid "Credit Card"
+msgstr "Cartão de Crédito"

@@ -1,0 +1,222 @@
+.locatorBox {
+    display: inline-flex;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.locatorBox .submitLocator {
+    box-shadow: rgba(0, 0, 0, 0.247059) 1px 2px 3px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: 0.18px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    vertical-align: top;
+    white-space: pre;
+    width: 23%;
+    min-width: 117px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 61.5625px 23px;
+    transform-origin: 61.5625px 23px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(236, 128, 58) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(210, 104, 35);
+    font: normal normal bold normal 18px / 18px sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 8px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 13px 30px;
+    border-color: #d26823;
+    line-height: 1;
+    background: #ec803a;
+    -webkit-box-shadow: rgba(0,0,0,0.25) 1px 2px 3px 0;
+    -moz-box-shadow: rgba(0,0,0,0.25) 1px 2px 3px 0;
+    box-shadow: rgba(0,0,0,0.25) 1px 2px 3px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 50px;
+}
+
+
+.locatorBox .submitLocator:hover {
+    box-shadow: rgba(0, 0, 0, 0.247059) 1px 2px 3px 0px;
+    perspective-origin: 61.5625px 23px;
+    transform-origin: 61.5625px 23px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(210, 104, 35) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(210, 104, 35);
+    outline: rgb(255, 255, 255) none 0px;
+}
+.locatorBox input[type="submit"]:focus {
+    background: rgb(236, 128, 58) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.locatorBox .locatorRadius {
+    background-position: 100% 50%;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 21%;
+    min-width: 100px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 64px 23px;
+    transform-origin: 64px 23px;
+    caret-color: rgb(51, 51, 51);
+    border: 1px solid rgb(151, 151, 151);
+    font: normal normal normal normal 14px / normal sans-serif;
+    list-style: none outside none;
+    margin: 0px 14px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 0px 20px 0px 10px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    margin-left:10px;
+    height: 50px;
+}
+
+.locatorBox .searchLocator {
+    color: rgb(51, 51, 51);
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 55%;
+    min-width: 161px;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 151.5px 23px;
+    transform-origin: 151.5px 23px;
+    caret-color: rgb(51, 51, 51);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box padding-box;
+    border: 1px solid rgb(151, 151, 151);
+    font: normal normal normal normal 14px / 16.8px Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 1px 10px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    height: 50px;
+    box-sizing: border-box;
+}
+.locatorBox .searchLocator:focus {
+    box-shadow: rgb(62, 154, 245) 0px 0px 0px 1px inset;
+    color: rgb(51, 51, 51);
+    text-decoration: none solid rgb(51, 51, 51);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box padding-box;
+    border: 1px solid rgb(62, 154, 245);
+    list-style: none outside none;
+    outline: rgb(51, 51, 51) none 0px;
+}
+
+/* Store Block Style */
+
+#huge_main_store_block .str-block {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f7;
+    width:100%;
+    height: auto;
+    margin-top:10px;
+    overflow: auto;
+}
+
+
+#huge_main_store_block .str-block .str-name {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #303030;
+    margin: 0;
+    max-width: 375px;
+}
+#huge_main_store_block .str-block .str-dir {
+    margin:0px;
+    padding:0px;
+}
+#huge_main_store_block .str-block .str-dir a {
+    color:#06643d;
+    text-decoration:none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+#huge_main_store_block .str-block .str-img {
+    position: absolute;
+    display: inline-block;
+    top: 5px;
+}
+#huge_main_store_block .str-block .str-img img {
+    vertical-align: inherit;
+}
+#huge_main_store_block .str-block .str-phone img {
+    vertical-align: inherit;
+}
+#huge_main_store_block .str-block .addr_block {
+    line-height: 25px;
+    margin-left: 70px;
+    display: inline-block;
+}
+#huge_main_store_block .str-block .str-addr {
+    margin: 15px 0px 0px 0px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    width: 224px;
+}
+#huge_main_store_block .str-block .str-number {
+    margin-left: 3px;
+    vertical-align: super;
+    display: inline;
+    color: #303030;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+#huge_main_store_block .str-block .addr-info {
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+}
+#huge_main_store_block .str-block .a_info {
+    margin: 3% 8% 0 0;
+    float: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+#huge_main_store_block .str-block .a_info table
+{
+    border-collapse: inherit;
+    border-spacing: inherit;
+    border-width: inherit;
+    margin-bottom:20px;
+    table-layout:auto;
+    width: auto;
+}
+#huge_main_store_block .str-block .a_info table th,
+#huge_main_store_block .str-block .a_info table td
+{
+    padding: 0 0 0 10px;
+}
+#huge_main_store_block .str-block .a_info table th,
+#huge_main_store_block .str-block .a_info table td:nth-of-type(2){
+    text-align: center;
+}
+
+#huge_main_store_block .str-block .a_info table * {
+    border: none !important;
+}
+#huge_main_store_block .markerLabel {
+    position: absolute;
+    width: 51px;
+    text-align: center;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #06643d;
+}
+/* Store Block Style */
+
+
+

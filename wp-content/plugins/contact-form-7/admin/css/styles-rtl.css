@@ -1,0 +1,66 @@
+/*
+ * Tabs
+ */
+#contact-form-editor-tabs {
+	padding: 9px 10px 0 15px;
+}
+
+#contact-form-editor-tabs li a span.dashicons {
+	padding: 6px 4px 4px 0;
+}
+
+/*
+ * Form Tab
+ */
+.tag-generator-panel {
+	text-align: right;
+}
+
+.tag-generator-panel .control-box > fieldset legend {
+	border: 1px solid #dfdfdf;
+	border-right: 4px solid #00a0d2;
+}
+
+.tag-generator-panel .insert-box input.tag {
+	float: right;
+}
+
+.tag-generator-panel .insert-box .submitbox input[type="button"] {
+	float: left;
+}
+
+/*
+ * Mail Tab
+ */
+.contact-form-editor-box-mail span.mailtag {
+	margin: 0 4px 0 0;
+}
+
+/*
+ * Welcome Panel
+ */
+.welcome-panel .welcome-panel-column,
+.welcome-panel .welcome-panel-column:first-child {
+	padding: 0 0 0 2%;
+}
+
+/*
+ * Integration
+ */
+.card {
+	border-left: 1px solid #e5e5e5;
+	border-right: 4px solid #e5e5e5;
+}
+
+.card img.icon {
+	float: right;
+	margin: 8px -8px 8px 8px;
+}
+
+.card h2.title {
+	float: right;
+}
+
+.card .infobox {
+	float: left;
+}

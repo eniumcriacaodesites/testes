@@ -1,0 +1,111 @@
+.section-title-wrapper {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    .section-title-block {
+        float: left;
+        .page-title {
+            display: inline-block;
+            font-size: 20px;
+            margin: 0;
+            position: relative;
+            a {
+                color: $color__text-dark;
+                &:hover {
+                    color: $color_default_hover;
+                }
+            }
+        }
+        .page-sub-title {
+            display: inline-block;
+            font-size: 13px;
+            color: #7f7d7d;
+            font-weight: 400;
+            position: relative;
+            margin: 0 0 0 10px;
+            padding-left: 15px;
+            &:before {
+                position: absolute;
+                left: 0;
+                content: "/";
+                top: 0;
+            }
+        }
+    }
+}
+
+.widget-collection .page-title:after,
+.widget-featured-collection .page-title:after {
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: $color_default;
+}
+
+.sorting-form-wrapper {
+    float: right;
+    .sort-text {
+        float: left;
+        font-weight: 700;
+    }
+    .woocommerce-ordering {
+        float: left;
+        margin-left: 15px;
+    }
+}
+
+.view-all {
+    float: right;
+    a{
+    	color: #333333;
+    	&:hover{
+    		color: $color__link-hover;
+    	}
+    }
+}
+
+
+/*--------------------------------------------------------------
+## feature color
+--------------------------------------------------------------*/
+
+.widget-featured-collection .page-title:after {
+    background: $color_featured;
+}
+
+.widget-featured-collection .section-title-wrapper .section-title-block .page-title {
+    a {
+        &:hover {
+            color: $color_featured_hover;
+        }
+    }
+}
+
+
+/*--------------------------------------------------------------
+## collection color
+--------------------------------------------------------------*/
+.product-collection .page-title:after {
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: $color_default;
+}
+
+.men-collection-color .page-title:after {
+    background: $color_default;
+}
+
+.men-collection-color .section-title-wrapper .section-title-block .page-title {
+    a {
+        &:hover {
+            color: $color_default_hover;
+        }
+    }
+}

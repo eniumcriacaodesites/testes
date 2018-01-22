@@ -1,0 +1,127 @@
+.button {
+  border: 2px solid;
+  border-color: $color__brand-primary;
+  border-radius: 3px;
+  background: $color__brand-primary;
+  color: #FFF;
+  font-size: 15px;
+  padding: 8px 20px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $color__brand-primary-hover;
+    background: $color__brand-primary-hover;
+  }
+}
+
+.button,
+button:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  @extend .button;
+  display: inline-block;
+  &.primary {
+    background: $color__brand-primary;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $color__brand-primary-hover;
+      background: $color__brand-primary-hover;
+      color: #FFF;
+    }
+  }
+  &.red {
+    background: #f66249;;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#f66249, 10%);
+      background: darken(#f66249, 10%);
+      color: #FFF;
+    }
+  }
+  &.secondary, &.beige {
+    background: #eaab76;
+    border-color: #eaab76;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#eaab76, 10%);
+      background: darken(#eaab76, 10%);
+      color: #FFF;
+    }
+  }
+  &.green {
+    background: #99ca45;
+    border-color: #99ca45;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#99ca45, 10%);
+      background: darken(#99ca45, 10%);
+      color: #FFF;
+    }
+  }
+  &.blue {
+    background: #263585;
+    border-color: #263585;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#263585, 10%);
+      background: darken(#263585, 10%);
+      color: #FFF;
+    }
+  }
+  &.black {
+    background: #252525;
+    border-color: #252525;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#252525, 10%);
+      background: darken(#252525, 10%);
+      color: #FFF;
+    }
+  }
+  &.orange {
+    background: #ffab1a;
+    border-color: #ffab1a;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#ffab1a, 1%);
+      background: darken(#ffab1a, 5%);
+      color: #FFF;
+    }
+  }
+  &.light_blue {
+    background: #2279d3;
+    border-color: #2279d3;
+    color: #FFF;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: darken(#2279d3, 5%);
+      background: darken(#2279d3, 5%);
+      color: #FFF;
+    }
+  }
+}

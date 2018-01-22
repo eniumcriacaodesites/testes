@@ -1,0 +1,48 @@
+/* ==========================================================================
+   =Tables
+   ========================================================================== */
+
+table,
+th,
+td {
+	border: 1px solid #e1e1e1;
+}
+
+/**
+	 * 1. Prevents HTML tables from becoming too wide
+	 */
+
+table {
+	width: 100%;
+	border-width: 1px 0 0 1px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 28px;
+	table-layout: fixed; /* 1 */
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+caption {
+	margin-bottom: 28px;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	padding: 14px;
+	margin-bottom: 0.93333333em;
+}

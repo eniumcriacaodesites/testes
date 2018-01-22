@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------
+	Bottom Header css
+--------------------------------------------------------------*/
+
+.bottom-header-wrapper {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    .tg-container{
+    	position: static;
+    }
+}
+.category-menu {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-weight: 600;
+    line-height: 43px;
+    text-transform: capitalize;
+    width: 230px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative;
+    margin-right: 30px;
+    &:hover {
+	background: $color__link;
+    }
+    .category-toggle {
+    	padding: 0 20px;
+        i {
+            float: right;
+            line-height: 43px;
+        }
+    }
+    .category-toggle.active{
+		background: $color__link;
+    }
+}
+
+#category-navigation {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #00a9e0;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 999;
+    ul {
+    	list-style: none;
+        margin: 0;
+        li {
+            padding: 0 20px;
+            line-height: 38px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            position: relative;
+            a {
+                color: #333;
+            }
+            &:hover > a {
+                color: $color__link-hover;
+            }
+            &:last-child{
+            	border-bottom: none;
+            }
+        }
+    }
+}
+
+#category-navigation ul.sub-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #00a9e0;
+    left: 110%;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+	@include transition(all 0.5s ease);
+}
+
+#category-navigation ul li:hover > ul.sub-menu{
+	opacity: 1;
+	visibility: visible;
+	left: 100%;
+}
+

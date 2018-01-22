@@ -1,0 +1,49 @@
+# comparison
+<=>
+=
+>=
+>
+<=
+<
+!=
+<>
+# arithmetic
+DIV
+/
+-
+%
++
+*
+MOD
+# logical
+AND
+BETWEEN
+BINARY
+CASE
+COLLATE
+DIV
+IS
+LIKE
+MOD
+NOT
+NULL
+OFFSET
+OR
+REGEXP
+RLIKE
+SOUNDS
+XOR
+||
+&&
+!
+OR
+# assignment
+=
+:=
+#bit
+&
+~
+|
+^
+<<
+>>

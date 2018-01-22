@@ -1,0 +1,23 @@
+### C# LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+    NAME                C#
+    VERSION             1.8.1
+
+    COMMENT             (?default)
+    PREPROCESSOR		(?default)
+    VERBATIMSTR:STRING  (?<!\\)(@\".*?(?<!(\"))\")
+    STRING              (?default)
+    
+    STATEMENT           \b(?alt:statement.txt)\b
+    RESERVED            \b(?alt:reserved.txt)\b
+    TYPE                \b(?alt:type.txt)\b
+    MODIFIER            \b(?alt:modifier.txt)\b
+    
+    ENTITY              (?default)
+    VARIABLE            (?default)
+    IDENTIFIER          (?default)
+    CONSTANT            (?default)
+    OPERATOR            (?default)
+    SYMBOL              (?default)

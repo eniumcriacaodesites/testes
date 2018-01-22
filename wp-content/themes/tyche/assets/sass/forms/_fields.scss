@@ -1,0 +1,90 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  color: $color__text-input;
+  border: 1px solid $color__border-input;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 16px;
+  -webkit-appearance: textfield;
+  &:focus {
+    color: $color__text-input-focus;
+    outline: none;
+  }
+}
+
+select {
+  border: 1px solid $color__border-input;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+  width: 100%;
+}
+
+.wpcf7 {
+  .wpcf7-form {
+    width: 100%;
+    padding: 0;
+    p {
+      margin-bottom: 15px;
+    }
+    input:not([type="submit"]) {
+      width: 100%;
+      padding: 5px;
+    }
+    textarea {
+      height: 110px;
+    }
+  }
+  .wpcf7-submit {
+    background: $color__brand-primary;
+    color: #FFF;
+    padding: 5px 35px;
+    &:hover {
+      background: lighten($color__brand-primary, 5%);
+      border-color: lighten($color__brand-primary, 5%);
+      color: #FFF;
+    }
+  }
+
+}
+
+.styled-select {
+  position: relative;
+  select {
+    z-index: 2;
+    background:transparent;
+  }
+  &:after {
+    position: absolute;
+    content: '\f107';
+    color: $color__brand-primary;
+    top: 3px;
+    right: 15px;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    cursor: pointer;
+    z-index: -1;
+  }
+}

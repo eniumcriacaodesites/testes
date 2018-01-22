@@ -1,0 +1,31 @@
+.blog-section {
+    background: #f9f9f9 none repeat scroll 0 0;
+    padding: 40px 0;
+    .widget-title{
+        font-size: 20px;
+        margin: 0 0 24px;
+        text-align: center;
+        border:none;
+        text-transform: uppercase;
+    }
+    .entry-title {
+        margin-top: 20px;
+    }
+    .entry-content {
+        margin-top: 10px;
+    }
+    .hentry{
+    	margin: 0;
+    }
+}
+
+.widget_logo {
+	padding: 40px 0;
+    .widget-title {
+    	 font-size: 20px;
+        margin: 0 0 24px;
+        text-align: center;
+        border:none;
+        text-transform: uppercase;
+    }
+}

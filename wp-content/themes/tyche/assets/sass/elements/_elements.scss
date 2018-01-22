@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+  quotes: "" "";
+
+  &:before,
+  &:after {
+    content: "";
+  }
+}
+
+q {
+  color: #717171;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 20px;
+  quotes: "\201C" "\201D" "\201C" "\201D";
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+blockquote {
+  overflow: hidden;
+  p{
+    color: #717171;
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 28px;
+  }
+
+  quotes: "" "" "" "";
+}
+
+blockquote:before {
+  content: open-quote;
+}
+
+blockquote:after {
+  content: close-quote;
+}
+
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 14px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+}
+
+hr {
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
+
+#tyche-map {
+  height: 330px;
+}
+
+a {
+  color: $color__text-main;
+  &:hover,
+  &:focus {
+    color: $color__brand-primary-hover;
+  }
+}

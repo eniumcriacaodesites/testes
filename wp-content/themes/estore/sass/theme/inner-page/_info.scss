@@ -1,0 +1,76 @@
+.woocommerce {
+    .woocommerce-info,
+    .woocommerce-error,
+    .woocommerce-message {
+        border: none;
+        border-left: 3px solid $color__link;
+        font-weight: 600;
+        &:before {
+            content: "\f05a";
+            font-family: FontAwesome;
+            font-size: 16px;
+            left: 20px;
+            top: 50%;
+            @include transform(translateY(-50%));
+            color: $color__link;
+        }
+        .showcoupon {
+            margin-left: 10px;
+            display: inline-block;
+        }
+    }
+    .woocommerce-info {
+        margin-bottom: 0 !important;
+    }
+    .woocommerce-error {
+        border-left: 3px solid #F65656;
+        margin-bottom: 30px !important;
+        &:before {
+            content: "\f071";
+            color: #F65656;
+            top: 10px;
+            @include transform(translateY(0));
+        }
+    }
+    .woocommerce-message {
+        margin-bottom: 30px;
+        border-left: 3px solid #82B341;
+        &:before {
+            content: "\f058";
+            color: #82B341;
+        }
+    }
+    form.checkout_coupon {
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+        border-top: none;
+        .form-row-last {
+            float: left;
+        }
+        .form-row {
+            padding: 0;
+        }
+    }
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background: #00a9e0 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 10px;
+    line-height: 32px;
+    @include transition(background 0.5s ease);
+    &:hover {
+        background: $color__link-hover;
+    }
+}

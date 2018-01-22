@@ -1,0 +1,306 @@
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.bypostauthor {
+  display: block;
+}
+
+/* ==========================================================================
+   =Comments, Pingbacks and Trackbacks
+   ========================================================================== */
+
+.comments-wrap {
+  background-color: #f9f9fa;
+  padding: 56px 0;
+  padding: 3.73333333em 0;
+  margin: 28px 0 -70px;
+  margin: 1.86666666em 0 -4.66666666em;
+}
+
+/*
+	 * 1. Clearfix hack
+	 */
+
+.comments-area:after,
+.comment-list:after
+.comment:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.comments-area {
+  margin-bottom: 56px;
+  margin-bottom: 3.73333333em;
+}
+
+.comment-list,
+.comment-list .children {
+  list-style: none;
+}
+
+.comment-list {
+  margin: 28px 0;
+  margin: 1.86666666em 0;
+}
+
+@media (max-width: 480px) {
+
+  .comment-list .children {
+    margin-left: 7px;
+    margin-left: 0.46666666em;
+  }
+
+}
+
+.comment {
+}
+
+.no-comments,
+.comment-awaiting-moderation {
+  color: #1a171c;
+}
+
+/* =Comment Meta
+   ========================================================================== */
+
+.comment-meta {
+  margin: 0;
+}
+
+.comment-author {
+  position: relative;
+  z-index: 2;
+}
+
+.comment-author .avatar {
+  position: absolute;
+  left: -84px;
+  left: -5.6em;
+  top: 1px;
+  top: 0.290em;
+  height: 64px;
+  height: 4.26666666em;
+  width: 64px;
+  width: 4.26666666em;
+}
+
+@media (max-width: 480px) {
+
+  .comment-author .avatar {
+    position: relative;
+    left: auto;
+    top: auto;
+    display: block;
+    height: 48px;
+    height: 3.2em;
+    width: 48px;
+    width: 3.2em;
+    margin-bottom: 28px;
+    margin-bottom: 1.86666666em;
+  }
+
+}
+
+.comment-author .says {
+  display: none;
+}
+
+.comment-metadata > a {
+  color: #777777;
+}
+
+.comment-metadata a.comment-edit-link {
+
+}
+
+/* =Comment Body
+   ========================================================================== */
+
+.comment .comment-body {
+  position: relative;
+  padding: 28px 0 28px 84px;
+  padding: 1.86666666em 0 1.86666666em 5.6em;
+  border-top: 1px solid #e1e1e1;
+}
+
+.comment-list > li:first-child > .comment-body {
+  padding-top: 7px;
+  padding-top: 0.46666666em;
+  border-top: 0;
+}
+
+@media (max-width: 480px) {
+
+  .comment .comment-body {
+    padding-left: 0;
+  }
+
+}
+
+.comment .comment-body *:last-child {
+  margin-bottom: 0;
+}
+
+/* =Comment Reply
+   ========================================================================== */
+
+.reply {
+  margin: 14px 0 28px;
+  margin: 0.93333333em 0 1.86666666em;
+}
+
+.comment-reply-link {
+  position: relative;
+}
+
+/* ==========================================================================
+   =Comments Navigation
+   ========================================================================== */
+
+.comment-navigation {
+  padding-top: 28px;
+  padding-top: 1.86666666em;
+  margin-bottom: 28px;
+  margin-bottom: 1.86666666em;
+}
+
+/*
+	 * 1. Clearfix hack
+	 */
+
+.comment-navigation:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#comment-nav-above {
+  padding-bottom: 28px;
+  padding-bottom: 1.86666666em;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#comment-nav-below {
+  border-top: 1px solid #e1e1e1;
+}
+
+.comment-navigation .nav-next a:after {
+  font-family: 'FontAwesome';
+  content: "\f105";
+  padding-left: 4px;
+  padding-left: 0.26666666em;
+}
+
+.comment-navigation .nav-previous a:before {
+  font-family: 'FontAwesome';
+  content: "\f104";
+  padding-right: 4px;
+  padding-right: 0.26666666em;
+}
+
+.comment-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.comment-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* ==========================================================================
+   =Comments Form
+   ========================================================================== */
+
+.comment-respond {
+}
+
+/*
+ * 1. Clearfix hack
+ */
+
+.comment-respond:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.comment-reply-title {
+  margin-bottom: 0;
+}
+
+.comment-form {
+  margin: 0 -15px 30px;
+}
+
+/*
+ * 1. Clearfix hack
+ */
+
+.comment-form:after { /* 1 */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.comment-form label {
+}
+
+.comment-form p:not(.comment-notes):not(.logged-in-as) {
+  margin-bottom: 0;
+}
+
+.comment-form .logged-in-as,
+.comment-form .comment-notes,
+.comment-form .comment-form-comment,
+.comment-form .comment-form-author,
+.comment-form .comment-form-email,
+.comment-form .comment-form-url,
+.comment-form .form-submit {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  input {
+    width: 100%;
+  }
+}
+
+.comment-form {
+  #submit {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-url {
+    width: 33.33333333%;
+    float: left;
+  }
+
+}

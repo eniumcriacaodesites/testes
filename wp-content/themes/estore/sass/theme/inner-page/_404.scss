@@ -1,0 +1,60 @@
+.error-wrap {
+    text-align: center;
+    margin-bottom: 40px;
+    .num-404 {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border-radius: 100%;
+        color: #8c8c8c;
+        display: inline-block;
+        font-size: 90px;
+        font-weight: 700;
+        height: 300px;
+        line-height: 300px;
+        text-align: center;
+        width: 300px;
+    }
+    .error {
+        display: inline-block;
+        font-size: 65px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #8c8c8c;
+        margin-left: 30px;
+    }
+}
+
+.page-not-found {
+    text-align: center;
+    .page-title {
+        color: #8C8C8C;
+    }
+}
+
+.error-404 .message {
+    font-size: 14px;
+    margin: 30px 0 40px;
+    text-align: center;
+    color: #8C8C8C;
+    font-weight: 600;
+}
+
+.error-404.not-found .search-field {
+    width: 94%;
+}
+
+.error-404.not-found .searchsubmit {
+    height: 36px;
+    margin-left: -3px;
+}
+
+ .error-404.not-found .search-field {
+     width: 90%;
+ }
+
+ .error-404.not-found .searchsubmit {
+     display: inline-block;
+     height: 36px;
+     margin-left: -3px;
+     width: 46px;
+     vertical-align: top;
+ }

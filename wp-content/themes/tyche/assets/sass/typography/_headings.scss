@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: $font__main;
+  font-weight: 700;
+  color: $color__title;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+h5 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.entry-header {
+
+}
+
+.page-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  &.margin-top{
+    margin-top:20px;
+  }
+}
